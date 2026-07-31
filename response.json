@@ -1,14 +1,14 @@
 {
-  "id": "chatcmpl-E7lXFb5aT3nFrSIV6QbYGo1i7mnMV",
+  "id": "chatcmpl-E7lfHpQ0akngOpVqVQwLqsT3zUJK8",
   "object": "chat.completion",
-  "created": 1785519729,
+  "created": 1785520227,
   "model": "gpt-4.1-mini-2025-04-14",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "coro-asr 1.0.6リリース\n\n音声認識ライブラリ「coro-asr」のバージョン1.0.6が公開されました。今回のアップデートでは、認識精度の向上やバグ修正が行われ、より安定した動作が期待されます。開発者は最新バージョンへのアップデートを推奨しています。",
+        "content": "AIはいつか完璧なCEOになる\n\n人工知能（AI）は将来的にCEOの役割を完全に果たす可能性があると期待されています。AIは膨大なデータ分析能力と迅速な意思決定を持ち、人間の感情や偏見に左右されず公正な判断が可能です。このため、企業経営において効率と客観性を大幅に向上させることができると考えられています。",
         "refusal": null,
         "annotations": []
       },
@@ -17,9 +17,9 @@
     }
   ],
   "usage": {
-    "prompt_tokens": 52,
-    "completion_tokens": 94,
-    "total_tokens": 146,
+    "prompt_tokens": 50,
+    "completion_tokens": 112,
+    "total_tokens": 162,
     "prompt_tokens_details": {
       "cached_tokens": 0,
       "audio_tokens": 0
@@ -32,5 +32,5 @@
     }
   },
   "service_tier": "default",
-  "system_fingerprint": "fp_1fa89aa95f"
+  "system_fingerprint": "fp_6dbb0678d7"
 }
