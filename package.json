@@ -1,0 +1,8 @@
+{
+  "name": "x-auto-publisher-ai-new",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/build.js"
+  }
+}
