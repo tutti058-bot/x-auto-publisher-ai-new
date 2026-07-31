@@ -13,10 +13,20 @@ async function loadNews() {
     return;
   }
 
-  document.getElementById("image").src = item.image;
   document.getElementById("title").textContent = item.title;
-  document.getElementById("summary").textContent = item.summary;
-  document.getElementById("link").href = item.url;
+document.getElementById("summary").textContent = item.summary;
+document.getElementById("link").href = item.url;
+
+// SEO
+document.title = item.title + " | AI NEWS";
+
+const meta = document.querySelector('meta[name="description"]');
+if (meta) {
+  meta.setAttribute(
+    "content",
+    item.summary.substring(0, 120)
+  );
+}
 
 }
 
