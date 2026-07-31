@@ -1,14 +1,14 @@
 {
-  "id": "chatcmpl-E7iQnQVG1cSHLiDC8XAIaTZmCdtzv",
+  "id": "chatcmpl-E7iqlnsA3JzkQqYcC8f0lb0PNDFkQ",
   "object": "chat.completion",
-  "created": 1785507797,
+  "created": 1785509407,
   "model": "gpt-4.1-mini-2025-04-14",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "20周年記念iPhone、来年発売予定─注目の10機能\n\niPhoneの20周年を記念した特別モデルが来年発売されると報じられています。注目の10の新機能には、高性能カメラシステム、強化されたディスプレイ、5G対応の高速通信、改良されたバッテリー寿命、新しいデザイン要素、さらに進化したFace ID技術などが含まれています。これにより、ユーザー体験が大幅に向上すると期待されています。",
+        "content": "20周年記念iPhoneが来年登場、注目の10機能  \n来年発売予定の20周年記念iPhoneは、次世代チップ搭載や改良されたカメラシステム、ディスプレイの刷新、強化されたバッテリー寿命、さらなる耐水性能向上など、10の主要な新機能が搭載されると報じられています。詳細はMacRumorsが伝えています。",
         "refusal": null,
         "annotations": []
       },
@@ -18,8 +18,8 @@
   ],
   "usage": {
     "prompt_tokens": 59,
-    "completion_tokens": 126,
-    "total_tokens": 185,
+    "completion_tokens": 105,
+    "total_tokens": 164,
     "prompt_tokens_details": {
       "cached_tokens": 0,
       "audio_tokens": 0
