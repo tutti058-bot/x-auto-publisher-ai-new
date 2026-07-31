@@ -6,89 +6,125 @@
 
 <meta name="google-site-verification" content="q32C9II99s52eLn7AgCdhIt6j3aRMIA82mfJ4vjyKQA" />
 
-<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-6MRVP27M7D"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-6MRVP27M7D');
-
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-6MRVP27M7D');
 </script>
 
-<title id="page-title">AI NEWS</title>
+<title>AI NEWS</title>
 
 <meta
-  name="description"
-  content="AIニュースをわかりやすく紹介するサイトです。"
-  id="meta-description">
+name="description"
+content="AIニュースをわかりやすく紹介するサイトです。">
 
 <style>
+
 body{
-    margin:0;
-    font-family:sans-serif;
-    background:#f5f5f5;
+margin:0;
+font-family:sans-serif;
+background:#f5f5f5;
 }
 
 header{
-    background:#111827;
-    color:#fff;
-    padding:20px;
-    text-align:center;
+background:#111827;
+color:#fff;
+padding:20px;
+text-align:center;
 }
 
 #news-list{
-    width:90%;
-    max-width:900px;
-    margin:30px auto;
+width:90%;
+max-width:900px;
+margin:30px auto;
 }
 
 .card{
-    background:#fff;
-    border-radius:12px;
-    overflow:hidden;
-    box-shadow:0 5px 15px rgba(0,0,0,.1);
-    margin-bottom:30px;
+background:#fff;
+border-radius:12px;
+overflow:hidden;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+margin-bottom:30px;
 }
 
 .card img{
-    width:100%;
+width:100%;
+display:block;
 }
 
 .content{
-    padding:20px;
+padding:20px;
 }
 
 .title{
-    font-size:28px;
-    font-weight:bold;
-    margin-bottom:15px;
+font-size:28px;
+font-weight:bold;
+margin-bottom:15px;
 }
 
 .desc{
-    line-height:1.8;
+line-height:1.8;
 }
 
 #pagination{
-    text-align:center;
-    margin:40px 0;
+text-align:center;
+margin:40px 0;
 }
 
 #pagination button{
-    padding:10px 16px;
-    margin:4px;
-    border:none;
-    border-radius:8px;
-    background:#2563eb;
-    color:#fff;
-    cursor:pointer;
-    font-size:15px;
+padding:10px 16px;
+margin:4px;
+border:none;
+border-radius:8px;
+background:#2563eb;
+color:#fff;
+cursor:pointer;
+font-size:15px;
 }
 
 #pagination button:hover{
-    opacity:.8;
+opacity:.8;
 }
+
+#ranking{
+width:90%;
+max-width:900px;
+margin:25px auto;
+background:#fff;
+border-radius:12px;
+padding:20px;
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+#ranking h2{
+margin:0 0 15px;
+}
+
+.rank-item{
+padding:12px 0;
+border-bottom:1px solid #eee;
+}
+
+.rank-item:last-child{
+border-bottom:none;
+}
+
+.rank-title{
+font-weight:bold;
+}
+
+.rank-title a{
+text-decoration:none;
+color:#111827;
+}
+
+.rank-view{
+color:#666;
+font-size:14px;
+}
+
 </style>
 
 </head>
@@ -96,32 +132,37 @@ header{
 <body>
 
 <header>
+
 <h1>AI NEWS</h1>
 <p>AI自動ニュース</p>
+
 </header>
 
 <div style="width:90%;max-width:900px;margin:20px auto;">
-  <input
-    type="text"
-    id="search"
-    placeholder="🔍 ニュースを検索..."
-    style="width:100%;padding:15px;font-size:16px;border-radius:10px;border:1px solid #ccc;"
-  >
+
+<input
+type="text"
+id="search"
+placeholder="🔍 ニュースを検索..."
+style="width:100%;padding:15px;font-size:16px;border-radius:10px;border:1px solid #ccc;">
+
 </div>
 
-<div id="ranking" style="width:90%;max-width:900px;margin:20px auto;"></div>
+<div
+id="category-buttons"
+style="text-align:center;margin:30px 0;display:flex;flex-wrap:wrap;gap:10px;justify-content:center;">
 
-<div id="category-buttons" style="text-align:center;margin:30px 0;display:flex;flex-wrap:wrap;gap:10px;justify-content:center;">
+<button onclick="filterNews('ALL')">🤖 すべて</button>
+<button onclick="filterNews('OpenAI')">💬 OpenAI</button>
+<button onclick="filterNews('Google')">💎 Google</button>
+<button onclick="filterNews('Anthropic')">🟣 Anthropic</button>
+<button onclick="filterNews('Microsoft')">🪟 Microsoft</button>
+<button onclick="filterNews('Meta')">🦙 Meta</button>
+<button onclick="filterNews('xAI')">🚀 xAI</button>
 
-<div id="category-buttons" style="text-align:center;margin:30px 0;display:flex;flex-wrap:wrap;gap:10px;justify-content:center;">
-  <button onclick="filterNews('ALL')">🤖 すべて</button>
-  <button onclick="filterNews('OpenAI')">💬 OpenAI</button>
-  <button onclick="filterNews('Google')">💎 Google</button>
-  <button onclick="filterNews('Anthropic')">🟣 Anthropic</button>
-  <button onclick="filterNews('Microsoft')">🪟 Microsoft</button>
-  <button onclick="filterNews('Meta')">🦙 Meta</button>
-  <button onclick="filterNews('xAI')">🚀 xAI</button>
 </div>
+
+<div id="ranking"></div>
 
 <div id="news-list"></div>
 

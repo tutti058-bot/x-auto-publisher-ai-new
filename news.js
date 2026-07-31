@@ -16,9 +16,14 @@ async function loadNews() {
     return;
   }
 
-  // 閲覧数を+1
-  if (item.url) {
-    await addView(item.url);
+  // 閲覧数保存
+  try {
+    if (item.url) {
+      await addView(item.url);
+      console.log("閲覧数保存成功", item.url);
+    }
+  } catch (e) {
+    console.error("閲覧数保存失敗", e);
   }
 
   document.getElementById("title").textContent = item.title;
@@ -27,6 +32,7 @@ async function loadNews() {
 
   if (item.image) {
     document.getElementById("image").src = item.image;
+    document.getElementById("image").alt = item.title;
   }
 
   document.title = item.title + " | AI NEWS";

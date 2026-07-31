@@ -182,6 +182,8 @@ function changePage(page) {
 
   renderNews(filteredNews);
 
+  showRanking();
+
   window.scrollTo({
     top: 0,
     behavior: "smooth"
@@ -204,18 +206,31 @@ async function showRanking() {
 
   for (const item of ranking) {
 
-    html += `
-      <li>
+  const article = allNews.find(n => n.url === item.id);
+
+  if (!article) continue;
+
+  html += `
+    <li class="rank-item">
+
+      <div class="rank-title">
+        <a href="news.html?id=${allNews.indexOf(article)}">
+          ${article.title}
+        </a>
+      </div>
+
+      <div class="rank-view">
         👁 ${item.count} 回
-      </li>
-    `;
+      </div>
 
-  }
+    </li>
+  `;
 
-  html += "</ol>";
+}
+
+html += "</ol>";
 
   box.innerHTML = html;
 
 }
 
-showRanking();
