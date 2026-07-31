@@ -8,7 +8,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
 async function loadNews() {
   const res = await fetch("data/news.json");
-  allNews = await res.json();
+  const data = await res.json();
+
+  allNews = data.sort((a, b) => {
+    return new Date(b.date) - new Date(a.date);
+  });
 
   renderNews(allNews);
 }
@@ -23,32 +27,32 @@ function renderNews(news) {
     card.className = "card";
 
     card.innerHTML = `
-  <img src="${item.image}" alt="${item.title}" style="width:100%;display:block;">
+      <img src="${item.image}" alt="${item.title}" style="width:100%;display:block;">
 
-  <div class="content">
+      <div class="content">
 
-    <div class="title">${item.title}</div>
+        <div class="title">${item.title}</div>
 
-    <div style="color:#666;font-size:14px;margin:8px 0;">
-      ${new Date(item.date).toLocaleString("ja-JP")}
-    </div>
+        <div style="color:#666;font-size:14px;margin:8px 0;">
+          ${item.date ? new Date(item.date).toLocaleString("ja-JP") : ""}
+        </div>
 
-    <div style="margin:10px 0;font-weight:bold;color:#2563eb;">
-      ${item.category || "AI"}
-    </div>
+        <div style="margin:10px 0;font-weight:bold;color:#2563eb;">
+          ${item.category || "AI"}
+        </div>
 
-    <div class="desc">
-      ${item.summary}
-    </div>
+        <div class="desc">
+          ${item.summary}
+        </div>
 
-    <br>
+        <br>
 
-    <a href="news.html?id=${index}">
-      詳細を見る →
-    </a>
+        <a href="news.html?id=${index}">
+          詳細を見る →
+        </a>
 
-  </div>
-`;
+      </div>
+    `;
 
     container.appendChild(card);
   });
@@ -65,25 +69,19 @@ function filterNews(category) {
   renderNews(filtered);
 }
 
-loadNews();
-
 function searchNews() {
-
   const keyword = document
     .getElementById("search")
     .value
     .toLowerCase();
 
   const filtered = allNews.filter(item => {
-
     return (
       item.title.toLowerCase().includes(keyword) ||
       item.summary.toLowerCase().includes(keyword) ||
       (item.category || "").toLowerCase().includes(keyword)
     );
-
   });
 
   renderNews(filtered);
-
 }
