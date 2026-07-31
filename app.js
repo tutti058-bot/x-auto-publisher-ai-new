@@ -1,5 +1,11 @@
 let allNews = [];
 
+document.addEventListener("DOMContentLoaded", () => {
+  loadNews();
+
+  document.getElementById("search").addEventListener("input", searchNews);
+});
+
 async function loadNews() {
   const res = await fetch("data/news.json");
   allNews = await res.json();
@@ -60,3 +66,24 @@ function filterNews(category) {
 }
 
 loadNews();
+
+function searchNews() {
+
+  const keyword = document
+    .getElementById("search")
+    .value
+    .toLowerCase();
+
+  const filtered = allNews.filter(item => {
+
+    return (
+      item.title.toLowerCase().includes(keyword) ||
+      item.summary.toLowerCase().includes(keyword) ||
+      (item.category || "").toLowerCase().includes(keyword)
+    );
+
+  });
+
+  renderNews(filtered);
+
+}
