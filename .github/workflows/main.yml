@@ -30,10 +30,10 @@ jobs:
           jq -r '.articles[0].urlToImage' news.json > posts/image.txt
           jq -r '.articles[0].url' news.json > posts/url.txt
 
-          - name: OpenAI Summary
-          env:
+      - name: OpenAI Summary
+        env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          run: |
+        run: |
           TITLE=$(cat posts/title.txt)
 
           jq -n \
@@ -52,8 +52,29 @@ jobs:
             -H "Authorization: Bearer $OPENAI_API_KEY" \
             -H "Content-Type: application/json" \
             -d @request.json \
-            > response.json
+            -o response.json
 
           cat response.json
 
           jq -r '.choices[0].message.content' response.json > posts/post.txt
+
+      - name: Run Build
+        run: |
+          npm install
+          npm start
+
+      - name: Show Result
+        run: |
+          echo "===== news.json ====="
+          cat data/news.json
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+
+          git add .
+
+          git diff --cached --quiet || git commit -m "AI News"
+
+          git push
