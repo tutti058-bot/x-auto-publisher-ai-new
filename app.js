@@ -1,33 +1,32 @@
-const news = [
-  {
-    title: "AI NEWSへようこそ",
-    summary: "まずはサイトが表示されるか確認しています。",
-    image: "https://placehold.co/1200x700?text=AI+NEWS"
-  }
-];
+fetch("data/news.json")
+  .then(response => response.json())
+  .then(news => {
 
-const list = document.getElementById("news-list");
+    const list = document.getElementById("news-list");
+    list.innerHTML = "";
 
-news.forEach(item => {
+    news.forEach(item => {
 
-  list.innerHTML += `
-    <div class="card">
+      list.innerHTML += `
+        <div class="card">
 
-      <img src="${item.image}">
+          <img src="${item.image}">
 
-      <div class="content">
+          <div class="content">
 
-        <div class="title">
-          ${item.title}
+            <div class="title">
+              ${item.title}
+            </div>
+
+            <div class="desc">
+              ${item.summary}
+            </div>
+
+          </div>
+
         </div>
+      `;
 
-        <div class="desc">
-          ${item.summary}
-        </div>
+    });
 
-      </div>
-
-    </div>
-  `;
-
-});
+  });
