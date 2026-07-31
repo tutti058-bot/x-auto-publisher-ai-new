@@ -2,7 +2,8 @@ import fs from "fs";
 
 const news = [];
 
-for (let i = 0; i < 10; i++) {
+// 今回取得した記事
+for (let i = 0; i < 20; i++) {
   const postFile = `posts/post${i}.txt`;
 
   if (!fs.existsSync(postFile)) continue;
@@ -48,16 +49,44 @@ for (let i = 0; i < 10; i++) {
     category,
     date: new Date().toISOString()
   });
-} // ← この } が抜けていました
+}
 
+// dataフォルダ作成
 if (!fs.existsSync("data")) {
   fs.mkdirSync("data");
 }
 
+// 既存ニュースを読み込む
+let oldNews = [];
+
+if (fs.existsSync("data/news.json")) {
+  oldNews = JSON.parse(
+    fs.readFileSync("data/news.json", "utf8")
+  );
+}
+
+// 新旧結合
+let merged = [...news, ...oldNews];
+
+// URL重複削除
+merged = merged.filter(
+  (item, index, self) =>
+    index === self.findIndex(n => n.url === item.url)
+);
+
+// 日付順
+merged.sort(
+  (a, b) => new Date(b.date) - new Date(a.date)
+);
+
+// 最新200件だけ保存
+merged = merged.slice(0, 200);
+
+// 保存
 fs.writeFileSync(
   "data/news.json",
-  JSON.stringify(news, null, 2),
+  JSON.stringify(merged, null, 2),
   "utf8"
 );
 
-console.log(`${news.length}件のニュースを作成しました`);
+console.log(`${merged.length}件のニュースを保存しました`);
