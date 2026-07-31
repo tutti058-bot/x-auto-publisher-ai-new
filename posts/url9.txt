@@ -1,1 +1,1 @@
-https://www.mediaite.com/media/news/trump-state-department-apologizes-for-presenting-totally-botched-ai-generated-map-that-mislabeled-every-african-country-at-aids-conference/
+https://pypi.org/project/usecix/1.0.44/

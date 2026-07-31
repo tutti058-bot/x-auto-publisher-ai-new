@@ -1,1 +1,1 @@
-https://github.com/danielfleischer/otzar
+https://pypi.org/project/videoframer/

@@ -1,1 +1,1 @@
-https://www.digitaljournal.com/article/kpmg-canada-becomes-an-openai-elite-partner/
+https://pypi.org/project/clawmetry/0.12.595/

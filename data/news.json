@@ -1,5 +1,165 @@
 [
   {
+    "title": "オラクル、エージェントメニューにGoogle Geminiを追加",
+    "summary": "オラクルはエージェントメニューにGoogleの新しいAIモデル「Gemini」を統合しました。これにより、オラクルのサービス利用者は高度な言語モデルを活用した応答機能を利用でき、より精度の高い情報処理や対話が可能となります。Googleの最新AI技術を取り入れることで、オラクルの製品競争力が強化される見込みです。",
+    "image": "https://image.theregister.com/5245073.jpg?imageId=5245073&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
+    "url": "https://www.theregister.com/ai-and-ml/2026/07/30/oracle-adds-google-gemini-to-the-agent-menu/5281331",
+    "category": "Google",
+    "date": "2026-07-31T18:58:19.890Z"
+  },
+  {
+    "title": "オラクル株価が拡大するグーグル・ジェミニ提携と好調なマイクロソフトクラウド業績で上昇",
+    "summary": "オラクルの株価は、グーグルの新AIモデル「ジェミニ」との提携拡大を受けて上昇しました。また、マイクロソフトのクラウド部門の強い業績発表も投資家の信頼を高めました。これにより、オラクルのクラウドサービス事業の成長期待が一段と高まっています。",
+    "image": "https://biztoc.com/cdn/995/og.png",
+    "url": "https://biztoc.com/x/bfc46f42c0f5663a",
+    "category": "AI",
+    "date": "2026-07-31T18:58:19.890Z"
+  },
+  {
+    "title": "ヨーロッパが燃えている：英国最大の原子力発電所からわずか3マイルの距離で大規模山火事が発生",
+    "summary": "英国最大の原子力発電所の近くで大規模な山火事が発生し、わずか3マイルの距離まで迫っている。火災は広範囲にわたり燃え広がっており、地域の安全確保と対応が緊急に行われている。気象条件の悪化により消火活動は困難を極めている。",
+    "image": "https://www.thegatewaypundit.com/wp-content/uploads/2026/07/suffolk-fire-near-nuclear-power-plant-montage-screengrabs-x-1200x630.jpg",
+    "url": "https://www.thegatewaypundit.com/2026/07/europe-is-burning-large-wildfire-raging-just-3/",
+    "category": "AI",
+    "date": "2026-07-31T18:58:19.890Z"
+  },
+  {
+    "title": "テスラのイーロン・マスクが世代的なメルトダウンを起こす",
+    "summary": "テスラのCEOイーロン・マスクが精神的な不安定さを示しており、世代を超えた影響を与えています。彼のツイートや行動が注目され、投資家やファンの間で懸念が広がっています。業績や製品開発への影響が懸念される中、今後の動向が注目されています。",
+    "image": "https://i0.wp.com/electrek.co/wp-content/uploads/sites/3/2026/02/elon-musk-tesla-meeting-1.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+    "url": "http://electrek.co/2026/07/30/tesla-elon-musk-2026-x-meltdown/",
+    "category": "AI",
+    "date": "2026-07-31T18:58:19.890Z"
+  },
+  {
+    "title": "OpenAI、GPT-5.6 Lunaの価格を80％削減 中国の低価格モデルに対抗",
+    "summary": "OpenAIは最新のGPT-5.6 Lunaの価格を大幅に80％引き下げ、中国市場で台頭する低価格AIモデルに対抗しています。価格戦略の見直しにより、より多くのユーザー獲得と競争力強化を目指しており、AI技術の普及促進に繋がると期待されています。",
+    "image": "https://biztoc.com/cdn/88fbd8f15cc42b7d_s.webp",
+    "url": "https://biztoc.com/x/88fbd8f15cc42b7d",
+    "category": "OpenAI",
+    "date": "2026-07-31T18:58:19.890Z"
+  },
+  {
+    "title": "タイトル：建設用積算ツールをオープンソース化したシニアエスティメーターによる発表",
+    "summary": "要約：私はシニアエスティメーターとして、自身が開発した建設用積算ツールをオープンソースとして公開しました。このツールは建設プロジェクトの数量積算を効率化し、作業時間の短縮や精度向上に役立ちます。関心のある方はGitHubでコードを確認でき、共同開発や改良にも参加可能です。",
+    "image": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1271800796/5bb63c26-b125-44ff-94d6-2ae32c672c6c?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260730%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260730T201025Z&X-Amz-Expires=300&X-Amz-Signature=f90bda0be82d02686682e597ed4b3484a3a3cbd0701e50e7664df94e68f5abb7&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTQ0MjUyNSwibmJmIjoxNzg1NDQyMjI1LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.W94HoPY3A7NDk0dI_Jsdqa1OCDKxanyMm-X0_88pz3Y",
+    "url": "https://github.com/Kentucky-ai/opentakeoff",
+    "category": "AI",
+    "date": "2026-07-31T18:58:19.890Z"
+  },
+  {
+    "title": "IDrive® e2がMCPをサポート開始、AIの安全なクラウドオブジェクトストレージアクセスを実現",
+    "summary": "IDrive® e2は新たにMCP（Multi-Cloud Platform）サポートを導入し、AIがクラウドオブジェクトストレージに安全にアクセス可能となった。これにより、企業は分散環境下でのデータ管理やAIワークロードの効率が向上し、セキュリティと操作性が強化される。",
+    "image": "null",
+    "url": "https://www.prnewswire.com/news-releases/idrive-e2-launches-mcp-support-for-secure-ai-access-to-cloud-object-storage-302839388.html",
+    "category": "AI",
+    "date": "2026-07-31T18:58:19.890Z"
+  },
+  {
+    "title": "Show HN: Leia – Yoto MYOカードにワンショットプレイリストを送信するCLIツール",
+    "summary": "Leiaは、Yoto MYOカードに簡単にワンショットプレイリストを転送できるコマンドラインインターフェース（CLI）ツールです。これにより、ユーザーは複雑な手順を踏まずに音声コンテンツをカードに書き込め、子供や家庭での利用をより便利にします。",
+    "image": "https://opengraph.githubassets.com/d1765268afd50115977450b8ce0682102ac30d04ddb7ace819610adc7616963b/nsokin/leia",
+    "url": "https://github.com/nsokin/leia",
+    "category": "AI",
+    "date": "2026-07-31T18:58:19.890Z"
+  },
+  {
+    "title": "サムスンのボーリーはまだ消えていない？アプリUIがリークか",
+    "summary": "サムスンのロボットデバイス「ボーリー」のユーザーインターフェースがリークされた可能性が浮上しました。以前同社が公式発表から姿を消したかと思われていましたが、最新の情報によれば、ボーリーの開発は継続中の模様です。今後の展開に注目が集まっています。",
+    "image": "https://cdn.mos.cms.futurecdn.net/PZ7Ro2xyyD6yFS2E5uMgYk-2560-80.jpg",
+    "url": "https://www.androidcentral.com/accessories/smart-home/wait-samsungs-ballie-isnt-gone-its-app-ui-mightve-leaked",
+    "category": "AI",
+    "date": "2026-07-31T18:58:19.889Z"
+  },
+  {
+    "title": "「videoframer」がPyPIに追加される",
+    "summary": "新しいPythonパッケージ「videoframer」がPython公式パッケージリポジトリPyPIに登録されました。これにより簡単にインストールと利用が可能となり、動画のフレーム処理を効率的に行えるツールとして注目されています。開発者はpipコマンドで導入でき、映像解析などのプロジェクトに活用が期待されています。",
+    "image": "https://pypi.org/static/images/twitter.abaf4b19.webp",
+    "url": "https://pypi.org/project/videoframer/",
+    "category": "AI",
+    "date": "2026-07-31T18:58:19.889Z"
+  },
+  {
+    "title": "中国のオープンウェイトモデルの優位性が露呈したアメリカのAIの盲点",
+    "summary": "中国はオープンウェイトのAIモデル開発で先行し、アメリカのAI産業の閉鎖的な戦略が課題となっている。オープンウェイトモデルは透明性とイノベーションを促進し、広範な応用が可能だが、アメリカは規制や安全性懸念から公開を控えている。この差が技術競争に影響を与えている。",
+    "image": "https://image.cnbcfm.com/api/v1/image/108030172-1725601650453-gettyimages-1450625902-gitech69.jpeg?v=1785436805&w=1920&h=1080",
+    "url": "https://www.cnbc.com/2026/07/30/china-open-source-trump-ai.html",
+    "category": "AI",
+    "date": "2026-07-31T18:58:19.889Z"
+  },
+  {
+    "title": "clawmetry バージョン0.12.595リリース",
+    "summary": "clawmetryの新バージョン0.12.595がリリースされました。今回のアップデートでは、安定性の向上とバグ修正が中心で、ユーザーの操作性が改善されています。パフォーマンスの最適化も図られ、より快適な使用感が期待されます。今後も継続的なアップデートが予定されています。",
+    "image": "null",
+    "url": "https://pypi.org/project/clawmetry/0.12.595/",
+    "category": "AI",
+    "date": "2026-07-31T18:58:19.889Z"
+  },
+  {
+    "title": "シタデル、AI関連の大損失を受けシチュエーショナルアウェアネスの株式ポートフォリオを取得",
+    "summary": "シタデルは、AI関連投資で大きな損失を出したシチュエーショナルアウェアネスの株式ポートフォリオを買収しました。この取引により、シタデルはテクノロジー分野でのポジションを強化し、今後の市場変動への対応力を高める狙いです。シチュエーショナルアウェアネスは今回の損失で経営状況が厳しくなり、資産整理を進めています。",
+    "image": "null",
+    "url": "https://freerepublic.com/focus/f-chat/4389950/posts",
+    "category": "AI",
+    "date": "2026-07-31T18:58:19.889Z"
+  },
+  {
+    "title": "シタデル、AI損失後にSituational Awarenessの株ポートフォリオを買収",
+    "summary": "シタデルは、人工知能分野で大きな損失を出したSituational Awarenessの株式ポートフォリオを取得しました。今回の買収により、シタデルは状況認識技術関連の資産を拡充し、投資戦略の多様化を図る狙いです。状況認識はAI分野の変動が激しくリスクも高い中、シタデルはこの機会を活かして市場での競争力を強化しようとしています。",
+    "image": "null",
+    "url": "https://freerepublic.com/focus/f-news/4389950/posts",
+    "category": "AI",
+    "date": "2026-07-31T18:58:19.889Z"
+  },
+  {
+    "title": "umbra-core 0.5.1リリースのお知らせ",
+    "summary": "umbra-coreのバージョン0.5.1がリリースされました。このバージョンでは主にバグ修正とパフォーマンスの改善が行われ、安定性が向上しています。詳細な変更点は公式リリースノートで確認できます。開発者はアップデートを検討してください。",
+    "image": "null",
+    "url": "https://pypi.org/project/umbra-core/0.5.1/",
+    "category": "AI",
+    "date": "2026-07-31T18:58:19.889Z"
+  },
+  {
+    "title": "シチュエーショナル・アウェアネス、シタデル参入で評価額100億ドルに減少",
+    "summary": "シチュエーショナル・アウェアネスの企業評価額が100億ドルに低下した。これは投資会社シタデルが同社に参入したことに関連しており、市場の関心や資金調達状況に影響を与えている。今後の成長戦略や投資動向に注目が集まっている。",
+    "image": "null",
+    "url": "https://financialpost.com/pmn/business-pmn/situational-awareness-drops-to-10-billion-as-citadel-steps-in",
+    "category": "AI",
+    "date": "2026-07-31T18:58:19.889Z"
+  },
+  {
+    "title": "usecix 1.0.44 リリース情報",
+    "summary": "usecix 1.0.44がリリースされました。今回のアップデートでは、バグ修正とパフォーマンスの最適化が行われ、より安定した動作が期待されます。詳細な変更点や対応OSについては公式サイトをご確認ください。",
+    "image": "null",
+    "url": "https://pypi.org/project/usecix/1.0.44/",
+    "category": "AI",
+    "date": "2026-07-31T18:58:19.889Z"
+  },
+  {
+    "title": "グーグル支援のAnthropicデータセンターに150億ドル融資へ、銀行が協議中とWSJ報道",
+    "summary": "ウォール・ストリート・ジャーナルによると、複数の銀行がグーグルの支援するAI企業Anthropicの新データセンター建設のため、約150億ドルの融資を検討している。これにより、Anthropicの大規模なAI研究とインフラ拡充が可能になる見込み。融資条件や最終契約は未定で、業界関係者が注目している。",
+    "image": "https://biztoc.com/cdn/72c0e908bda36c34_s.webp",
+    "url": "https://biztoc.com/x/72c0e908bda36c34",
+    "category": "Anthropic",
+    "date": "2026-07-31T18:58:19.889Z"
+  },
+  {
+    "title": "メタの連続損失記録が続く一方、マイクロソフトや半導体株はAI好調で急伸",
+    "summary": "メタは連続して損失を記録し続ける一方、マイクロソフトや半導体関連株はAI関連事業の好調な決算を背景に株価が上昇している。特にAI分野での収益増加が投資家の期待を高め、市場全体に影響を与えている。",
+    "image": "https://nypost.com/wp-content/uploads/sites/2/2026/07/135995397.jpg?quality=75&strip=all&w=1200",
+    "url": "https://nypost.com/2026/07/30/business/metas-record-losing-streak-continues-while-microsoft-chip-stocks-jump-on-ai-earnings/",
+    "category": "AI",
+    "date": "2026-07-31T18:58:19.889Z"
+  },
+  {
+    "title": "フェアフォンGen 6プラスが登場か",
+    "summary": "Fairphoneは新モデル「Gen 6 Plus」の発売を検討している可能性があります。これまでのモデル同様、環境に配慮した設計やモジュール式の修理性が評価されており、最新機能を追加してさらに進化したスマートフォンになる見込みです。詳細はまだ不明ですが、注目が集まっています。",
+    "image": "https://www.androidauthority.com/wp-content/uploads/2025/06/Fairphone-Gen-6-laying-down.jpg",
+    "url": "https://www.androidauthority.com/fairphone-6-plus-details-3692960/",
+    "category": "AI",
+    "date": "2026-07-31T18:58:19.888Z"
+  },
+  {
     "title": "アマゾン、複数のNova AIモデルを縮小し1つのフロンティアモデルに注力へ",
     "summary": "アマゾンは複数展開していたNova AIモデルの多くを段階的に廃止し、1つの主要なフロンティアモデルに経営資源を集約する方針を発表しました。これにより開発効率の向上と市場競争力の強化を目指すとしています。",
     "image": "https://media.thenextweb.com/2026/04/Amazon.avif",
