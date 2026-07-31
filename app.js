@@ -17,28 +17,32 @@ function renderNews(news) {
     card.className = "card";
 
     card.innerHTML = `
-      <img src="${item.image}" alt="${item.title}" style="width:100%;display:block;">
+  <img src="${item.image}" alt="${item.title}" style="width:100%;display:block;">
 
-      <div class="content">
+  <div class="content">
 
-        <div class="title">${item.title}</div>
+    <div class="title">${item.title}</div>
 
-        <div style="margin:10px 0;font-weight:bold;color:#2563eb;">
-          ${item.category || "AI"}
-        </div>
+    <div style="color:#666;font-size:14px;margin:8px 0;">
+      ${new Date(item.date).toLocaleString("ja-JP")}
+    </div>
 
-        <div class="desc">
-          ${item.summary}
-        </div>
+    <div style="margin:10px 0;font-weight:bold;color:#2563eb;">
+      ${item.category || "AI"}
+    </div>
 
-        <br>
+    <div class="desc">
+      ${item.summary}
+    </div>
 
-        <a href="news.html?id=${index}">
-          詳細を見る →
-        </a>
+    <br>
 
-      </div>
-    `;
+    <a href="news.html?id=${index}">
+      詳細を見る →
+    </a>
+
+  </div>
+`;
 
     container.appendChild(card);
   });
