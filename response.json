@@ -1,14 +1,14 @@
 {
-  "id": "chatcmpl-E7lt00NzLhZ7llocEqoNQHlhoZQpD",
+  "id": "chatcmpl-E7mDlPSQDWqJ2ufxCLSGwu9EoHez0",
   "object": "chat.completion",
-  "created": 1785521078,
+  "created": 1785522365,
   "model": "gpt-4.1-mini-2025-04-14",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "TrackFW 6.0.0リリース\n\nTrackFWのバージョン6.0.0がリリースされました。新機能や改善点が多数含まれており、ユーザーインターフェースの向上やパフォーマンスの最適化が図られています。詳細なリリースノートでは、バグ修正や新規対応デバイスについても説明されています。アップデートにより、より快適な操作が期待できます。",
+        "content": "グーグルの新型Gemini Robotics 2プラットフォーム、「知能全身制御」を実現\n\nグーグルのGemini Robotics 2は、人間の全身の動きを高度に制御する技術を搭載し、ロボットの動作をより自然かつ効率的に管理可能。複数の関節や部位を連携させることで、人間のような柔軟な動作が可能となり、産業やサービス分野での応用が期待されている。",
         "refusal": null,
         "annotations": []
       },
@@ -17,9 +17,9 @@
     }
   ],
   "usage": {
-    "prompt_tokens": 50,
-    "completion_tokens": 110,
-    "total_tokens": 160,
+    "prompt_tokens": 59,
+    "completion_tokens": 124,
+    "total_tokens": 183,
     "prompt_tokens_details": {
       "cached_tokens": 0,
       "audio_tokens": 0
@@ -32,5 +32,5 @@
     }
   },
   "service_tier": "default",
-  "system_fingerprint": "fp_8376769835"
+  "system_fingerprint": "fp_e35f7b7993"
 }

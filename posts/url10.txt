@@ -1,1 +1,1 @@
-https://biztoc.com/x/56cb3ff1fa08a864
+https://pypi.org/project/nousergon-lib/0.124.24/
