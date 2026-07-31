@@ -21,32 +21,33 @@ for (let i = 0; i < 10; i++) {
   const url = fs.existsSync(`posts/url${i}.txt`)
     ? fs.readFileSync(`posts/url${i}.txt`, "utf8").trim()
     : "";
-    let category = "AI";
 
-const text = (title + " " + summary).toLowerCase();
+  let category = "AI";
 
-if (text.includes("openai") || text.includes("chatgpt")) {
-  category = "OpenAI";
-} else if (text.includes("google") || text.includes("gemini")) {
-  category = "Google";
-} else if (text.includes("anthropic") || text.includes("claude")) {
-  category = "Anthropic";
-} else if (text.includes("microsoft") || text.includes("copilot")) {
-  category = "Microsoft";
-} else if (text.includes("meta") || text.includes("llama")) {
-  category = "Meta";
-} else if (text.includes("xai") || text.includes("grok")) {
-  category = "xAI";
+  const text = (title + " " + summary).toLowerCase();
+
+  if (text.includes("openai") || text.includes("chatgpt")) {
+    category = "OpenAI";
+  } else if (text.includes("google") || text.includes("gemini")) {
+    category = "Google";
+  } else if (text.includes("anthropic") || text.includes("claude")) {
+    category = "Anthropic";
+  } else if (text.includes("microsoft") || text.includes("copilot")) {
+    category = "Microsoft";
+  } else if (text.includes("meta") || text.includes("llama")) {
+    category = "Meta";
+  } else if (text.includes("xai") || text.includes("grok")) {
+    category = "xAI";
+  }
+
+  news.push({
+    title,
+    summary,
+    image,
+    url,
+    category
+  });
 }
-
-news.push({
-  title,
-  summary,
-  image,
-  url,
-  category
-});
-
 
 if (!fs.existsSync("data")) {
   fs.mkdirSync("data");
