@@ -41,13 +41,14 @@ for (let i = 0; i < 10; i++) {
   }
 
   news.push({
-  title,
-  summary,
-  image,
-  url,
-  category,
-  date: new Date().toISOString()
-});
+    title,
+    summary,
+    image,
+    url,
+    category,
+    date: new Date().toISOString()
+  });
+} // ← この } が抜けていました
 
 if (!fs.existsSync("data")) {
   fs.mkdirSync("data");
