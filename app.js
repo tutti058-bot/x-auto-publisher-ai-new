@@ -1,4 +1,7 @@
 let allNews = [];
+let currentPage = 1;
+const perPage = 10;
+let filteredNews = [];
 
 document.addEventListener("DOMContentLoaded", () => {
   loadNews();
@@ -14,16 +17,28 @@ async function loadNews() {
     return new Date(b.date) - new Date(a.date);
   });
 
-  renderNews(allNews);
+  filteredNews = [...allNews];
+
+  renderNews(filteredNews);
 }
 
 function renderNews(news) {
+
   const container = document.getElementById("news-list");
 
   container.innerHTML = "";
 
-  news.forEach((item, index) => {
+  const start = (currentPage - 1) * perPage;
+  const end = start + perPage;
+
+  const pageNews = news.slice(start, end);
+
+  pageNews.forEach((item) => {
+
+    const realIndex = allNews.findIndex(n => n.url === item.url);
+
     const card = document.createElement("div");
+
     card.className = "card";
 
     card.innerHTML = `
@@ -47,7 +62,7 @@ function renderNews(news) {
 
         <br>
 
-        <a href="news.html?id=${index}">
+        <a href="news.html?id=${realIndex}">
           詳細を見る →
         </a>
 
@@ -55,33 +70,119 @@ function renderNews(news) {
     `;
 
     container.appendChild(card);
+
   });
+
+  renderPagination(news.length);
+
 }
 
 function filterNews(category) {
+
+  currentPage = 1;
+
   if (category === "ALL") {
-    renderNews(allNews);
+    filteredNews = [...allNews];
+    renderNews(filteredNews);
     return;
   }
 
-  const filtered = allNews.filter(item => item.category === category);
+  filteredNews = allNews.filter(item => item.category === category);
 
-  renderNews(filtered);
+  renderNews(filteredNews);
+
 }
 
 function searchNews() {
+
+  currentPage = 1;
+
   const keyword = document
     .getElementById("search")
     .value
     .toLowerCase();
 
-  const filtered = allNews.filter(item => {
+  filteredNews = allNews.filter(item => {
+
     return (
       item.title.toLowerCase().includes(keyword) ||
       item.summary.toLowerCase().includes(keyword) ||
       (item.category || "").toLowerCase().includes(keyword)
     );
+
   });
 
-  renderNews(filtered);
+  renderNews(filteredNews);
+
+}
+
+function renderPagination(total) {
+
+  let nav = document.getElementById("pagination");
+
+  if (!nav) {
+
+    nav = document.createElement("div");
+    nav.id = "pagination";
+    nav.style.textAlign = "center";
+    nav.style.margin = "40px 0";
+
+    document.getElementById("news-list").after(nav);
+
+  }
+
+  const pages = Math.ceil(total / perPage);
+
+  nav.innerHTML = "";
+
+  if (pages <= 1) return;
+
+  if (currentPage > 1) {
+
+    nav.innerHTML += `
+      <button onclick="changePage(${currentPage - 1})">
+        ← 前へ
+      </button>
+    `;
+
+  }
+
+  for (let i = 1; i <= pages; i++) {
+
+    nav.innerHTML += `
+      <button
+        onclick="changePage(${i})"
+        style="
+          margin:0 3px;
+          ${i === currentPage ? "font-weight:bold;background:#2563eb;color:#fff;" : ""}
+        ">
+        ${i}
+      </button>
+    `;
+
+  }
+
+  if (currentPage < pages) {
+
+    nav.innerHTML += `
+      <button onclick="changePage(${currentPage + 1})">
+        次へ →
+      </button>
+    `;
+
+  }
+
+}
+
+function changePage(page) {
+
+  currentPage = page;
+
+  renderNews(filteredNews);
+
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+
 }
