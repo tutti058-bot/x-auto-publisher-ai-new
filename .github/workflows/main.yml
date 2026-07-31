@@ -39,7 +39,7 @@ jobs:
           mkdir -p posts
 
           curl -s -L \
-          "https://newsapi.org/v2/top-headlines?country=us&category=technology&pageSize=5&apiKey=$NEWS_API_KEY" \
+          "https://newsapi.org/v2/top-headlines?country=us&category=technology&pageSize=10&apiKey=$NEWS_API_KEY" \
           -o news.json
 
       - name: AI Summary

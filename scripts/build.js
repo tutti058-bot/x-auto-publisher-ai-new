@@ -2,7 +2,7 @@ import fs from "fs";
 
 const news = [];
 
-for (let i = 0; i < 5; i++) {
+for (let i = 0; i < 10; i++) {
   const postFile = `posts/post${i}.txt`;
 
   if (!fs.existsSync(postFile)) continue;
