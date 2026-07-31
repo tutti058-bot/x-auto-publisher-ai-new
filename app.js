@@ -1,3 +1,5 @@
+import { getRanking } from "./firebase.js";
+
 let allNews = [];
 let currentPage = 1;
 const perPage = 10;
@@ -186,3 +188,34 @@ function changePage(page) {
   });
 
 }
+
+async function showRanking() {
+
+  const ranking = await getRanking();
+
+  const box = document.getElementById("ranking");
+
+  if (!box) return;
+
+  let html = `
+    <h2>🔥 今週人気</h2>
+    <ol>
+  `;
+
+  for (const item of ranking) {
+
+    html += `
+      <li>
+        👁 ${item.count} 回
+      </li>
+    `;
+
+  }
+
+  html += "</ol>";
+
+  box.innerHTML = html;
+
+}
+
+showRanking();
