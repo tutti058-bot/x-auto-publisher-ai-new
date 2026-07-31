@@ -1,1 +1,1 @@
-https://www.prnewswire.com/news-releases/fairground-entertainment-launches-industrys-first-ai-only-fast-channel-302839322.html
+https://pypi.org/project/trackfw/6.0.0/
