@@ -1,8 +1,32 @@
 [
   {
-    "title": "SwitchBotの新型ファンが登場",
-    "summary": "\nSwitchBotが使いやすさとデザイン性を向上させた新型ファンを発表しました。従来モデルより静音性が高く、スマートホーム対応で音声操作が可能。省エネ設計でファンの風量も調整しやすく、快適な室内環境を実現します。価格も手頃で多機能なファンとして注目されています。",
+    "title": "SwitchBotが改良したファンを発表 - The Verge",
+    "summary": "SwitchBotは従来モデルよりも性能が向上した新しいスマートファンを発売しました。静音設計で風量調節がスムーズに行え、スマホアプリや音声アシスタントからの操作も可能です。エネルギー効率も改善され、家庭やオフィスで快適に使えます。",
     "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/1.png?quality=90&strip=all&crop=9.4848484848485%2C0%2C81.030303030303%2C100&w=1200",
     "url": "https://www.theverge.com/tech/972986/switchbot-makes-a-better-fan"
+  },
+  {
+    "title": "GTA 6の公式最新情報でファンはトレーラー3の公開を期待",
+    "summary": "最近の公式アップデートにより、GTA 6のファンは第三弾トレーラーがまもなく公開されるのではないかと期待が高まっています。開発進捗や新情報の断片が示されており、続報に注目が集まっています。",
+    "image": "https://static0.thegamerimages.com/wordpress/wp-content/uploads/2026/07/raul_bautista_04.jpg?w=1600&h=900&fit=crop",
+    "url": "https://www.thegamer.com/rockstar-just-updated-the-gta-6-website-and-fans-are-losing-it/"
+  },
+  {
+    "title": "ゼノブレイドクロニクル2 トルナ・ザ・ゴールデンカントリーがバージョン2.0.0に更新",
+    "summary": "「ゼノブレイドクロニクル2 トルナ・ザ・ゴールデンカントリー」の最新アップデートが配信開始。バージョン2.0.0では、新しい機能追加やバグ修正が行われ、プレイヤーのゲーム体験が向上。詳細な変更点や改善内容は公式発表を参照してください。",
+    "image": "https://images.nintendolife.com/8719ac31012b6/large.jpg",
+    "url": "https://www.nintendolife.com/news/2026/07/xenoblade-chronicles-2-torna-the-golden-country-updated-to-version-2-0-0"
+  },
+  {
+    "title": "ゼルダの伝説 時のオカリナ スイッチ2のレーティングがオンラインで公開",
+    "summary": "任天堂の人気ゲーム「ゼルダの伝説 時のオカリナ」のスイッチ2版のレーティング情報がオンラインで明らかになりました。これにより、新しいハード向けのリリースが近い可能性が示唆されています。公式発表が待たれています。",
+    "image": "https://images.nintendolife.com/be14f7c21b300/large.jpg",
+    "url": "https://www.nintendolife.com/news/2026/07/the-legend-of-zelda-ocarina-of-time-switch-2-rating-surfaces-online"
+  },
+  {
+    "title": "20周年記念iPhoneが来年発売、注目の10機能とは",
+    "summary": "来年、iPhoneの20周年を記念した特別モデルが登場予定です。この新モデルは先進的な機能を搭載し、10の注目ポイントが報告されています。ディスプレイ技術やカメラ性能の大幅向上、セキュリティ強化、新しいデザイン要素など、初代iPhoneからの進化を象徴する内容となる見込みです。詳細は今後の発表が待たれます。",
+    "image": "https://images.macrumors.com/t/28K8GzT_qW1bSru-H9LUBSEsEIQ=/2500x/article-new/2026/01/Mostly-Screen-iPhone-Purple-Feature-2027.jpg",
+    "url": "https://www.macrumors.com/2026/07/29/20th-anniversary-iphone-10-features/"
   }
 ]

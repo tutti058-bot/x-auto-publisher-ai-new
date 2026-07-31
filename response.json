@@ -1,14 +1,14 @@
 {
-  "id": "chatcmpl-E7hvXH204KwuFtMU5sywGo2kJGUzC",
+  "id": "chatcmpl-E7iF7eAkx3rmdFyJOsNa7FXEvdxt1",
   "object": "chat.completion",
-  "created": 1785505859,
+  "created": 1785507073,
   "model": "gpt-4.1-mini-2025-04-14",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "SwitchBotの新型ファンが登場\n\nSwitchBotが使いやすさとデザイン性を向上させた新型ファンを発表しました。従来モデルより静音性が高く、スマートホーム対応で音声操作が可能。省エネ設計でファンの風量も調整しやすく、快適な室内環境を実現します。価格も手頃で多機能なファンとして注目されています。",
+        "content": "20周年記念iPhoneが来年発売、注目の10機能とは\n\n来年、iPhoneの20周年を記念した特別モデルが登場予定です。この新モデルは先進的な機能を搭載し、10の注目ポイントが報告されています。ディスプレイ技術やカメラ性能の大幅向上、セキュリティ強化、新しいデザイン要素など、初代iPhoneからの進化を象徴する内容となる見込みです。詳細は今後の発表が待たれます。",
         "refusal": null,
         "annotations": []
       },
@@ -17,9 +17,9 @@
     }
   ],
   "usage": {
-    "prompt_tokens": 93,
-    "completion_tokens": 107,
-    "total_tokens": 200,
+    "prompt_tokens": 59,
+    "completion_tokens": 128,
+    "total_tokens": 187,
     "prompt_tokens_details": {
       "cached_tokens": 0,
       "audio_tokens": 0
@@ -32,5 +32,5 @@
     }
   },
   "service_tier": "default",
-  "system_fingerprint": "fp_f864279d5e"
+  "system_fingerprint": "fp_73ff3da52b"
 }

@@ -3,11 +3,11 @@
   "messages": [
     {
       "role": "system",
-      "content": "あなたはニュース編集者です。必ず次の形式だけで返してください。\n\n1行目: タイトルのみ（30文字以内）\n2行目: 空行\n3行目以降: 200文字程度の要約\n\n【タイトル】や【要約】などの見出しは絶対に付けないでください。"
+      "content": "ニュースを日本語に翻訳し、1行目をタイトル、2行目以降を200文字程度の要約だけ返してください。"
     },
     {
       "role": "user",
-      "content": "SwitchBot makes a better fan - The Verge"
+      "content": "20th Anniversary iPhone Coming Next Year With These 10 Features - MacRumors"
     }
   ]
 }
