@@ -1,0 +1,5 @@
+User-agent: *
+
+Allow: /
+
+Sitemap: https://x-auto-publisher-ai-new.vercel.app/sitemap.xml
