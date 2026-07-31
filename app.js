@@ -6,7 +6,7 @@ async function loadNews() {
 
   container.innerHTML = "";
 
-  news.forEach((item) => {
+  news.forEach((item, index) => {
     const card = document.createElement("div");
     card.className = "card";
 
@@ -14,6 +14,7 @@ async function loadNews() {
       <img src="${item.image}" alt="${item.title}" style="width:100%;display:block;">
 
       <div class="content">
+
         <div class="title">${item.title}</div>
 
         <div class="desc">
@@ -22,9 +23,10 @@ async function loadNews() {
 
         <br>
 
-        <a href="${item.url}" target="_blank">
-          続きを読む →
+        <a href="news.html?id=${index}">
+          詳細を見る →
         </a>
+
       </div>
     `;
 
