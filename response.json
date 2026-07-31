@@ -1,14 +1,14 @@
 {
-  "id": "chatcmpl-E7kFbBqocN87d9SL1sVWu87FKjlFp",
+  "id": "chatcmpl-E7klagpC0t6okxQllsMxmtNA57S2L",
   "object": "chat.completion",
-  "created": 1785514791,
+  "created": 1785516774,
   "model": "gpt-4.1-mini-2025-04-14",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "Amazon、単純なコーディング作業に1.8百万ドルの誤使用で860％の予算超過\n\nAmazonは内部AI使用状況の分析で、Claudeを使った単純なコーディング作業に180万ドルを支出し、予算を860％超過するという大きなミスを発見しました。この過剰支出は「破滅的に高額」と表現され、AI活用の効率改善への課題が浮き彫りとなっています。",
+        "content": "Nebiusが27%上昇、CoreWeaveが24%、Oracleが7%上昇しAIクラウド関連株が反発\n\nAIクラウド関連銘柄が市場で反発を見せ、Nebiusは27%の急騰、CoreWeaveも24%上昇しました。Oracleも7%の上昇を記録し、AI技術への期待感が株価に好影響を与えています。投資家の注目が再びAI分野に集まっています。",
         "refusal": null,
         "annotations": []
       },
@@ -17,9 +17,9 @@
     }
   ],
   "usage": {
-    "prompt_tokens": 82,
-    "completion_tokens": 120,
-    "total_tokens": 202,
+    "prompt_tokens": 69,
+    "completion_tokens": 119,
+    "total_tokens": 188,
     "prompt_tokens_details": {
       "cached_tokens": 0,
       "audio_tokens": 0
@@ -32,5 +32,5 @@
     }
   },
   "service_tier": "default",
-  "system_fingerprint": "fp_ce4c3d0b31"
+  "system_fingerprint": "fp_9fe0d94baa"
 }

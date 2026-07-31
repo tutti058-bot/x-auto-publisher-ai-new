@@ -1,1 +1,1 @@
-https://www.thehindubusinessline.com/info-tech/sarvam-ai-plans-to-build-trillion-plus-parameter-model/article71286248.ece
+https://pypi.org/project/stats-compass-mcp/0.3.23/

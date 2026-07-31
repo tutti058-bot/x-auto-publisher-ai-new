@@ -1,1 +1,1 @@
-https://aws.amazon.com/about-aws/whats-new/2026/07/openai-gpt-terra-luna-pricing-bedrock/
+https://pypi.org/project/codemind-okf/1.2.0/
