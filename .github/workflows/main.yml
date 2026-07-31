@@ -13,10 +13,18 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
       - name: Install jq
         run: |
           sudo apt update
           sudo apt install -y jq
+
+      - name: Install packages
+        run: npm install
 
       - name: Get News
         env:
@@ -24,17 +32,19 @@ jobs:
         run: |
           mkdir -p posts
 
-          curl -L "https://newsapi.org/v2/top-headlines?country=us&category=technology&pageSize=1&apiKey=$NEWS_API_KEY" -o news.json
+          curl -s -L \
+          "https://newsapi.org/v2/top-headlines?country=us&category=technology&pageSize=1&apiKey=$NEWS_API_KEY" \
+          -o news.json
 
-          jq -r '.articles[0].title' news.json > posts/title.txt
+          jq -r '.articles[0].title' news.json > title.txt
           jq -r '.articles[0].urlToImage' news.json > posts/image.txt
           jq -r '.articles[0].url' news.json > posts/url.txt
 
-            - name: OpenAI Summary
+      - name: OpenAI Summary
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
-          TITLE=$(cat posts/title.txt)
+          TITLE=$(cat title.txt)
 
           jq -n \
             --arg title "$TITLE" \
@@ -43,11 +53,11 @@ jobs:
               messages:[
                 {
                   role:"system",
-                  content:"あなたはニュース編集者です。必ずJSONのみで返してください。形式は {\"title\":\"...\",\"summary\":\"...\"} です。"
+                  content:"ニュースを日本語でまとめてください。必ず次の形式だけで返してください。\n\n1行目: タイトル\n2行目以降: 200文字程度の要約\n【タイトル】や【要約】などの見出しは付けないでください。"
                 },
                 {
                   role:"user",
-                  content:("次のニュースを日本語で要約してください。\n\n" + $title)
+                  content:$title
                 }
               ]
             }' > request.json
@@ -60,5 +70,28 @@ jobs:
 
           cat response.json
 
-          jq -r '.choices[0].message.content | fromjson | .title' response.json > posts/title.txt
-          jq -r '.choices[0].message.content | fromjson | .summary' response.json > posts/post.txt
+          jq -r '.choices[0].message.content' response.json > posts/post.txt
+
+      - name: Build JSON
+        run: |
+          npm start
+
+      - name: Show Result
+        run: |
+          echo "===== post ====="
+          cat posts/post.txt
+
+          echo "===== news ====="
+          cat data/news.json
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+
+          git add .
+
+          if ! git diff --cached --quiet; then
+            git commit -m "AI News Update"
+            git push
+          fi
