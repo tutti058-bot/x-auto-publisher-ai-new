@@ -3,7 +3,7 @@
   "messages": [
     {
       "role": "user",
-      "content": "次のニュースを日本語でタイトルと200文字程度の要約にしてください。\n\nXenoblade Chronicles 2: Torna - The Golden Country Updated To Version 2.0.0 - Nintendo Life"
+      "content": "次のニュースを日本語化してください。必ず次の形式で出力しください。1行目：タイトルの2行目以降：200文字程度の要約見出し（【タイトル】や【要約】）は絶対に付けないでください。\n\nXenoblade Chronicles 2: Torna - The Golden Country Updated To Version 2.0.0 - Nintendo Life"
     }
   ]
 }
