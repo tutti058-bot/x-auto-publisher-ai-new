@@ -1,3 +1,5 @@
+import { addView } from "./firebase.js";
+
 async function loadNews() {
 
   const params = new URLSearchParams(window.location.search);
@@ -9,24 +11,34 @@ async function loadNews() {
   const item = news[id];
 
   if (!item) {
-    document.body.innerHTML = "<h1 style='text-align:center;margin-top:100px;'>記事が見つかりません。</h1>";
+    document.body.innerHTML =
+      "<h1 style='text-align:center;margin-top:100px;'>記事が見つかりません。</h1>";
     return;
   }
 
+  // 閲覧数を+1
+  if (item.url) {
+    await addView(item.url);
+  }
+
   document.getElementById("title").textContent = item.title;
-document.getElementById("summary").textContent = item.summary;
-document.getElementById("link").href = item.url;
+  document.getElementById("summary").textContent = item.summary;
+  document.getElementById("link").href = item.url;
 
-// SEO
-document.title = item.title + " | AI NEWS";
+  if (item.image) {
+    document.getElementById("image").src = item.image;
+  }
 
-const meta = document.querySelector('meta[name="description"]');
-if (meta) {
-  meta.setAttribute(
-    "content",
-    item.summary.substring(0, 120)
-  );
-}
+  document.title = item.title + " | AI NEWS";
+
+  const meta = document.querySelector('meta[name="description"]');
+
+  if (meta) {
+    meta.setAttribute(
+      "content",
+      item.summary.substring(0, 120)
+    );
+  }
 
 }
 
