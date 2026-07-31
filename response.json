@@ -1,14 +1,14 @@
 {
-  "id": "chatcmpl-E7jd56fVffAhgYLK9Vsb5RqhrZIH8",
+  "id": "chatcmpl-E7jqTsKAHn7dbXKkg3VE6CFlPT9TK",
   "object": "chat.completion",
-  "created": 1785512403,
+  "created": 1785513233,
   "model": "gpt-4.1-mini-2025-04-14",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "20周年記念iPhone、来年発売予定で注目の10機能搭載\n\n来年発売される20周年記念iPhoneは、特別なデザインと最新技術を融合。10の注目機能には、改良されたカメラシステム、超高速5G対応、バッテリー持続時間の延長、新しいチップセット、高度なセキュリティ機能などが含まれています。これにより、ユーザー体験が大幅に向上する見込みです。",
+        "content": "モロッコからスペイン領セウタへの不法アフリカ移民数千人が殺到（衝撃映像あり）\n\n数千人の不法アフリカ移民がモロッコからスペインの飛地、セウタの国境を越えようと殺到しています。警察との衝突や混乱の様子が映像で伝えられ、国境管理に重大な影響を及ぼしています。安全保障と移民問題が深刻化しています。",
         "refusal": null,
         "annotations": []
       },
@@ -17,9 +17,9 @@
     }
   ],
   "usage": {
-    "prompt_tokens": 59,
-    "completion_tokens": 121,
-    "total_tokens": 180,
+    "prompt_tokens": 72,
+    "completion_tokens": 119,
+    "total_tokens": 191,
     "prompt_tokens_details": {
       "cached_tokens": 0,
       "audio_tokens": 0
@@ -32,5 +32,5 @@
     }
   },
   "service_tier": "default",
-  "system_fingerprint": "fp_73ff3da52b"
+  "system_fingerprint": "fp_ae94bb6d54"
 }

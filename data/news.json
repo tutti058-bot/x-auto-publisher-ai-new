@@ -1,37 +1,72 @@
 [
   {
-    "title": "SwitchBot、より優れた扇風機を発売へ",
-    "summary": "SwitchBotは、従来の扇風機よりも使いやすく機能的な新型扇風機を発表しました。スマートホーム機能を搭載し、スマホや音声アシスタントから操作可能。風量調整や首振り機能も向上し、快適な室内環境を提供します。リーズナブルな価格設定も魅力です。",
-    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/1.png?quality=90&strip=all&crop=9.4848484848485%2C0%2C81.030303030303%2C100&w=1200",
-    "url": "https://www.theverge.com/tech/972986/switchbot-makes-a-better-fan",
+    "title": "MCP（Model Context Protocol）とは、モデルの文脈や状況を管理・共有するためのプロトコルです。これはAIや機械学習モデルが動作する際に必要な環境情報や前提条件、利用状況などのコンテキストを標準化して扱うことで、モデルの適用や連携を円滑にすることを目的としています。MCPにより、異なるシステム間でモデルの状態や動作環境を理解しやすくなり、効率的な運用と応用が期待されます。",
+    "summary": "",
+    "image": "https://www.c-sharpcorner.com/images/csharp-corner-new.png",
+    "url": "https://www.c-sharpcorner.com/article/what-is-mcp-model-context-protocol/",
     "category": "AI"
   },
   {
-    "title": "GTA 6公式アップデートでファンはトレーラー3の公開が間近と期待",
-    "summary": "公式からの最新情報が出て、ファンの間でGTA 6のトレーラー3の公開が近いと予想されています。開発の進展や新要素に関する手がかりが示され、ファンの期待が高まっています。",
-    "image": "https://static0.thegamerimages.com/wordpress/wp-content/uploads/2026/07/raul_bautista_04.jpg?w=1600&h=900&fit=crop",
-    "url": "https://www.thegamer.com/rockstar-just-updated-the-gta-6-website-and-fans-are-losing-it/",
+    "title": "米国のGDP成長率が鈍化、インフレと貿易赤字が経済に圧力",
+    "summary": "米国のGDP成長率が期待を下回り、インフレの持続と拡大する貿易赤字が経済成長に重しをかけている。消費者物価の上昇は購買力を削減し、貿易赤字の拡大は国内産業に逆風となっている。経済専門家は今後の政策対応に注目している。",
+    "image": "https://www.aljazeera.com/wp-content/uploads/2026/07/reuters_6a6b641e-1785422878.jpg?resize=1920%2C1440",
+    "url": "https://www.aljazeera.com/economy/2026/7/30/us-gdp-growth-dips-as-inflation-and-trade-deficits-pressure-economy",
     "category": "AI"
   },
   {
-    "title": "ゼノブレイドクロニクル2 トルナ 黄金の国 バージョン2.0.0にアップデート",
-    "summary": "「ゼノブレイドクロニクル2 トルナ 黄金の国」がバージョン2.0.0に更新され、新コンテンツや不具合修正が含まれています。内容の詳細や改善点により、ゲーム体験がより快適で充実したものになると報告されています。",
-    "image": "https://images.nintendolife.com/8719ac31012b6/large.jpg",
-    "url": "https://www.nintendolife.com/news/2026/07/xenoblade-chronicles-2-torna-the-golden-country-updated-to-version-2-0-0",
+    "title": "メガラヤ州、戸別調査段階を完了",
+    "summary": "メガラヤ州は、最新の国勢調査に向けた戸別調査段階を無事に完了しました。この段階では、全世帯を直接訪問し、詳細な人口・世帯情報を収集しました。調査結果は今後の政策立案や資源配分に役立てられる予定です。",
+    "image": "https://static.toiimg.com/photo/msid-47529300/47529300.jpg",
+    "url": "https://timesofindia.indiatimes.com/city/guwahati/sir-meghalaya-completes-house-to-house-enumeration-phase/articleshow/132744749.cms",
     "category": "AI"
   },
   {
-    "title": "ゼルダの伝説 時のオカリナSwitch版のレーティングがオンラインで流出",
-    "summary": "任天堂の人気ゲーム「ゼルダの伝説 時のオカリナ」のNintendo Switch版に関するレーティング情報がオンラインで公開されました。これにより、Switch向けのリリースが近い可能性が高まっています。詳細な配信日や追加要素についてはまだ明かされていませんが、ファンの期待が高まっています。",
-    "image": "https://images.nintendolife.com/be14f7c21b300/large.jpg",
-    "url": "https://www.nintendolife.com/news/2026/07/the-legend-of-zelda-ocarina-of-time-switch-2-rating-surfaces-online",
+    "title": "マルール裁判官を高裁が批判、司法の職務に傲慢さは許されない",
+    "summary": "高等裁判所はマルールの裁判官を厳しく非難し、司法の職務は謙虚さと公正さが求められるため、傲慢な態度は許されないと指摘しました。この声明は、裁判官の態度や行動に関する問題を巡る裁判所内の議論の一環として出されました。",
+    "image": "https://static.toiimg.com/thumb/msid-132744687,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+    "url": "https://timesofindia.indiatimes.com/city/bengaluru/hc-slams-malur-judge-says-judicial-office-doesnt-permit-arrogance/articleshow/132744685.cms",
     "category": "AI"
   },
   {
-    "title": "20周年記念iPhone、来年発売予定で注目の10機能搭載",
-    "summary": "来年発売される20周年記念iPhoneは、特別なデザインと最新技術を融合。10の注目機能には、改良されたカメラシステム、超高速5G対応、バッテリー持続時間の延長、新しいチップセット、高度なセキュリティ機能などが含まれています。これにより、ユーザー体験が大幅に向上する見込みです。",
-    "image": "https://images.macrumors.com/t/28K8GzT_qW1bSru-H9LUBSEsEIQ=/2500x/article-new/2026/01/Mostly-Screen-iPhone-Purple-Feature-2027.jpg",
-    "url": "https://www.macrumors.com/2026/07/29/20th-anniversary-iphone-10-features/",
+    "title": "ジェフ・ベゾス「アマゾンはいつか失敗する」と警告：設立30年の節目で世界最大企業に",
+    "summary": "ジェフ・ベゾスはかつてアマゾンが30年しか続かないかもしれないと警告していたが、設立から31年が経過し、同社は現在世界最大の企業となっている。彼の予測に反して、アマゾンは急成長を遂げ、多様な事業展開で市場をリードしている。",
+    "image": "https://fortune.com/img-assets/wp-content/uploads/2026/07/GettyImages-2238717515.jpg?resize=1200,600",
+    "url": "https://fortune.com/2026/07/30/jeff-bezos-one-day-amazon-will-fail-now-biggest-company-in-the-world-fortune-global-500/",
+    "category": "AI"
+  },
+  {
+    "title": "エルナクラム警察、オペレーションサンダーで2人を逮捕し94gのMDMAを押収",
+    "summary": "エルナクラムの税関当局はオペレーションサンダー中に2人を逮捕し、合計94グラムのMDMAを押収しました。麻薬取締の強化により、違法薬物の流通を阻止する目的で行われた今回の摘発で、関係者の摘発が進められています。",
+    "image": "https://static.toiimg.com/thumb/msid-132744667,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+    "url": "https://timesofindia.indiatimes.com/city/kochi/ernakulam-excise-arrests-two-seizes-94g-mdma-in-op-thunder/articleshow/132744670.cms",
+    "category": "AI"
+  },
+  {
+    "title": "ビラールの塾教師、数学の模擬試験の成績不振で14歳の生徒を暴行し逮捕",
+    "summary": "ビラールで、14歳の生徒を模擬試験の成績が悪かったことを理由に暴行した塾教師が警察に逮捕されました。教師は生徒に対して物理的な暴力を振るい、生徒の親からの通報で事件が発覚。現在、当局が詳細を調査中です。",
+    "image": "https://static.toiimg.com/thumb/msid-132744646,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+    "url": "https://timesofindia.indiatimes.com/city/mumbai/virar-tuition-teacher-booked-for-assaulting-14-year-old-student-over-poor-maths-practice-test-score/articleshow/132744648.cms",
+    "category": "AI"
+  },
+  {
+    "title": "タイトル: Show HN: Wasted Cycles – AIコーディングエージェント向けローカルウォールクロックプロファイラ",
+    "summary": "要約: Wasted Cyclesは、AIコーディングエージェントの処理時間をローカルで詳細に分析するウォールクロックプロファイラです。実行時の無駄な計算サイクルや遅延を特定し、性能改善を支援します。開発者が効率的なAIエージェント開発に役立てられるツールとして注目されています。",
+    "image": "null",
+    "url": "https://zozo123.github.io/wasted-cycles/",
+    "category": "AI"
+  },
+  {
+    "title": "アマゾン、AI関連の予期せぬ支出増に直面",
+    "summary": "アマゾンは人工知能（AI）関連の予算を超えた支出に苦慮しており、計画外の費用が増加している。これにより、経営陣はコスト管理の強化が求められている。AI技術への投資は今後も続く一方で、効率的な資金配分が重要課題となっている。",
+    "image": "https://www.pymnts.com/wp-content/uploads/2025/06/Amazon-AI-3.jpg",
+    "url": "https://www.pymnts.com/amazon/2026/amazon-contends-with-unplanned-overspending-on-ai/",
+    "category": "AI"
+  },
+  {
+    "title": "モロッコからスペイン領セウタへの不法アフリカ移民数千人が殺到（衝撃映像あり）",
+    "summary": "数千人の不法アフリカ移民がモロッコからスペインの飛地、セウタの国境を越えようと殺到しています。警察との衝突や混乱の様子が映像で伝えられ、国境管理に重大な影響を及ぼしています。安全保障と移民問題が深刻化しています。",
+    "image": "https://www.thegatewaypundit.com/wp-content/uploads/2026/07/migrant-invasion-ceuta-spain-image-x-upscale-grok-1200x630.jpg",
+    "url": "https://www.thegatewaypundit.com/2026/07/now-thousands-illegal-african-migrants-morocco-storm-spanish/",
     "category": "AI"
   }
 ]
