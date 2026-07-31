@@ -53,11 +53,12 @@ jobs:
           for ((i=0;i<COUNT;i++))
           do
             TITLE=$(jq -r ".articles[$i].title" news.json)
+            DESCRIPTION=$(jq -r ".articles[$i].description" news.json)
             IMAGE=$(jq -r ".articles[$i].urlToImage" news.json)
             URL=$(jq -r ".articles[$i].url" news.json)
 
             jq -n \
-              --arg title "$TITLE" \
+              --arg content "$TITLE\n\n$DESCRIPTION"
               '{
                 model:"gpt-4.1-mini",
                 messages:[
