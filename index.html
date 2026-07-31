@@ -80,6 +80,16 @@ header{
 <p>AI自動ニュース</p>
 </header>
 
+<div id="category-buttons" style="text-align:center;margin:30px 0;display:flex;flex-wrap:wrap;gap:10px;justify-content:center;">
+  <button onclick="filterNews('ALL')">🤖 すべて</button>
+  <button onclick="filterNews('OpenAI')">💬 OpenAI</button>
+  <button onclick="filterNews('Google')">💎 Google</button>
+  <button onclick="filterNews('Anthropic')">🟣 Anthropic</button>
+  <button onclick="filterNews('Microsoft')">🪟 Microsoft</button>
+  <button onclick="filterNews('Meta')">🦙 Meta</button>
+  <button onclick="filterNews('xAI')">🚀 xAI</button>
+</div>
+
 <div id="news-list"></div>
 
 <script src="app.js"></script>

@@ -1,7 +1,13 @@
+let allNews = [];
+
 async function loadNews() {
   const res = await fetch("data/news.json");
-  const news = await res.json();
+  allNews = await res.json();
 
+  renderNews(allNews);
+}
+
+function renderNews(news) {
   const container = document.getElementById("news-list");
 
   container.innerHTML = "";
@@ -16,6 +22,10 @@ async function loadNews() {
       <div class="content">
 
         <div class="title">${item.title}</div>
+
+        <div style="margin:10px 0;font-weight:bold;color:#2563eb;">
+          ${item.category || "AI"}
+        </div>
 
         <div class="desc">
           ${item.summary}
@@ -32,6 +42,17 @@ async function loadNews() {
 
     container.appendChild(card);
   });
+}
+
+function filterNews(category) {
+  if (category === "ALL") {
+    renderNews(allNews);
+    return;
+  }
+
+  const filtered = allNews.filter(item => item.category === category);
+
+  renderNews(filtered);
 }
 
 loadNews();
