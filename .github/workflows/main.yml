@@ -3,6 +3,9 @@ name: NewsAPI Test
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -21,18 +24,28 @@ jobs:
         run: |
           mkdir -p posts
 
-          curl -L \
-          "https://newsapi.org/v2/top-headlines?country=us&category=technology&pageSize=1&apiKey=$NEWS_API_KEY" \
-          -o news.json
+          curl -L "https://newsapi.org/v2/top-headlines?country=us&category=technology&pageSize=1&apiKey=$NEWS_API_KEY" -o news.json
+
+          echo "===== news.json ====="
+          cat news.json
 
           jq -r '.articles[0].title' news.json > posts/title.txt
           jq -r '.articles[0].urlToImage' news.json > posts/image.txt
           jq -r '.articles[0].url' news.json > posts/url.txt
 
+          echo "===== title ====="
+          cat posts/title.txt
+
+          echo "===== image ====="
+          cat posts/image.txt
+
+          echo "===== url ====="
+          cat posts/url.txt
+
       - name: Commit
         run: |
-          git config user.name github-actions
-          git config user.email actions@github.com
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
 
           git add .
 
