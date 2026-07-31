@@ -206,25 +206,25 @@ async function showRanking() {
 
   for (const item of ranking) {
 
-  const article = allNews.find(n => n.url === item.id);
+  const article = allNews.find(n => n.url === item.url);
 
-  if (!article) continue;
+if (!article) continue;
 
-  html += `
-    <li class="rank-item">
+html += `
+<li class="rank-item">
 
-      <div class="rank-title">
-        <a href="news.html?id=${allNews.indexOf(article)}">
-          ${article.title}
-        </a>
-      </div>
+<div class="rank-title">
+<a href="news.html?id=${allNews.indexOf(article)}">
+${article.title}
+</a>
+</div>
 
-      <div class="rank-view">
-        👁 ${item.count} 回
-      </div>
+<div class="rank-view">
+👁 ${item.count} 回閲覧
+</div>
 
-    </li>
-  `;
+</li>
+`;
 
 }
 
@@ -236,3 +236,5 @@ html += "</ol>";
 
 window.changePage = changePage;
 window.filterNews = filterNews;
+
+showRanking();
