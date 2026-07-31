@@ -1,0 +1,9 @@
+{
+  "model": "gpt-4.1-mini",
+  "messages": [
+    {
+      "role": "user",
+      "content": "次のニュースを日本語でタイトルと200文字程度の要約にしてください。\n\nXenoblade Chronicles 2: Torna - The Golden Country Updated To Version 2.0.0 - Nintendo Life"
+    }
+  ]
+}
