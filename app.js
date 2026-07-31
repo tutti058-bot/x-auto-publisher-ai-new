@@ -1,32 +1,35 @@
-fetch("data/news.json")
-  .then(response => response.json())
-  .then(news => {
+async function loadNews() {
+  const res = await fetch("data/news.json");
+  const news = await res.json();
 
-    const list = document.getElementById("news-list");
-    list.innerHTML = "";
+  const container = document.getElementById("news-list");
 
-    news.forEach(item => {
+  container.innerHTML = "";
 
-      list.innerHTML += `
-        <div class="card">
+  news.forEach((item) => {
+    const card = document.createElement("div");
+    card.className = "card";
 
-          <img src="${item.image}">
+    card.innerHTML = `
+      <img src="${item.image}" alt="${item.title}" style="width:100%;display:block;">
 
-          <div class="content">
+      <div class="content">
+        <div class="title">${item.title}</div>
 
-            <div class="title">
-              ${item.title}
-            </div>
-
-            <div class="desc">
-              ${item.summary}
-            </div>
-
-          </div>
-
+        <div class="desc">
+          ${item.summary}
         </div>
-      `;
 
-    });
+        <br>
 
+        <a href="${item.url}" target="_blank">
+          続きを読む →
+        </a>
+      </div>
+    `;
+
+    container.appendChild(card);
   });
+}
+
+loadNews();

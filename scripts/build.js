@@ -1,22 +1,34 @@
 import fs from "fs";
 
-const post = fs.readFileSync("posts/post.txt", "utf8");
-const image = fs.readFileSync("posts/image.txt", "utf8");
-const url = fs.readFileSync("posts/url.txt", "utf8");
+const news = [];
 
-const lines = post.trim().split("\n");
+for (let i = 0; i < 5; i++) {
+  const postFile = `posts/post${i}.txt`;
 
-const title = lines.shift();
-const summary = lines.join("\n");
+  if (!fs.existsSync(postFile)) continue;
 
-const news = [
-  {
+  const post = fs.readFileSync(postFile, "utf8").trim();
+
+  const lines = post.split("\n");
+
+  const title = lines.shift()?.trim() || "";
+  const summary = lines.join("\n").trim();
+
+  const image = fs.existsSync(`posts/image${i}.txt`)
+    ? fs.readFileSync(`posts/image${i}.txt`, "utf8").trim()
+    : "";
+
+  const url = fs.existsSync(`posts/url${i}.txt`)
+    ? fs.readFileSync(`posts/url${i}.txt`, "utf8").trim()
+    : "";
+
+  news.push({
     title,
     summary,
-    image: image.trim(),
-    url: url.trim()
-  }
-];
+    image,
+    url
+  });
+}
 
 if (!fs.existsSync("data")) {
   fs.mkdirSync("data");
@@ -24,7 +36,8 @@ if (!fs.existsSync("data")) {
 
 fs.writeFileSync(
   "data/news.json",
-  JSON.stringify(news, null, 2)
+  JSON.stringify(news, null, 2),
+  "utf8"
 );
 
-console.log("news.json を作成しました");
+console.log(`${news.length}件のニュースを作成しました`);
