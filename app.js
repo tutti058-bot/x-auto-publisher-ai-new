@@ -188,39 +188,55 @@ async function showRanking() {
   if (!box) return;
 
   let html = `
-    <h2>🔥 今週人気</h2>
-    <ol>
+    <div class="ranking-title">🔥 今週人気ランキング</div>
   `;
 
-  for (const item of ranking) {
+  ranking.forEach((item, index) => {
 
     const article = allNews.find(n => n.url === item.url);
 
-    if (!article) continue;
+    if (!article) return;
+
+    let medal = `${index + 1}位`;
+    let color = "";
+
+    if (index === 0) {
+      medal = "🥇";
+      color = "gold";
+    } else if (index === 1) {
+      medal = "🥈";
+      color = "silver";
+    } else if (index === 2) {
+      medal = "🥉";
+      color = "bronze";
+    }
 
     html += `
-      <li class="rank-item">
 
-        <div class="rank-title">
+      <div class="rank-card ${color}">
+
+        <div class="rank-no">
+          ${medal}
+        </div>
+
+        <div class="rank-info">
+
           <a href="news.html?id=${allNews.indexOf(article)}">
             ${article.title}
           </a>
+
+          <div class="rank-view">
+            👁️ ${item.count} 回閲覧
+          </div>
+
         </div>
 
-        <div class="rank-view">
-          👁 ${item.count} 回閲覧
-        </div>
+      </div>
 
-      </li>
     `;
 
-  }
-
-  html += "</ol>";
+  });
 
   box.innerHTML = html;
 
 }
-
-window.changePage = changePage;
-window.filterNews = filterNews;
