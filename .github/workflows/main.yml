@@ -39,7 +39,7 @@ jobs:
           mkdir -p posts
 
                     curl -s -L \
-          "https://newsapi.org/v2/everything?q=OpenAI%20OR%20ChatGPT%20OR%20Gemini%20OR%20Claude%20OR%20Anthropic%20OR%20Copilot%20OR%20Grok&language=en&sortBy=publishedAt&pageSize=10&apiKey=$NEWS_API_KEY" \
+          "https://newsapi.org/v2/everything?q=(OpenAI OR ChatGPT OR Gemini OR Claude OR Anthropic OR Copilot OR Grok OR Llama OR Meta AI OR Microsoft AI OR Google AI) NOT (iPhone OR GTA OR Nintendo OR PlayStation OR Xbox OR Amazon shopping OR Football OR Soccer OR Movie)&language=en&sortBy=publishedAt&pageSize=20&apiKey=$NEWS_API_KEY" \
           -o news.json
 
 
