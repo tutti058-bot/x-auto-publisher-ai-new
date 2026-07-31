@@ -30,41 +30,30 @@ jobs:
           jq -r '.articles[0].urlToImage' news.json > posts/image.txt
           jq -r '.articles[0].url' news.json > posts/url.txt
 
-      - name: OpenAI Summary
-        env:
+          - name: OpenAI Summary
+          env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: |
+          run: |
           TITLE=$(cat posts/title.txt)
+
+          jq -n \
+            --arg title "$TITLE" \
+            '{
+              model:"gpt-4.1-mini",
+              messages:[
+                {
+                  role:"user",
+                  content:("次のニュースを日本語でタイトルと200文字程度の要約にしてください。\n\n" + $title)
+                }
+              ]
+            }' > request.json
 
           curl https://api.openai.com/v1/chat/completions \
             -H "Authorization: Bearer $OPENAI_API_KEY" \
             -H "Content-Type: application/json" \
-            -d "{
-              \"model\":\"gpt-4.1-mini\",
-              \"messages\":[
-                {
-                  \"role\":\"user\",
-                  \"content\":\"次のニュースを日本語でタイトルと200文字程度の要約にしてください。\n\n$TITLE\"
-                }
-              ]
-            }" \
-          | jq -r '.choices[0].message.content' > posts/post.txt
+            -d @request.json \
+            > response.json
 
-      - name: Show Result
-        run: |
-          echo "===== title ====="
-          cat posts/title.txt
+          cat response.json
 
-          echo "===== summary ====="
-          cat posts/post.txt
-
-      - name: Commit
-        run: |
-          git config user.name github-actions
-          git config user.email actions@github.com
-
-          git add .
-
-          git diff --cached --quiet || git commit -m "AI News"
-
-          git push
+          jq -r '.choices[0].message.content' response.json > posts/post.txt
