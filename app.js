@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 async function loadNews() {
+
   const res = await fetch("data/news.json");
   const data = await res.json();
 
@@ -22,6 +23,9 @@ async function loadNews() {
   filteredNews = [...allNews];
 
   renderNews(filteredNews);
+
+  await showRanking();
+
 }
 
 function renderNews(news) {
@@ -116,21 +120,14 @@ function searchNews() {
 
   renderNews(filteredNews);
 
-}
-
-function renderPagination(total) {
+}function renderPagination(total) {
 
   let nav = document.getElementById("pagination");
 
   if (!nav) {
-
     nav = document.createElement("div");
     nav.id = "pagination";
-    nav.style.textAlign = "center";
-    nav.style.margin = "40px 0";
-
     document.getElementById("news-list").after(nav);
-
   }
 
   const pages = Math.ceil(total / perPage);
@@ -140,13 +137,11 @@ function renderPagination(total) {
   if (pages <= 1) return;
 
   if (currentPage > 1) {
-
     nav.innerHTML += `
       <button onclick="changePage(${currentPage - 1})">
         ← 前へ
       </button>
     `;
-
   }
 
   for (let i = 1; i <= pages; i++) {
@@ -154,10 +149,7 @@ function renderPagination(total) {
     nav.innerHTML += `
       <button
         onclick="changePage(${i})"
-        style="
-          margin:0 3px;
-          ${i === currentPage ? "font-weight:bold;background:#2563eb;color:#fff;" : ""}
-        ">
+        style="${i === currentPage ? "font-weight:bold;background:#2563eb;color:#fff;" : ""}">
         ${i}
       </button>
     `;
@@ -165,13 +157,11 @@ function renderPagination(total) {
   }
 
   if (currentPage < pages) {
-
     nav.innerHTML += `
       <button onclick="changePage(${currentPage + 1})">
         次へ →
       </button>
     `;
-
   }
 
 }
@@ -181,8 +171,6 @@ function changePage(page) {
   currentPage = page;
 
   renderNews(filteredNews);
-
-  showRanking();
 
   window.scrollTo({
     top: 0,
@@ -206,29 +194,29 @@ async function showRanking() {
 
   for (const item of ranking) {
 
-  const article = allNews.find(n => n.url === item.url);
+    const article = allNews.find(n => n.url === item.url);
 
-if (!article) continue;
+    if (!article) continue;
 
-html += `
-<li class="rank-item">
+    html += `
+      <li class="rank-item">
 
-<div class="rank-title">
-<a href="news.html?id=${allNews.indexOf(article)}">
-${article.title}
-</a>
-</div>
+        <div class="rank-title">
+          <a href="news.html?id=${allNews.indexOf(article)}">
+            ${article.title}
+          </a>
+        </div>
 
-<div class="rank-view">
-👁 ${item.count} 回閲覧
-</div>
+        <div class="rank-view">
+          👁 ${item.count} 回閲覧
+        </div>
 
-</li>
-`;
+      </li>
+    `;
 
-}
+  }
 
-html += "</ol>";
+  html += "</ol>";
 
   box.innerHTML = html;
 
@@ -236,5 +224,3 @@ html += "</ol>";
 
 window.changePage = changePage;
 window.filterNews = filterNews;
-
-showRanking();

@@ -57,9 +57,77 @@ p{
     border-radius:8px;
 }
 
+.button:hover{
+    opacity:.9;
+}
+
 .back{
     margin-left:10px;
     background:#666;
+}
+
+#related-news{
+    margin-top:30px;
+}
+
+.related-card{
+    display:flex;
+    gap:15px;
+    border:1px solid #eee;
+    border-radius:10px;
+    overflow:hidden;
+    margin-bottom:20px;
+    background:#fff;
+    transition:.2s;
+}
+
+.related-card:hover{
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.related-card img{
+    width:180px;
+    height:120px;
+    object-fit:cover;
+}
+
+.related-content{
+    padding:15px;
+    flex:1;
+}
+
+.related-content h3{
+    margin:0 0 10px;
+    font-size:18px;
+}
+
+.related-content p{
+    margin:0;
+    color:#666;
+    line-height:1.6;
+    font-size:14px;
+}
+
+.related-content a{
+    color:#111827;
+    text-decoration:none;
+}
+
+.related-content a:hover{
+    color:#2563eb;
+}
+
+@media(max-width:768px){
+
+.related-card{
+    display:block;
+}
+
+.related-card img{
+    width:100%;
+    height:auto;
+}
+
 }
 
 </style>
@@ -92,6 +160,12 @@ p{
 ← 一覧へ戻る
 </a>
 
+<hr style="margin:50px 0;">
+
+<h2>📚 関連記事</h2>
+
+<div id="related-news"></div>
+
 </div>
 
 </div>
@@ -99,5 +173,4 @@ p{
 <script type="module" src="news.js"></script>
 
 </body>
-
 </html>

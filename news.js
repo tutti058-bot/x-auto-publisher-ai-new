@@ -16,16 +16,12 @@ async function loadNews() {
     return;
   }
 
-  // 閲覧数保存
-  try {
-    if (item.url) {
-      await addView(item.url);
-      console.log("閲覧数保存成功", item.url);
-    }
-  } catch (e) {
-    console.error("閲覧数保存失敗", e);
+  // 閲覧数を追加
+  if (item.url) {
+    await addView(item.url);
   }
 
+  // 記事表示
   document.getElementById("title").textContent = item.title;
   document.getElementById("summary").textContent = item.summary;
   document.getElementById("link").href = item.url;
@@ -35,6 +31,7 @@ async function loadNews() {
     document.getElementById("image").alt = item.title;
   }
 
+  // SEO
   document.title = item.title + " | AI NEWS";
 
   const meta = document.querySelector('meta[name="description"]');
@@ -45,6 +42,62 @@ async function loadNews() {
       item.summary.substring(0, 120)
     );
   }
+
+  // 関連記事
+  showRelated(news, item);
+
+}
+
+// 関連記事表示
+function showRelated(news, currentItem) {
+
+  const related = news
+    .filter(item =>
+      item.category === currentItem.category &&
+      item.url !== currentItem.url
+    )
+    .slice(0, 3);
+
+  const box = document.getElementById("related-news");
+
+  if (!box) return;
+
+  if (related.length === 0) {
+    box.innerHTML = "<p>関連記事はありません。</p>";
+    return;
+  }
+
+  let html = "";
+
+  related.forEach(item => {
+
+    const index = news.findIndex(n => n.url === item.url);
+
+    html += `
+      <div class="related-card">
+
+        <img src="${item.image}" alt="${item.title}">
+
+        <div class="related-content">
+
+          <h3>
+            <a href="news.html?id=${index}">
+              ${item.title}
+            </a>
+          </h3>
+
+          <p>
+            ${item.summary.substring(0, 100)}...
+          </p>
+
+        </div>
+
+      </div>
+    `;
+
+  });
+
+  box.innerHTML = html;
 
 }
 
