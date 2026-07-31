@@ -1,1 +1,1 @@
-https://pypi.org/project/codemind-okf/1.2.0/
+https://github.com/MaorBril/agentic

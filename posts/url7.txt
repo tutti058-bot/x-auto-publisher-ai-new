@@ -1,1 +1,1 @@
-https://pypi.org/project/stats-compass-mcp/0.3.23/
+https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_399f10cf-0012-4802-8f73-1a4f6474bdc7
