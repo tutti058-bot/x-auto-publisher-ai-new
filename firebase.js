@@ -23,12 +23,15 @@ const firebaseConfig = {
 };
 
 const app = initializeApp(firebaseConfig);
-
 export const db = getFirestore(app);
 
+// 閲覧数を追加
 export async function addView(id) {
 
-  const ref = doc(db, "views", id);
+  // URLをFirestoreで使えるIDに変換
+  const safeId = btoa(id);
+
+  const ref = doc(db, "views", safeId);
 
   const snap = await getDoc(ref);
 
@@ -41,13 +44,15 @@ export async function addView(id) {
   } else {
 
     await setDoc(ref, {
-      count: 1
+      count: 1,
+      url: id
     });
 
   }
 
 }
 
+// 人気ランキング取得
 export async function getRanking() {
 
   const q = query(
@@ -59,8 +64,8 @@ export async function getRanking() {
   const snap = await getDocs(q);
 
   return snap.docs.map(doc => ({
-    id: doc.id,
-    ...doc.data()
+    url: doc.data().url,
+    count: doc.data().count
   }));
 
 }

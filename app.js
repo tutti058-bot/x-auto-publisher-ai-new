@@ -234,3 +234,5 @@ html += "</ol>";
 
 }
 
+window.changePage = changePage;
+window.filterNews = filterNews;
