@@ -256,3 +256,27 @@ if (searchBtn) {
     search.focus();
   };
 }
+
+// ダークモード
+const darkBtn = document.getElementById("dark-btn");
+
+if (darkBtn) {
+
+  if (localStorage.getItem("theme") === "dark") {
+    document.body.classList.add("dark");
+    darkBtn.textContent = "☀️";
+  }
+
+  darkBtn.onclick = () => {
+
+    document.body.classList.toggle("dark");
+
+    const dark = document.body.classList.contains("dark");
+
+    localStorage.setItem("theme", dark ? "dark" : "light");
+
+    darkBtn.textContent = dark ? "☀️" : "🌙";
+
+  };
+
+}
