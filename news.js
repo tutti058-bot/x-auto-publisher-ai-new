@@ -141,3 +141,8 @@ function showRelated(news, currentItem) {
 }
 
 loadNews();
+
+// ダークモード復元
+if (localStorage.getItem("theme") === "dark") {
+    document.body.classList.add("dark");
+}
