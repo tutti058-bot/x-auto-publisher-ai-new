@@ -46,6 +46,45 @@ async function loadNews() {
   // 関連記事
   showRelated(news, item);
 
+  // Xで共有
+document.getElementById("share-x").onclick = () => {
+
+  const text = `${item.title}\n\n${window.location.href}`;
+
+  window.open(
+    `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`,
+    "_blank"
+  );
+
+};
+
+// LINEで共有
+document.getElementById("share-line").onclick = () => {
+
+  window.open(
+    `https://social-plugins.line.me/lineit/share?url=${encodeURIComponent(window.location.href)}`,
+    "_blank"
+  );
+
+};
+
+// リンクコピー
+document.getElementById("copy-link").onclick = async () => {
+
+  await navigator.clipboard.writeText(window.location.href);
+
+  const msg = document.getElementById("copy-message");
+
+  msg.style.display = "block";
+
+  setTimeout(() => {
+
+    msg.style.display = "none";
+
+  }, 2000);
+
+};
+
 }
 
 // 関連記事表示
