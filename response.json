@@ -1,14 +1,14 @@
 {
-  "id": "chatcmpl-E7miwApwUj8vswdkgGRmqzq8H4VLW",
+  "id": "chatcmpl-E7rfrvDGaxkGGyUpMv2FF3ayhnGQQ",
   "object": "chat.completion",
-  "created": 1785524298,
+  "created": 1785543327,
   "model": "gpt-4.1-mini-2025-04-14",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "Show HN: Leia – Yoto MYOカードにワンショットプレイリストを送信するCLIツール\nLeiaは、Yoto MYOカードに簡単にワンショットプレイリストを転送できるコマンドラインインターフェース（CLI）ツールです。これにより、ユーザーは複雑な手順を踏まずに音声コンテンツをカードに書き込め、子供や家庭での利用をより便利にします。",
+        "content": "アマゾン株、クラウド成長とAI需要の急増で急騰\n\nアマゾンの株価が急騰しました。これはクラウドサービスの成長が著しいことと、人工知能（AI）への需要が急激に増加していることが要因です。企業のデジタルトランスフォーメーションが加速し、アマゾンのAWS（Amazon Web Services）事業の収益が大幅に拡大したことが市場の期待を高めています。",
         "refusal": null,
         "annotations": []
       },
@@ -17,9 +17,9 @@
     }
   ],
   "usage": {
-    "prompt_tokens": 60,
-    "completion_tokens": 112,
-    "total_tokens": 172,
+    "prompt_tokens": 54,
+    "completion_tokens": 122,
+    "total_tokens": 176,
     "prompt_tokens_details": {
       "cached_tokens": 0,
       "audio_tokens": 0
@@ -32,5 +32,5 @@
     }
   },
   "service_tier": "default",
-  "system_fingerprint": "fp_8df9b1279c"
+  "system_fingerprint": "fp_6dbb0678d7"
 }
