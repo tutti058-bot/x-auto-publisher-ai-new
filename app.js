@@ -299,3 +299,13 @@ function closeMenu() {
 }
 
 window.closeMenu = closeMenu;
+
+function scrollRanking() {
+
+  document.getElementById("ranking").scrollIntoView({
+    behavior: "smooth"
+  });
+
+}
+
+window.scrollRanking = scrollRanking;
