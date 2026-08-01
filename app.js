@@ -244,34 +244,15 @@ async function showRanking() {
 // ヘッダー検索
 const searchBtn = document.getElementById("search-btn");
 
-if(searchBtn){
+if (searchBtn) {
+  searchBtn.onclick = () => {
+    const search = document.getElementById("search");
 
-searchBtn.onclick = () => {
+    search.scrollIntoView({
+      behavior: "smooth",
+      block: "center"
+    });
 
-const panel = document.getElementById("search-panel");
-
-panel.style.display =
-panel.style.display === "block"
-? "none"
-: "block";
-
-document.getElementById("header-search").focus();
-
-};
-
-}
-
-// 検索連動
-const headerSearch = document.getElementById("header-search");
-
-if(headerSearch){
-
-headerSearch.addEventListener("input",(e)=>{
-
-document.getElementById("search").value = e.target.value;
-
-searchNews();
-
-});
-
+    search.focus();
+  };
 }
