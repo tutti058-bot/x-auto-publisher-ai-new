@@ -1,1 +1,1 @@
-https://uk.pcmag.com/ai/166479/not-just-chatgpt-anthropic-says-claude-escaped-tests-to-hack-3-organizations
+https://pypi.org/project/cognifity-verdict-inspect/0.1.0a2/

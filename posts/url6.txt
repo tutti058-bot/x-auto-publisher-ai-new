@@ -1,1 +1,1 @@
-https://github.com/jpmoo/hermesnotes/
+https://pypi.org/project/mahanai/9.0.0/

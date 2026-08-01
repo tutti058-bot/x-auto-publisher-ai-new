@@ -1,1 +1,1 @@
-https://www.marketplace.org/episode/2026/07/31/meta-and-microsoft-report-different-ai-earnings
+https://pypi.org/project/cognifity-verdict-inspect/0.1.0a1/
