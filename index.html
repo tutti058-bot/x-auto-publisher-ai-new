@@ -22,6 +22,37 @@ content="AIニュースをわかりやすく紹介するサイトです。">
 
 <style>
 
+  .side-menu{
+    position:fixed;
+    top:0;
+    right:-320px;
+    width:300px;
+    height:100%;
+    background:#111827;
+    padding-top:80px;
+    transition:.3s;
+    z-index:10000;
+    box-shadow:-5px 0 20px rgba(0,0,0,.2);
+}
+
+.side-menu.open{
+    right:0;
+}
+
+.side-menu a{
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    padding:18px 25px;
+    border-bottom:1px solid rgba(255,255,255,.1);
+    font-size:17px;
+    transition:.2s;
+}
+
+.side-menu a:hover{
+    background:#2563eb;
+}
+
 body{
 margin:0;
 font-family:sans-serif;
@@ -296,6 +327,7 @@ body.dark a{
 
 </style>
 
+
 </head>
 
 <body>
@@ -321,6 +353,26 @@ body.dark a{
 </div>
 
 </header>
+
+<div id="side-menu" class="side-menu">
+
+<a href="index.html">🏠 ホーム</a>
+
+<a href="#" onclick="filterNews('ALL');closeMenu();">📰 すべて</a>
+
+<a href="#" onclick="filterNews('OpenAI');closeMenu();">🤖 OpenAI</a>
+
+<a href="#" onclick="filterNews('Google');closeMenu();">💎 Google</a>
+
+<a href="#" onclick="filterNews('Anthropic');closeMenu();">🟣 Anthropic</a>
+
+<a href="#" onclick="filterNews('Microsoft');closeMenu();">🪟 Microsoft</a>
+
+<a href="#" onclick="filterNews('Meta');closeMenu();">🦙 Meta</a>
+
+<a href="#" onclick="filterNews('xAI');closeMenu();">🚀 xAI</a>
+
+</div>
 
 
 <div style="width:90%;max-width:900px;margin:20px auto;">
