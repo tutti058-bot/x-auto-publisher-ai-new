@@ -1,1 +1,1 @@
-https://www.theatlantic.com/technology/2026/07/jacob-tsimerman-math-fields-medal-openai/688120/
+https://pypi.org/project/nexor-agora/0.5.2/

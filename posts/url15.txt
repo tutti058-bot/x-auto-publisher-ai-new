@@ -1,1 +1,1 @@
-https://hughhowey.com/the-end-of-an-era/
+https://pypi.org/project/choreoai-cli/0.0.5/
