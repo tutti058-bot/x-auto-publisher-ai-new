@@ -1,1 +1,1 @@
-https://pypi.org/project/neuravo/
+https://pypi.org/project/prompt-copilot-cli/0.1.1/

@@ -1,1 +1,1 @@
-https://github.com/aliengineering-byte/resilireplay
+https://pypi.org/project/prompt-copilot-cli/

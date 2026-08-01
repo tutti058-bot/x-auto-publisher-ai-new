@@ -1,1 +1,1 @@
-https://media.cnn.com/api/v1/images/stellar/prod/2026-06-05t185317z-1665347047-rc2unla92cfx-rtrmadp-3-anthropic-ai.JPG?c=16x9&q=w_800,c_fill
+https://opengraph.githubassets.com/e556965649d88fd8056eec33442784481cab51f6f872c2c51a4953ece41c33d5/jpmoo/hermesnotes
