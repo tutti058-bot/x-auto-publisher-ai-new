@@ -280,3 +280,22 @@ if (darkBtn) {
   };
 
 }
+
+// ===== サイドメニュー =====
+
+const menuBtn = document.getElementById("menu-btn");
+const sideMenu = document.getElementById("side-menu");
+
+if (menuBtn && sideMenu) {
+
+  menuBtn.onclick = () => {
+    sideMenu.classList.toggle("open");
+  };
+
+}
+
+function closeMenu() {
+  sideMenu.classList.remove("open");
+}
+
+window.closeMenu = closeMenu;
