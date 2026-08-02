@@ -1,1 +1,1 @@
-https://github.com/morluto/jacobian
+https://github.com/TAJD/economist-style-guide-plugin

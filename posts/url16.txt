@@ -1,1 +1,1 @@
-https://freerepublic.com/focus/f-news/4390078/posts
+https://pypi.org/project/odoo-mcp-multi/0.14.0/

@@ -1,1 +1,1 @@
-https://siliconangle.com/2026/07/31/ai-native-software-development-engineering-model-appdevangle/
+https://pypi.org/project/rein-agentic-kit/0.7.2/

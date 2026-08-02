@@ -1,1 +1,1 @@
-https://pypi.org/project/hebbrix-mcp/0.3.22/
+https://pypi.org/project/praisonai-mcp/0.0.10/

@@ -1,1 +1,1 @@
-https://seclists.org/oss-sec/2026/q3/365
+https://pypi.org/project/openapi-ai-sdk/
