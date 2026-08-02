@@ -21,15 +21,38 @@ async function loadNews() {
     await addView(item.url);
   }
 
-  // 記事表示
   document.getElementById("title").textContent = item.title;
-  document.getElementById("summary").textContent = item.summary;
-  document.getElementById("link").href = item.url;
+document.getElementById("summary").textContent = item.summary;
 
-  if (item.image) {
-    document.getElementById("image").src = item.image;
-    document.getElementById("image").alt = item.title;
-  }
+// 日付表示
+if (item.date) {
+  document.getElementById("date").textContent =
+    new Date(item.date).toLocaleString("ja-JP", {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+      hour: "2-digit",
+      minute: "2-digit"
+    });
+}
+
+// カテゴリ表示
+document.getElementById("category").textContent =
+  item.category || "AI";
+
+  const image = document.getElementById("hero-image");
+
+if (item.image && item.image !== "null") {
+
+    image.src = item.image;
+
+} else {
+
+    image.src = "images/no-image.jpg";
+
+}
+
+image.alt = item.title;
 
   // SEO
   document.title = item.title + " | AI NEWS";
@@ -69,23 +92,7 @@ document.getElementById("share-line").onclick = () => {
 };
 
 // リンクコピー
-document.getElementById("copy-link").onclick = async () => {
 
-  await navigator.clipboard.writeText(window.location.href);
-
-  const msg = document.getElementById("copy-message");
-
-  msg.style.display = "block";
-
-  setTimeout(() => {
-
-    msg.style.display = "none";
-
-  }, 2000);
-
-};
-
-}
 
 // 関連記事表示
 function showRelated(news, currentItem) {
@@ -97,7 +104,7 @@ function showRelated(news, currentItem) {
     )
     .slice(0, 3);
 
-  const box = document.getElementById("related-news");
+  const box = document.getElementById("related-list");
 
   if (!box) return;
 
@@ -115,7 +122,7 @@ function showRelated(news, currentItem) {
     html += `
       <div class="related-card">
 
-        <img src="${item.image}" alt="${item.title}">
+        <img src="${item.image && item.image !== "null" ? item.image : "images/hero-bg.jpg"}" alt="${item.title}">
 
         <div class="related-content">
 
