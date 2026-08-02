@@ -50,18 +50,15 @@ function renderNews(news) {
     card.innerHTML = `
       <div class="card-image">
     <img src="${item.image}" alt="${item.title}">
+    <span class="category-tag">${item.category || "AI"}</span>
 </div>
 
       <div class="content">
 
         <div class="title">${item.title}</div>
 
-        <div style="color:#666;font-size:14px;margin:8px 0;">
+        <div class="news-date">
           ${item.date ? new Date(item.date).toLocaleString("ja-JP") : ""}
-        </div>
-
-        <div style="margin:10px 0;font-weight:bold;color:#2563eb;">
-          ${item.category || "AI"}
         </div>
 
         <div class="desc">
