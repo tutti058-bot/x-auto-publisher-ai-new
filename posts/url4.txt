@@ -1,1 +1,1 @@
-https://pypi.org/project/claude-codex-queue/0.3.1/
+https://pypi.org/project/rein-agentic-kit/0.9.0/

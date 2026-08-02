@@ -1,1 +1,1 @@
-https://pypi.org/project/inis-openai-agents/
+https://pypi.org/project/yy-workload-receipt/

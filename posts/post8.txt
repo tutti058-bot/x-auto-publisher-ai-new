@@ -1,3 +1,3 @@
-inis-openai-agentsがPyPIに追加されました。
+yy-workload-receiptがPyPIに追加されました
 
-新しく開発された「inis-openai-agents」パッケージがPythonの公式パッケージインデックスであるPyPIに登録され、利用可能となりました。これにより、開発者はOpenAIのエージェント機能を簡単にPython環境で導入できるようになりました。
+新しいPythonパッケージ「yy-workload-receipt」がPyPIに公開されました。このパッケージは、作業負荷の記録や管理を支援するためのツールです。開発者はインストールしてプロジェクトの効率化に活用できます。

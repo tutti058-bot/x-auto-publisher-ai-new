@@ -1,1 +1,1 @@
-https://pypi.org/project/context-keeper-mcp/0.17.0/
+https://pypi.org/project/claude-code-kit/0.76.0/

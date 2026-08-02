@@ -1,1 +1,1 @@
-https://pypi.org/project/inis-openai-agents/0.1.0/
+https://pypi.org/project/claude-coordinator/0.4.94/

@@ -1,1 +1,1 @@
-https://pypi.org/project/jupyterlab-claude-code-extension/1.2.72/
+https://pypi.org/project/ai-synapse/1.0.4/

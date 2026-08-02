@@ -1,1 +1,1 @@
-https://pypi.org/project/cdy-agent/0.1.0/
+https://forkast.news/rufroot-patching-doesnt-undo-poisoning-the-mcp-flaw-that-persists-inside-ai-memory/

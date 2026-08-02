@@ -1,1 +1,1 @@
-https://pypi.org/project/clawmetry/0.12.622/
+https://pypi.org/project/janito/4.17.0/

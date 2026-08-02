@@ -1,1 +1,1 @@
-https://pypi.org/project/cognocient/0.1.2/
+https://pypi.org/project/krepis/0.25.4/
