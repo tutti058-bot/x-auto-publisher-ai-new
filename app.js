@@ -119,6 +119,7 @@ function searchNews() {
   });
 
   renderNews(filteredNews);
+  }
 
 function renderPagination(total) {
 
@@ -336,3 +337,6 @@ function scrollRanking() {
 
 }
 
+window.changePage = changePage;
+window.filterNews = filterNews;
+window.scrollRanking = scrollRanking;
