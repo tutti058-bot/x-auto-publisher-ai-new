@@ -90,7 +90,6 @@ function copyPost(index){
 
 }
 
-// X投稿
 function postX(index){
 
   fetch("data/news.json")
@@ -99,6 +98,16 @@ function postX(index){
 
       const text=makePost(news[index],index);
 
+      // 投稿済みにする
+      localStorage.setItem(
+        "posted-"+index,
+        "1"
+      );
+
+      // 管理画面更新
+      loadNews();
+
+      // Xを開く
       window.open(
         "https://twitter.com/intent/tweet?text="+
         encodeURIComponent(text),
@@ -106,18 +115,6 @@ function postX(index){
       );
 
     });
-
-}
-
-// 投稿済み
-function markPosted(index){
-
-  localStorage.setItem(
-    "posted-"+index,
-    "1"
-  );
-
-  loadNews();
 
 }
 
