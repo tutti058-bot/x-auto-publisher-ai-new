@@ -4,16 +4,28 @@ async function loadNews() {
   const news = await res.json();
 
   const box = document.getElementById("news-list");
+  const stats = document.getElementById("stats");
 
   const today = new Date().toISOString().slice(0,10);
 
   let html = "";
+  let todayCount = 0;
+  let postedCount = 0;
+  let unpostedCount = 0;
 
   news.reverse().forEach((item,index)=>{
 
     if(item.date && !item.date.startsWith(today)){
       return;
     }
+
+    todayCount++;
+
+if(posted){
+  postedCount++;
+}else{
+  unpostedCount++;
+}
 
     const realIndex = news.length-1-index;
 
@@ -61,6 +73,11 @@ ${posted ? "✅ 投稿済み" : "🐦 X投稿"}
     html="<p>今日の記事はありません。</p>";
 
   }
+stats.innerHTML = `
+<div>📰 今日：${todayCount}件</div>
+<div>☑ 未投稿：${unpostedCount}件</div>
+<div>✅ 投稿済み：${postedCount}件</div>
+`;
 
   box.innerHTML=html;
 
@@ -266,13 +283,21 @@ function postAll(){
 
       const today=new Date().toISOString().slice(0,10);
 
-      const list=news.filter(item=>
-        !item.date || item.date.startsWith(today)
-      );
+      const list=news.filter((item,index)=>{
+
+        const isToday=
+          !item.date || item.date.startsWith(today);
+
+        const posted=
+          localStorage.getItem("posted-"+index)==="1";
+
+        return isToday && !posted;
+
+      });
 
       if(list.length===0){
 
-        alert("今日の記事はありません。");
+        alert("🎉 今日の未投稿記事はありません！");
 
         return;
 
@@ -282,15 +307,9 @@ function postAll(){
 
         setTimeout(()=>{
 
-          const text=makePost(item,news.indexOf(item));
+          postX(news.indexOf(item));
 
-          window.open(
-            "https://twitter.com/intent/tweet?text="+
-            encodeURIComponent(text),
-            "_blank"
-          );
-
-        },i*1500);
+        },i*2000);
 
       });
 
