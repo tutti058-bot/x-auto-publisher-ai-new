@@ -101,6 +101,8 @@ document.getElementById("share-facebook").onclick = () => {
 
 };
 
+}
+
 // 関連記事表示
 function showRelated(news, currentItem) {
 
