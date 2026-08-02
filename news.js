@@ -40,6 +40,8 @@ if (item.date) {
 document.getElementById("category").textContent =
   item.category || "AI";
 
+  document.getElementById("original-link").href = item.url;
+
   const image = document.getElementById("hero-image");
 
 if (item.image && item.image !== "null") {
@@ -101,7 +103,7 @@ document.getElementById("share-facebook").onclick = () => {
 
 };
 
-}
+
 
 // 関連記事表示
 function showRelated(news, currentItem) {
