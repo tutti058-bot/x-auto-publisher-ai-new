@@ -48,7 +48,9 @@ function renderNews(news) {
     card.className = "card";
 
     card.innerHTML = `
-      <img src="${item.image}" alt="${item.title}" style="width:100%;display:block;">
+      <div class="card-image">
+    <img src="${item.image}" alt="${item.title}">
+</div>
 
       <div class="content">
 

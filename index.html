@@ -866,7 +866,7 @@ footer p{
 }
 
 /* ==========================================
-   HERO CONTENT
+  HERO CONTENT
 ========================================== */
 
 .hero-content{
@@ -968,6 +968,27 @@ footer p{
     max-width:300px;
 }
 
+.card-image{
+    height:220px;
+}
+
+}
+
+.card-image{
+    height:340px;
+    overflow:hidden;
+    background:#e5e7eb;
+}
+
+.card-image img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    transition:.35s;
+}
+
+.card:hover .card-image img{
+    transform:scale(1.05);
 }
 
 /* ==========================================
