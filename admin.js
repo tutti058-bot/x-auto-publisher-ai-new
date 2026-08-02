@@ -9,6 +9,7 @@ async function loadNews() {
   const today = new Date().toISOString().slice(0,10);
 
   let html = "";
+
   let todayCount = 0;
   let postedCount = 0;
   let unpostedCount = 0;
@@ -19,23 +20,23 @@ async function loadNews() {
       return;
     }
 
-    todayCount++;
-
-if(posted){
-  postedCount++;
-}else{
-  unpostedCount++;
-}
-
-    const realIndex = news.length-1-index;
+    const realIndex = news.length - 1 - index;
 
     const posted =
       localStorage.getItem("posted-"+realIndex)==="1";
 
-      const disabled =
-posted ? "disabled" : "";
+    const disabled =
+      posted ? "disabled" : "";
 
-html += `
+    todayCount++;
+
+    if(posted){
+      postedCount++;
+    }else{
+      unpostedCount++;
+    }
+
+    html += `
 
 <div class="card ${posted ? "posted" : ""}">
 
@@ -44,8 +45,6 @@ html += `
 <p>${item.summary}</p>
 
 <small>${item.date ?? ""}</small>
-
-<br><br>
 
 <div class="actions">
 
@@ -68,18 +67,19 @@ ${posted ? "✅ 投稿済み" : "🐦 X投稿"}
 
   });
 
-  if(html===""){
-
-    html="<p>今日の記事はありません。</p>";
-
+    if(html===""){
+    html="<p>📰 今日の記事はありません。</p>";
   }
-stats.innerHTML = `
-<div>📰 今日：${todayCount}件</div>
-<div>☑ 未投稿：${unpostedCount}件</div>
-<div>✅ 投稿済み：${postedCount}件</div>
-`;
 
-  box.innerHTML=html;
+  if(stats){
+    stats.innerHTML = `
+      <div>📰 今日：${todayCount}件</div>
+      <div>☑ 未投稿：${unpostedCount}件</div>
+      <div>✅ 投稿済み：${postedCount}件</div>
+    `;
+  }
+
+  box.innerHTML = html;
 
 }
 
@@ -96,7 +96,6 @@ https://x-auto-publisher-ai-new.vercel.app/news.html?id=${index}
 
 }
 
-// コピー
 function copyPost(index){
 
   fetch("data/news.json")
@@ -119,16 +118,13 @@ function postX(index){
     .then(res=>res.json())
     .then(news=>{
 
-      const text=makePost(news[index],index);
+      const text = makePost(news[index],index);
 
       // 投稿済みにする
       localStorage.setItem(
         "posted-"+index,
         "1"
       );
-
-      // 管理画面更新
-      loadNews();
 
       // Xを開く
       window.open(
@@ -137,60 +133,13 @@ function postX(index){
         "_blank"
       );
 
-    });
-
-}
-
-function makePost(item,index){
-
-  return `🤖 ${item.title}
-
-${item.summary}
-
-👇続きを読む
-https://x-auto-publisher-ai-new.vercel.app/news.html?id=${index}
-
-#AI #ChatGPT #OpenAI`;
-
-}
-
-// コピー
-function copyPost(index){
-
-  fetch("data/news.json")
-    .then(res=>res.json())
-    .then(news=>{
-
-      navigator.clipboard.writeText(
-        makePost(news[index],index)
-      );
-
-      alert("投稿文をコピーしました！");
+      // 管理画面更新
+      loadNews();
 
     });
 
 }
 
-// X投稿
-function postX(index){
-
-  fetch("data/news.json")
-    .then(res=>res.json())
-    .then(news=>{
-
-      const text=makePost(news[index],index);
-
-      window.open(
-        "https://twitter.com/intent/tweet?text="+
-        encodeURIComponent(text),
-        "_blank"
-      );
-
-    });
-
-}
-
-// 投稿済み
 function markPosted(index){
 
   localStorage.setItem(
@@ -202,25 +151,24 @@ function markPosted(index){
 
 }
 
-// 今日の記事だけ
 function showToday(){
 
   loadNews();
 
 }
 
-// 未投稿だけ
 function showUnposted(){
 
   fetch("data/news.json")
     .then(res=>res.json())
     .then(news=>{
 
-      const box=document.getElementById("news-list");
+      const box = document.getElementById("news-list");
 
-      const today=new Date().toISOString().slice(0,10);
+      const today =
+        new Date().toISOString().slice(0,10);
 
-      let html="";
+      let html = "";
 
       news.reverse().forEach((item,index)=>{
 
@@ -228,13 +176,18 @@ function showUnposted(){
           return;
         }
 
-        const realIndex=news.length-1-index;
+        const realIndex =
+          news.length-1-index;
 
-        if(localStorage.getItem("posted-"+realIndex)==="1"){
+        if(
+          localStorage.getItem(
+            "posted-"+realIndex
+          )==="1"
+        ){
           return;
         }
 
-        html+=`
+        html += `
 
 <div class="card">
 
@@ -244,7 +197,7 @@ function showUnposted(){
 
 <small>${item.date ?? ""}</small>
 
-<br><br>
+<div class="actions">
 
 <button onclick="copyPost(${realIndex})">
 📋 コピー
@@ -254,9 +207,7 @@ function showUnposted(){
 🐦 X投稿
 </button>
 
-<button onclick="markPosted(${realIndex})">
-☑ 投稿済みにする
-</button>
+</div>
 
 </div>
 
@@ -265,37 +216,42 @@ function showUnposted(){
       });
 
       if(html===""){
-        html="<p>🎉 未投稿の記事はありません！</p>";
+        html =
+        "<p>🎉 未投稿の記事はありません！</p>";
       }
 
-      box.innerHTML=html;
+      box.innerHTML = html;
 
     });
 
 }
 
-// 今日の記事を全部投稿
 function postAll(){
 
   fetch("data/news.json")
     .then(res=>res.json())
     .then(news=>{
 
-      const today=new Date().toISOString().slice(0,10);
+      const today =
+        new Date().toISOString().slice(0,10);
 
-      const list=news.filter((item,index)=>{
+      const targets = [];
 
-        const isToday=
+      news.forEach((item,index)=>{
+
+        const isToday =
           !item.date || item.date.startsWith(today);
 
-        const posted=
+        const posted =
           localStorage.getItem("posted-"+index)==="1";
 
-        return isToday && !posted;
+        if(isToday && !posted){
+          targets.push(index);
+        }
 
       });
 
-      if(list.length===0){
+      if(targets.length===0){
 
         alert("🎉 今日の未投稿記事はありません！");
 
@@ -303,11 +259,11 @@ function postAll(){
 
       }
 
-      list.forEach((item,i)=>{
+      targets.forEach((index,i)=>{
 
         setTimeout(()=>{
 
-          postX(news.indexOf(item));
+          postX(index);
 
         },i*2000);
 
