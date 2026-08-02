@@ -1,1 +1,1 @@
-https://pypi.org/project/cognocient/0.1.0/
+https://github.com/BurntSushi/ripgrep/issues/3494

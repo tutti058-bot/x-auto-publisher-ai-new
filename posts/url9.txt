@@ -1,1 +1,1 @@
-https://www.wired.com/story/openai-anthropic-ai-hacking-sprees-illegal/
+https://github.com/pochenai/nano-llm-posttraining

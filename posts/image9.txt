@@ -1,1 +1,1 @@
-https://media.wired.com/photos/6a6d14b8b61d0975176f3aa8/191:100/w_1280,c_limit/Security_The%20OpenAI%20and%20Anthropic%20Hacking%20Sprees%20May%20Have%20Legal%20Consequences_v1.jpg
+https://opengraph.githubassets.com/0cdb4165ef9695eb8db0fa2bb6f26bfd8eaaf1a5405f68f383f8af2b0fe031bc/pochenai/nano-llm-posttraining
