@@ -29,7 +29,10 @@ export const db = getFirestore(app);
 export async function addView(id) {
 
   // URLをFirestoreで使えるIDに変換
-  const safeId = btoa(id);
+  const safeId = btoa(id)
+  .replace(/\//g, "_")
+  .replace(/\+/g, "-")
+  .replace(/=+$/, "");
 
   const ref = doc(db, "views", safeId);
 
