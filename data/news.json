@@ -1,5 +1,165 @@
 [
   {
+    "title": "swarph-cli 0.41.1 リリース",
+    "summary": "swarph-cliのバージョン0.41.1が公開されました。主な更新内容にはバグ修正とパフォーマンスの改善が含まれており、ユーザーはより安定した操作体験を期待できます。詳細な変更点は公式リリースノートをご参照ください。",
+    "image": "null",
+    "url": "https://pypi.org/project/swarph-cli/0.41.1/",
+    "category": "AI",
+    "date": "2026-08-02T08:09:30.917Z"
+  },
+  {
+    "title": "タイトル: 軽量でS3互換のオブジェクトストレージサーバー公開",
+    "summary": "要約: 軽量設計のS3互換オブジェクトストレージサーバーが紹介されました。簡単にセットアップでき、AWS S3のAPIと互換性があり、小規模から中規模のストレージニーズに適しています。オープンソースで、ローカル環境やプライベートクラウドでの利用に最適です。",
+    "image": "https://raw.githubusercontent.com/Kodiqa-Solutions/VaultS3/main/assets/screenshots/dashboard-home-light.png",
+    "url": "https://vaults3.com/",
+    "category": "AI",
+    "date": "2026-08-02T08:09:30.917Z"
+  },
+  {
+    "title": "経済減速、拡大する戦争、進化するAI：未来を形作るストーリー",
+    "summary": "世界経済の減速や、地域紛争が拡大する可能性、そしてより高度になる人工知能（AI）といった複数の要素が、今後の社会や経済に大きな影響を与えると予測されている。これらの動向は政策決定や技術開発の方向性を左右し、私たちの暮らしやビジネス環境を根本的に変える可能性がある。",
+    "image": "https://www.livemint.com/lm-img/img/2026/08/01/1600x900/logo/USA-FED--3_1783129948831_1783129956800_43c23626-60b5-43a7-ab72-47638aca5738_1785569520617_e35f6303-90a6-4701-b915-c636428e66c5.JPG",
+    "url": "https://www.livemint.com/opinion/online-views/us-economy-west-asia-war-federal-reserve-rate-move-ai-models-11785563204200.html",
+    "category": "AI",
+    "date": "2026-08-02T08:09:30.916Z"
+  },
+  {
+    "title": "kanibako 1.8.0rc1 リリース",
+    "summary": "kanibakoのバージョン1.8.0rc1がリリースされました。このリリース候補は新機能の追加やバグ修正を含み、安定性とパフォーマンスの向上が期待されます。開発者やユーザーはテストを通じてフィードバックを提供し、正式版リリースに向けて準備が進められています。",
+    "image": "null",
+    "url": "https://pypi.org/project/kanibako/1.8.0rc1/",
+    "category": "AI",
+    "date": "2026-08-02T08:09:30.916Z"
+  },
+  {
+    "title": "memor-cli 0.10.1 リリース情報",
+    "summary": "memor-cliのバージョン0.10.1がリリースされました。今回のアップデートではバグ修正やパフォーマンスの向上が行われ、ユーザー体験が改善されています。詳細な変更点は公式リリースノートを参照してください。",
+    "image": "null",
+    "url": "https://pypi.org/project/memor-cli/0.10.1/",
+    "category": "AI",
+    "date": "2026-08-02T08:09:30.916Z"
+  },
+  {
+    "title": "クロードコードクリエイターのボリス・チャーニー氏、精度向上のためCLAUDE.md削除を推奨",
+    "summary": "クレイドの開発者ボリス・チャーニー氏は、より正確な結果を得るために「CLAUDE.md」というファイルの削除を勧めています。これはコード生成やAIの精度改善に寄与すると示唆されており、開発者コミュニティから注目されています。",
+    "image": "https://www.geeky-gadgets.com/wp-content/uploads/2026/07/boris-cherny-claude-code.jpg",
+    "url": "https://www.geeky-gadgets.com/delete-claude-md-files/",
+    "category": "Anthropic",
+    "date": "2026-08-02T08:09:30.916Z"
+  },
+  {
+    "title": "Android AutoとApple CarPlayを250マイル走行テスト、一押しはどちらか？",
+    "summary": "250マイルにわたりAndroid AutoとApple CarPlayの機能を比較テストしました。操作性や連携性、ナビゲーションの精度などを評価した結果、どちらか一方を継続して使いたいと思える製品が明確になりました。詳細はレビューで判明します。",
+    "image": "https://cdn.mos.cms.futurecdn.net/JNcguhia7tT8oqFPMWw8PC-2000-80.jpg",
+    "url": "https://www.techradar.com/vehicle-tech/car-infotainment/i-logged-250-miles-testing-android-auto-vs-apple-carplay-and-theres-one-im-going-to-stick-with",
+    "category": "AI",
+    "date": "2026-08-02T08:09:30.916Z"
+  },
+  {
+    "title": "タイトル: prompt-copilot-cli 0.1.8リリース",
+    "summary": "要約: prompt-copilot-cliのバージョン0.1.8が公開されました。この新バージョンでは、操作の安定性向上やバグ修正が行われ、ユーザー体験がさらに改善されています。CLIツールとしての利便性が増し、より効率的な作業が可能となっています。",
+    "image": "null",
+    "url": "https://pypi.org/project/prompt-copilot-cli/0.1.8/",
+    "category": "Microsoft",
+    "date": "2026-08-02T08:09:30.916Z"
+  },
+  {
+    "title": "june-openai-agents 0.1.0リリース",
+    "summary": "june-openai-agentsのバージョン0.1.0が公開されました。この新バージョンではOpenAIエージェントの基本機能が実装され、より効率的なAIタスク実行が可能となりました。開発者はこれを利用して様々なカスタムエージェントの作成が容易になります。今後のアップデートにも期待が高まっています。",
+    "image": "null",
+    "url": "https://pypi.org/project/june-openai-agents/0.1.0/",
+    "category": "OpenAI",
+    "date": "2026-08-02T08:09:30.916Z"
+  },
+  {
+    "title": "「june-openai-agents」がPyPIに追加",
+    "summary": "「june-openai-agents」がPythonの公式パッケージリポジトリPyPIに新たに公開されました。このパッケージはOpenAIのエージェント関連機能を提供し、開発者がより簡単にAIエージェントの実装や利用を行えるようになります。インストールや使用方法もPyPI経由で手軽に行えます。",
+    "image": "null",
+    "url": "https://pypi.org/project/june-openai-agents/",
+    "category": "OpenAI",
+    "date": "2026-08-02T08:09:30.916Z"
+  },
+  {
+    "title": "タイトル：Show HN: Wisp – Luaスクリプト対応のLinuxシェルと構造化パイプライン",
+    "summary": "要約：WispはLinux向けの新しいシェルで、Luaスクリプティングを組み込み、構造化されたパイプライン処理を特徴としています。これにより、従来のシェルよりも柔軟かつ効率的なコマンド実行とスクリプト作成が可能です。ユーザーは複雑な操作を簡単に自動化し、高度な処理を行えます。",
+    "image": "https://opengraph.githubassets.com/8bec9d41a2fd154b077f53a0ee46f145f1d93aadf832e369a7387a742c0b27bc/Hinikaa/wisp",
+    "url": "https://github.com/Hinikaa/wisp",
+    "category": "AI",
+    "date": "2026-08-02T08:09:30.916Z"
+  },
+  {
+    "title": "AgentSquid 0.1.2リリースのお知らせ",
+    "summary": "AgentSquidのバージョン0.1.2が公開されました。このアップデートでは、バグ修正とパフォーマンス改善が含まれており、より安定した動作が期待できます。開発者は最新バージョンへのアップデートを推奨しています。詳細な変更点は公式リリースノートで確認可能です。",
+    "image": "null",
+    "url": "https://pypi.org/project/agentsquid/0.1.2/",
+    "category": "AI",
+    "date": "2026-08-02T08:09:30.916Z"
+  },
+  {
+    "title": "railmux 0.3.0 リリース",
+    "summary": "railmuxのバージョン0.3.0がリリースされました。新機能の追加やバグ修正が行われ、パフォーマンスの向上が図られています。詳細な変更点や更新内容は公式リリースノートを参照してください。",
+    "image": "null",
+    "url": "https://pypi.org/project/railmux/0.3.0/",
+    "category": "AI",
+    "date": "2026-08-02T08:09:30.916Z"
+  },
+  {
+    "title": "llmai 0.3.6リリース",
+    "summary": "llmaiのバージョン0.3.6がリリースされました。このアップデートでは、機能の改善とバグ修正が行われており、より安定した動作が期待できます。詳細な変更点については公式ドキュメントを参照してください。",
+    "image": "null",
+    "url": "https://pypi.org/project/llmai/0.3.6/",
+    "category": "AI",
+    "date": "2026-08-02T08:09:30.916Z"
+  },
+  {
+    "title": "Atlassian-Skills 0.4.0 リリース",
+    "summary": "Atlassian-Skillsのバージョン0.4.0がリリースされました。このアップデートでは、新機能の追加や既存スキルの改善、バグ修正が行われ、ユーザー体験が向上しました。詳細な変更内容は公式ドキュメントで確認できます。",
+    "image": "null",
+    "url": "https://pypi.org/project/atlassian-skills/0.4.0/",
+    "category": "AI",
+    "date": "2026-08-02T08:09:30.916Z"
+  },
+  {
+    "title": "FlipkartとNetflixが提携した理由",
+    "summary": "FlipkartとNetflixは、顧客体験の向上と市場シェア拡大を目的に提携を発表しました。FlipkartのユーザーベースにNetflixのストリーミングサービスを提供し、両社のサービスを融合させることで、顧客への付加価値を高める狙いがあります。これにより、ショッピングとエンターテインメントが一体化した新たな体験を実現します。",
+    "image": "https://im.rediff.com/1200-630/movies/2026/aug/01flipkart-netflix.jpg",
+    "url": "https://www.rediff.com/movies/report/why-have-flipkart-netflix-tied-up/20260801.htm",
+    "category": "AI",
+    "date": "2026-08-02T08:09:30.916Z"
+  },
+  {
+    "title": "AgentSquid 0.1.2rc2リリース",
+    "summary": "AgentSquidのバージョン0.1.2rc2が公開されました。本リリースでは、バグ修正やパフォーマンスの向上が行われ、安定性が増しています。開発者とユーザーは最新バージョンへのアップデートを推奨されています。",
+    "image": "null",
+    "url": "https://pypi.org/project/agentsquid/0.1.2rc2/",
+    "category": "AI",
+    "date": "2026-08-02T08:09:30.916Z"
+  },
+  {
+    "title": "Google、「Pixel 11」シリーズの「Pixel Glow」機能は別名に変更か",
+    "summary": "GoogleのPixel 11シリーズに搭載予定の通知機能「Pixel Glow」は、正式リリース時に異なる名称になる可能性が高いと報告されている。この機能は端末の側面が光る仕組みを提供し、ユーザーに通知を視覚的に知らせるもので、ブランド戦略の一環として名称変更が検討されている模様だ。",
+    "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/Googles-Pixel-Glow-am-Pixel-11-wird-wohl-ganz-anders-heissen.jpg",
+    "url": "https://www.notebookcheck.net/Google-s-Pixel-Glow-feature-on-the-Pixel-11-series-will-likely-have-a-completely-different-name.1357679.0.html",
+    "category": "Google",
+    "date": "2026-08-02T08:09:30.916Z"
+  },
+  {
+    "title": "nerva-core 0.4.0リリース",
+    "summary": "nerva-coreのバージョン0.4.0がリリースされました。本バージョンでは、パフォーマンス改善やバグ修正、新機能の追加が行われ、より安定した動作が可能になっています。ユーザー体験の向上が図られており、システムの信頼性も向上しました。",
+    "image": "null",
+    "url": "https://pypi.org/project/nerva-core/0.4.0/",
+    "category": "AI",
+    "date": "2026-08-02T08:09:30.916Z"
+  },
+  {
+    "title": "AIソリューション提供者を狙うフィッシングキャンペーン",
+    "summary": "最新のフィッシングキャンペーンが、AIソリューションを提供する企業を標的に行われています。攻撃者は偽のメールやウェブサイトを使い、機密情報や認証情報を盗み取ろうとしています。企業はセキュリティ対策の強化と従業員教育の徹底が求められています。",
+    "image": "https://isc.sans.edu/diaryimages/images/isc-20260801-1.png",
+    "url": "https://isc.sans.edu/diary/33206",
+    "category": "AI",
+    "date": "2026-08-02T08:09:30.916Z"
+  },
+  {
     "title": "openapi-ai-sdkがPyPIに追加されました",
     "summary": "新しいPythonパッケージ「openapi-ai-sdk」がPythonのパッケージリポジトリPyPIに公開されました。これにより、開発者は簡単にこのSDKをインストールしてAI APIとの連携を行うことが可能になります。",
     "image": "null",

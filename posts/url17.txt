@@ -1,1 +1,1 @@
-https://pypi.org/project/openapi-ai-sdk/
+https://isc.sans.edu/diary/33206

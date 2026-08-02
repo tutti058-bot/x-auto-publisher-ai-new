@@ -1,1 +1,1 @@
-https://pypi.org/project/rapid-mlx/0.11.5/
+https://pypi.org/project/june-openai-agents/

@@ -1,1 +1,1 @@
-https://github.com/TAJD/economist-style-guide-plugin
+https://pypi.org/project/atlassian-skills/0.4.0/

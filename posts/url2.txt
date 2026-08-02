@@ -1,1 +1,1 @@
-http://www.lemis.com/grog/diary-jul2026.php?topics=c#D-20260801-023205
+https://pypi.org/project/memor-cli/0.10.1/

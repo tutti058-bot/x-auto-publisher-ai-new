@@ -1,1 +1,1 @@
-https://pypi.org/project/odoo-mcp-multi/0.14.0/
+https://pypi.org/project/nerva-core/0.4.0/

@@ -1,1 +1,1 @@
-https://www.cnet.com/tech/gaming/todays-nyt-mini-crossword-answers-for-saturday-aug-1/
+https://pypi.org/project/prompt-copilot-cli/0.1.8/

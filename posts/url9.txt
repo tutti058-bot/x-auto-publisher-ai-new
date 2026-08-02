@@ -1,1 +1,1 @@
-https://thoughtcatalog.com/nicole-stawiarski/2026/08/4-zodiacs-about-to-make-a-relationship-pivot/
+https://pypi.org/project/agentsquid/0.1.2/

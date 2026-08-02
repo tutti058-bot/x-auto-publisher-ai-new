@@ -1,1 +1,1 @@
-https://www.digitaldigging.org/p/how-to-plant-a-nuclear-plant-in-iran
+https://pypi.org/project/llmai/0.3.6/
