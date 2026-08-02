@@ -1,1 +1,1 @@
-https://pypi.org/project/agentsquid/0.1.2rc2/
+https://pypi.org/project/prompt-copilot-cli/0.1.9/

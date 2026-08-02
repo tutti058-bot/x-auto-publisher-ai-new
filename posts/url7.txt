@@ -1,1 +1,1 @@
-https://pypi.org/project/june-openai-agents/
+https://pypi.org/project/wavedesk/

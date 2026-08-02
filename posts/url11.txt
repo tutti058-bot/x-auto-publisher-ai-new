@@ -1,1 +1,1 @@
-https://pypi.org/project/llmai/0.3.6/
+https://pypi.org/project/claude-web-ui/2.1.2/

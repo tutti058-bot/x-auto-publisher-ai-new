@@ -1,1 +1,1 @@
-https://www.geeky-gadgets.com/delete-claude-md-files/
+https://pypi.org/project/cognocient/0.1.0/
