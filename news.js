@@ -11,50 +11,90 @@ async function loadNews() {
   const item = news[id];
 
   if (!item) {
+
     document.body.innerHTML =
       "<h1 style='text-align:center;margin-top:100px;'>記事が見つかりません。</h1>";
+
     return;
+
   }
 
-  // 閲覧数を追加
+  // 閲覧数
   if (item.url) {
+
     await addView(item.url);
+
   }
 
+  // タイトル
   document.getElementById("title").textContent = item.title;
-document.getElementById("summary").textContent = item.summary;
 
-// 日付表示
-if (item.date) {
-  document.getElementById("date").textContent =
-    new Date(item.date).toLocaleString("ja-JP", {
-      year: "numeric",
-      month: "long",
-      day: "numeric",
-      hour: "2-digit",
-      minute: "2-digit"
-    });
-}
+  // 要約
+  document.getElementById("summary").textContent = item.summary;
 
-// カテゴリ表示
-document.getElementById("category").textContent =
-  item.category || "AI";
+  // カテゴリ
+  document.getElementById("category").textContent =
+    item.category || "AI";
 
-  document.getElementById("original-link").href = item.url;
+  // 日付
+  if (item.date) {
 
-  const image = document.getElementById("hero-image");
+    document.getElementById("date").textContent =
+      new Date(item.date).toLocaleString("ja-JP", {
 
-if (item.image && item.image !== "null") {
+        year: "numeric",
+        month: "long",
+        day: "numeric",
+        hour: "2-digit",
+        minute: "2-digit"
 
-    image.src = item.image;
+      });
 
-} else {
+  }
 
-    image.src = "images/no-image.jpg";
+    // 元記事ボタン
+  const originalLink = document.getElementById("original-link");
 
-}
+  if (originalLink) {
 
-image.alt = item.title;
+    originalLink.href = item.url;
+    originalLink.target = "_blank";
+
+  }
+
+  // 本文
+  const articleBody = document.getElementById("article-body");
+
+  if (articleBody) {
+
+    articleBody.innerHTML = `
+      <p>${item.summary}</p>
+
+      <p style="margin-top:25px;">
+        詳細は元記事をご確認ください。
+      </p>
+    `;
+
+  }
+
+  // メイン画像
+  const heroImage = document.getElementById("hero-image");
+
+  if (heroImage) {
+
+    if (item.image && item.image !== "null") {
+
+      heroImage.src = item.image;
+
+    } else {
+
+      heroImage.src = "images/hero-bg.jpg";
+
+    }
+
+    heroImage.alt = item.title;
+
+  }
 
   // SEO
   document.title = item.title + " | AI NEWS";
@@ -62,95 +102,171 @@ image.alt = item.title;
   const meta = document.querySelector('meta[name="description"]');
 
   if (meta) {
+
     meta.setAttribute(
       "content",
       item.summary.substring(0, 120)
     );
+
   }
 
-  // 関連記事
-  showRelated(news, item);
+    // 前の記事
+  const prev = document.getElementById("prev-post");
+
+  if (prev) {
+
+    if (id > 0) {
+
+      prev.href = `news.html?id=${id - 1}`;
+
+    } else {
+
+      prev.style.display = "none";
+
+    }
+
+  }
+
+  // 次の記事
+  const next = document.getElementById("next-post");
+
+  if (next) {
+
+    if (id < news.length - 1) {
+
+      next.href = `news.html?id=${id + 1}`;
+
+    } else {
+
+      next.style.display = "none";
+
+    }
+
+  }
 
   // Xで共有
-document.getElementById("share-x").onclick = () => {
+  const shareX = document.getElementById("share-x");
 
-  const text = `${item.title}\n\n${window.location.href}`;
+  if (shareX) {
 
-  window.open(
-    `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`,
-    "_blank"
-  );
+    shareX.onclick = () => {
 
-};
+      const text = `${item.title}\n\n${window.location.href}`;
 
-// LINEで共有
-document.getElementById("share-line").onclick = () => {
+      window.open(
+        `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`,
+        "_blank"
+      );
 
-  window.open(
-    `https://social-plugins.line.me/lineit/share?url=${encodeURIComponent(window.location.href)}`,
-    "_blank"
-  );
+    };
 
-};
+  }
 
-// Facebookで共有
-document.getElementById("share-facebook").onclick = () => {
+  // Facebookで共有
+  const shareFacebook = document.getElementById("share-facebook");
 
-  window.open(
-    `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(window.location.href)}`,
-    "_blank"
-  );
+  if (shareFacebook) {
 
-};
+    shareFacebook.onclick = () => {
 
-}
+      window.open(
+        `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(window.location.href)}`,
+        "_blank"
+      );
 
-// 関連記事表示
+    };
+
+  }
+
+  // LINEで共有
+  const shareLine = document.getElementById("share-line");
+
+  if (shareLine) {
+
+    shareLine.onclick = () => {
+
+      window.open(
+        `https://social-plugins.line.me/lineit/share?url=${encodeURIComponent(window.location.href)}`,
+        "_blank"
+      );
+
+    };
+
+  }
+
+    // 関連記事
+  showRelated(news, item);
+
+} // ← loadNews終了
+
+
+// ======================
+// 関連記事
+// ======================
+
 function showRelated(news, currentItem) {
-
-  const related = news
-    .filter(item =>
-      item.category === currentItem.category &&
-      item.url !== currentItem.url
-    )
-    .slice(0, 3);
 
   const box = document.getElementById("related-list");
 
   if (!box) return;
 
+  const currentIndex = news.findIndex(
+    n => n.url === currentItem.url
+  );
+
+  const related = news
+    .filter((item, index) => {
+
+      return (
+        index !== currentIndex &&
+        item.category === currentItem.category
+      );
+
+    })
+    .slice(0, 3);
+
   if (related.length === 0) {
+
     box.innerHTML = "<p>関連記事はありません。</p>";
+
     return;
+
   }
 
   let html = "";
 
   related.forEach(item => {
 
-    const index = news.findIndex(n => n.url === item.url);
+    const index = news.findIndex(
+      n => n.url === item.url
+    );
+
+    const image =
+      item.image && item.image !== "null"
+        ? item.image
+        : "images/hero-bg.jpg";
 
     html += `
-      <div class="related-card">
 
-        <img src="${item.image && item.image !== "null" ? item.image : "images/hero-bg.jpg"}" alt="${item.title}">
+<div class="related-card">
 
-        <div class="related-content">
+<a href="news.html?id=${index}">
 
-          <h3>
-            <a href="news.html?id=${index}">
-              ${item.title}
-            </a>
-          </h3>
+<img src="${image}" alt="${item.title}">
 
-          <p>
-            ${item.summary.substring(0, 100)}...
-          </p>
+<div>
 
-        </div>
+<h3>${item.title}</h3>
 
-      </div>
-    `;
+<p>${item.summary.substring(0,80)}...</p>
+
+</div>
+
+</a>
+
+</div>
+
+`;
 
   });
 
@@ -158,9 +274,15 @@ function showRelated(news, currentItem) {
 
 }
 
+// ======================
+// 実行
+// ======================
+
 loadNews();
 
 // ダークモード復元
 if (localStorage.getItem("theme") === "dark") {
-    document.body.classList.add("dark");
+
+  document.body.classList.add("dark");
+
 }
