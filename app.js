@@ -120,7 +120,7 @@ function searchNews() {
 
   renderNews(filteredNews);
 
-}function renderPagination(total) {
+function renderPagination(total) {
 
   let nav = document.getElementById("pagination");
 
@@ -144,16 +144,45 @@ function searchNews() {
     `;
   }
 
-  for (let i = 1; i <= pages; i++) {
+  const start = Math.max(1, currentPage - 1);
+  const end = Math.min(pages, currentPage + 1);
+
+  if (start > 1) {
+    nav.innerHTML += `
+      <button onclick="changePage(1)">1</button>
+    `;
+
+    if (start > 2) {
+      nav.innerHTML += `<span style="margin:0 8px;">…</span>`;
+    }
+  }
+
+  for (let i = start; i <= end; i++) {
 
     nav.innerHTML += `
       <button
         onclick="changePage(${i})"
-        style="${i === currentPage ? "font-weight:bold;background:#2563eb;color:#fff;" : ""}">
+        style="
+          margin:0 4px;
+          ${i === currentPage ? "font-weight:bold;background:#2563eb;color:#fff;" : ""}
+        ">
         ${i}
       </button>
     `;
 
+  }
+
+  if (end < pages) {
+
+    if (end < pages - 1) {
+      nav.innerHTML += `<span style="margin:0 8px;">…</span>`;
+    }
+
+    nav.innerHTML += `
+      <button onclick="changePage(${pages})">
+        ${pages}
+      </button>
+    `;
   }
 
   if (currentPage < pages) {
@@ -165,7 +194,6 @@ function searchNews() {
   }
 
 }
-
 function changePage(page) {
 
   currentPage = page;
@@ -308,6 +336,3 @@ function scrollRanking() {
 
 }
 
-window.changePage = changePage;
-window.filterNews = filterNews;
-window.scrollRanking = scrollRanking;
