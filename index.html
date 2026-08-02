@@ -1,332 +1,544 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta name="google-site-verification" content="q32C9II99s52eLn7AgCdhIt6j3aRMIA82mfJ4vjyKQA" />
+<meta name="google-site-verification" content="q32C9II99s52eLn7AgCdhIt6j3aRMIA82mfJ4vjyKQA">
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-6MRVP27M7D"></script>
+
 <script>
-window.dataLayer = window.dataLayer || [];
+window.dataLayer=window.dataLayer||[];
 function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'G-6MRVP27M7D');
+gtag('js',new Date());
+gtag('config','G-6MRVP27M7D');
 </script>
 
 <title>AI NEWS</title>
 
 <meta
 name="description"
-content="AIニュースをわかりやすく紹介するサイトです。">
+content="世界のAIニュースをリアルタイムでお届け">
 
 <style>
 
-  .side-menu{
-    position:fixed;
-    top:0;
-    right:-320px;
-    width:300px;
-    height:100%;
-    background:#111827;
-    padding-top:80px;
-    transition:.3s;
-    z-index:10000;
-    box-shadow:-5px 0 20px rgba(0,0,0,.2);
-}
-
-.side-menu.open{
-    right:0;
-}
-
-.side-menu a{
-    display:block;
-    color:#fff;
-    text-decoration:none;
-    padding:18px 25px;
-    border-bottom:1px solid rgba(255,255,255,.1);
-    font-size:17px;
-    transition:.2s;
-}
-
-.side-menu a:hover{
-    background:#2563eb;
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
 }
 
 body{
-margin:0;
-font-family:sans-serif;
-background:#f5f5f5;
-}
-
-header{
-background:#111827;
-color:#fff;
-padding:20px;
-text-align:center;
-}
-
-#news-list{
-width:90%;
-max-width:900px;
-margin:30px auto;
-}
-
-.card{
-background:#fff;
-border-radius:12px;
-overflow:hidden;
-box-shadow:0 5px 15px rgba(0,0,0,.1);
-margin-bottom:30px;
-}
-
-.card img{
-width:100%;
-display:block;
-}
-
-.content{
-padding:20px;
-}
-
-.title{
-font-size:28px;
-font-weight:bold;
-margin-bottom:15px;
-}
-
-.desc{
-line-height:1.8;
-}
-
-#pagination{
-text-align:center;
-margin:40px 0;
-}
-
-#pagination button{
-padding:10px 16px;
-margin:4px;
-border:none;
-border-radius:8px;
-background:#2563eb;
-color:#fff;
-cursor:pointer;
-font-size:15px;
-}
-
-#pagination button:hover{
-opacity:.8;
-}
-
-#ranking{
-width:90%;
-max-width:900px;
-margin:25px auto;
-background:#fff;
-border-radius:12px;
-padding:20px;
-box-shadow:0 5px 15px rgba(0,0,0,.08);
-}
-
-#ranking h2{
-margin:0 0 15px;
-}
-
-.rank-item{
-padding:12px 0;
-border-bottom:1px solid #eee;
-}
-
-.rank-item:last-child{
-border-bottom:none;
-}
-
-.rank-title{
-font-weight:bold;
-}
-
-.rank-title a{
-text-decoration:none;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+background:#f5f7fb;
 color:#111827;
 }
 
-.rank-view{
-color:#666;
-font-size:14px;
-}
-
-.ranking-title{
-    font-size:28px;
-    font-weight:bold;
-    margin-bottom:20px;
-}
-
-.rank-card{
-    display:flex;
-    align-items:center;
-    gap:15px;
-    background:#fff;
-    border-radius:12px;
-    padding:18px;
-    margin-bottom:15px;
-    box-shadow:0 3px 10px rgba(0,0,0,.08);
-    transition:.2s;
-}
-
-.rank-card:hover{
-    transform:translateY(-2px);
-    box-shadow:0 8px 20px rgba(0,0,0,.12);
-}
-
-.rank-no{
-    font-size:34px;
-    width:60px;
-    text-align:center;
-}
-
-.gold{
-    background:#FFF8E1;
-}
-
-.silver{
-    background:#F5F5F5;
-}
-
-.bronze{
-    background:#FBE9E7;
-}
-
-.rank-info{
-    flex:1;
-}
-
-.rank-info a{
-    color:#111827;
-    text-decoration:none;
-    font-size:18px;
-    font-weight:bold;
-}
-
-.rank-info a:hover{
-    color:#2563eb;
-}
-
-.rank-view{
-    margin-top:8px;
-    color:#666;
-    font-size:14px;
+a{
+text-decoration:none;
+color:inherit;
 }
 
 .site-header{
-    position:sticky;
-    top:0;
-    z-index:9999;
-    background:#111827;
-    padding:14px 0;
-    text-align:center;
-    box-shadow:0 3px 10px rgba(0,0,0,.15);
-}
-
-.logo img{
-    width:280px;
-    max-width:90%;
-    height:auto;
-}
-
-.site-header{
-    position:sticky;
-    top:0;
-    z-index:9999;
-    background:#111827;
-    box-shadow:0 4px 15px rgba(0,0,0,.15);
+position:sticky;
+top:0;
+z-index:9999;
+background:#111827;
+box-shadow:0 4px 18px rgba(0,0,0,.18);
 }
 
 .header-inner{
-    max-width:1200px;
-    margin:auto;
-    padding:12px 20px;
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
+max-width:1300px;
+margin:auto;
+padding:14px 24px;
+display:flex;
+justify-content:space-between;
+align-items:center;
 }
 
 .logo img{
-    width:180px;
-    display:block;
+width:180px;
+display:block;
 }
 
 .header-icons{
-    display:flex;
-    gap:10px;
+display:flex;
+gap:12px;
 }
 
 .header-icons button{
-    width:42px;
-    height:42px;
-    border:none;
-    border-radius:10px;
-    background:#1f2937;
-    color:#fff;
-    font-size:18px;
-    cursor:pointer;
-    transition:.2s;
+width:42px;
+height:42px;
+border:none;
+border-radius:12px;
+background:#1f2937;
+color:#fff;
+font-size:18px;
+cursor:pointer;
+transition:.25s;
 }
 
 .header-icons button:hover{
-    background:#2563eb;
-    transform:translateY(-2px);
+background:#2563eb;
+transform:translateY(-2px);
 }
 
-@media(max-width:768px){
-
-.logo img{
-    width:150px;
+.side-menu{
+position:fixed;
+top:0;
+right:-320px;
+width:300px;
+height:100%;
+background:#111827;
+padding-top:90px;
+transition:.3s;
+z-index:10000;
+box-shadow:-10px 0 30px rgba(0,0,0,.25);
 }
 
-.header-icons button{
-    width:38px;
-    height:38px;
-    font-size:16px;
+.side-menu.open{
+right:0;
 }
+
+.side-menu a{
+display:block;
+padding:18px 28px;
+color:#fff;
+border-bottom:1px solid rgba(255,255,255,.08);
+transition:.25s;
+}
+
+.side-menu a:hover{
+background:#2563eb;
+}
+
+.hero{
+
+max-width:1200px;
+margin:35px auto;
+
+padding:70px 50px;
+
+border-radius:30px;
+
+background:
+linear-gradient(135deg,#111827,#1d4ed8);
+
+color:#fff;
+
+text-align:center;
+
+box-shadow:
+0 20px 45px rgba(37,99,235,.25);
+
+}
+
+.hero h1{
+
+font-size:56px;
+
+font-weight:800;
+
+margin-bottom:18px;
+
+}
+
+.hero p{
+
+font-size:22px;
+
+line-height:1.8;
+
+opacity:.95;
+
+margin-bottom:35px;
+
+}
+
+.hero-badge{
+
+display:flex;
+
+justify-content:center;
+
+gap:14px;
+
+flex-wrap:wrap;
+
+}
+
+.hero-badge span{
+
+background:rgba(255,255,255,.18);
+
+padding:12px 22px;
+
+border-radius:999px;
+
+backdrop-filter:blur(10px);
+
+font-weight:700;
+
+}
+
+#search{
+
+width:90%;
+
+max-width:950px;
+
+display:block;
+
+margin:35px auto;
+
+padding:20px 24px;
+
+border:none;
+
+border-radius:20px;
+
+font-size:18px;
+
+background:#fff;
+
+box-shadow:0 12px 35px rgba(0,0,0,.08);
+
+outline:none;
+
+transition:.3s;
+
+}
+
+#search:focus{
+
+transform:translateY(-2px);
+
+box-shadow:
+0 0 0 4px rgba(37,99,235,.15),
+0 18px 40px rgba(37,99,235,.18);
+
+}
+
+.category-buttons{
+
+display:flex;
+
+justify-content:center;
+
+flex-wrap:wrap;
+
+gap:14px;
+
+margin:35px auto;
+
+}
+
+.category-buttons button{
+
+border:none;
+
+border-radius:999px;
+
+padding:12px 22px;
+
+color:#fff;
+
+font-size:15px;
+
+font-weight:700;
+
+cursor:pointer;
+
+transition:.25s;
+
+box-shadow:0 6px 18px rgba(0,0,0,.12);
+
+}
+
+.category-buttons button:hover{
+
+transform:translateY(-4px) scale(1.05);
+
+box-shadow:0 12px 30px rgba(0,0,0,.18);
+
+}
+
+.category-buttons button:nth-child(1){background:#111827;}
+.category-buttons button:nth-child(2){background:#10A37F;}
+.category-buttons button:nth-child(3){background:#4285F4;}
+.category-buttons button:nth-child(4){background:#7C3AED;}
+.category-buttons button:nth-child(5){background:#F25022;}
+.category-buttons button:nth-child(6){background:#1877F2;}
+.category-buttons button:nth-child(7){background:#000;}
+
+#ranking{
+
+width:90%;
+
+max-width:950px;
+
+margin:35px auto;
+
+padding:25px;
+
+background:#fff;
+
+border-radius:22px;
+
+box-shadow:0 12px 35px rgba(0,0,0,.08);
+
+}
+
+.ranking-title{
+
+font-size:28px;
+
+font-weight:800;
+
+margin-bottom:25px;
+
+}
+
+.rank-card{
+
+display:flex;
+
+align-items:center;
+
+gap:18px;
+
+padding:20px;
+
+border-radius:18px;
+
+margin-bottom:16px;
+
+background:#fff;
+
+box-shadow:0 8px 25px rgba(0,0,0,.08);
+
+transition:.25s;
+
+}
+
+.rank-card:hover{
+
+transform:translateY(-3px);
+
+box-shadow:0 16px 35px rgba(0,0,0,.15);
+
+}
+
+.rank-no{
+
+font-size:34px;
+
+width:60px;
+
+text-align:center;
+
+}
+
+.gold{background:#FFF8E1;}
+.silver{background:#F5F5F5;}
+.bronze{background:#FBE9E7;}
+
+.rank-info{
+
+flex:1;
+
+}
+
+.rank-info a{
+
+font-size:18px;
+
+font-weight:700;
+
+}
+
+.rank-view{
+
+margin-top:8px;
+
+color:#666;
+
+font-size:14px;
+
+}
+
+#news-list{
+
+width:90%;
+
+max-width:950px;
+
+margin:35px auto;
+
+}
+
+.card{
+
+background:#fff;
+
+border-radius:24px;
+
+overflow:hidden;
+
+box-shadow:0 12px 35px rgba(0,0,0,.08);
+
+margin-bottom:35px;
+
+transition:.25s;
+
+}
+
+.card:hover{
+
+transform:translateY(-4px);
+
+box-shadow:0 20px 45px rgba(0,0,0,.15);
+
+}
+
+.card img{
+
+width:100%;
+
+display:block;
+
+}
+
+.content{
+
+padding:28px;
+
+}
+
+.title{
+
+font-size:30px;
+
+font-weight:800;
+
+margin-bottom:18px;
+
+line-height:1.4;
+
+}
+
+.desc{
+
+line-height:1.9;
+
+color:#4b5563;
+
+}
+
+#pagination{
+
+text-align:center;
+
+margin:50px 0;
+
+}
+
+#pagination button{
+
+padding:12px 18px;
+
+border:none;
+
+border-radius:12px;
+
+margin:4px;
+
+background:#2563eb;
+
+color:#fff;
+
+cursor:pointer;
+
+font-weight:700;
 
 }
 
 body.dark{
-    background:#0f172a;
-    color:#f8fafc;
+
+background:#0f172a;
+
+color:#fff;
+
 }
 
-body.dark .container{
-    background:#1e293b;
-    color:#fff;
+body.dark .card,
+body.dark #ranking{
+
+background:#1e293b;
+
+color:#fff;
+
 }
 
-body.dark .card{
-    background:#1e293b;
-    color:#fff;
+body.dark .desc{
+
+color:#d1d5db;
+
 }
 
-body.dark .rank-item{
-    background:#1e293b !important;
+@media(max-width:768px){
+
+.hero{
+
+padding:40px 20px;
+
 }
 
-body.dark input{
-    background:#111827;
-    color:#fff;
-    border:1px solid #374151;
+.hero h1{
+
+font-size:38px;
+
 }
 
-body.dark h1,
-body.dark h2,
-body.dark h3,
-body.dark p,
-body.dark a{
-    color:#fff;
+.hero p{
+
+font-size:18px;
+
+}
+
+.logo img{
+
+width:150px;
+
+}
+
+.header-icons button{
+
+width:38px;
+
+height:38px;
+
+}
+
+.title{
+
+font-size:24px;
+
+}
+
+.rank-card{
+
+display:block;
+
+text-align:center;
+
+}
+
 }
 
 </style>
-
 
 </head>
 
@@ -341,13 +553,9 @@ body.dark a{
 </a>
 
 <div class="header-icons">
-
 <button id="search-btn">🔍</button>
-
 <button id="dark-btn">🌙</button>
-
 <button id="menu-btn">☰</button>
-
 </div>
 
 </div>
@@ -357,39 +565,47 @@ body.dark a{
 <div id="side-menu" class="side-menu">
 
 <a href="index.html">🏠 ホーム</a>
-
 <a href="#" onclick="filterNews('ALL');closeMenu();">📰 すべて</a>
-
 <a href="#" onclick="filterNews('OpenAI');closeMenu();">🤖 OpenAI</a>
-
 <a href="#" onclick="filterNews('Google');closeMenu();">💎 Google</a>
-
 <a href="#" onclick="filterNews('Anthropic');closeMenu();">🟣 Anthropic</a>
-
 <a href="#" onclick="filterNews('Microsoft');closeMenu();">🪟 Microsoft</a>
-
 <a href="#" onclick="filterNews('Meta');closeMenu();">🦙 Meta</a>
-
 <a href="#" onclick="filterNews('xAI');closeMenu();">🚀 xAI</a>
-
 <a href="#" onclick="scrollRanking();closeMenu();">🔥 人気ランキング</a>
 
 </div>
 
+<section class="hero">
 
-<div style="width:90%;max-width:900px;margin:20px auto;">
+<h1>🤖 AI NEWS</h1>
+
+<p>
+
+世界のAIニュースを<br>
+
+リアルタイムで配信
+
+</p>
+
+<div class="hero-badge">
+
+<span>🚀 毎日自動更新</span>
+
+<span>⚡ AI要約</span>
+
+<span>🌎 世界のAI情報</span>
+
+</div>
+
+</section>
 
 <input
 type="text"
 id="search"
-placeholder="🔍 ニュースを検索..."
-style="width:100%;padding:15px;font-size:16px;border-radius:10px;border:1px solid #ccc;">
+placeholder="🔍 AIニュースを検索...">
 
-</div>
-
-<div
-id="category-buttons"
-style="text-align:center;margin:30px 0;display:flex;flex-wrap:wrap;gap:10px;justify-content:center;">
+<div class="category-buttons">
 
 <button onclick="filterNews('ALL')">🤖 すべて</button>
 <button onclick="filterNews('OpenAI')">💬 OpenAI</button>
