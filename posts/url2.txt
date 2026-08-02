@@ -1,1 +1,1 @@
-https://cryptobriefing.com/reddit-ceo-huffman-critiques-google-ai-overviews/
+https://pypi.org/project/cognocient/0.1.2/

@@ -1,1 +1,1 @@
-https://forkast.news/monday-com-just-changed-how-enterprise-saas-gets-priced-the-per-seat-model-is-not-coming-back/
+https://pypi.org/project/inis-openai-agents/

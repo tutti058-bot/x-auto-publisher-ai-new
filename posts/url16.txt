@@ -1,1 +1,1 @@
-https://www.cnbc.com/2026/08/01/open-ai-hugging-face-hack-cyber-warnings.html
+https://pypi.org/project/horus-harness/0.0.80/

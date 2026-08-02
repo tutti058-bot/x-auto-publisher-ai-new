@@ -1,1 +1,1 @@
-https://pypi.org/project/contextbase-plugin-claude-local/0.5.15/
+https://pypi.org/project/trace2train/

@@ -1,1 +1,1 @@
-https://slashdot.org/firehose.pl?op=view&amp;id=184800876
+https://pypi.org/project/clawmetry/0.12.622/

@@ -1,1 +1,1 @@
-https://timesofindia.indiatimes.com/education/news/cma-december-2026-registration-deadline-extended-to-august-4-check-direct-link-to-apply-here/articleshow/132789167.cms
+https://pypi.org/project/aegis-harness/0.29.0/

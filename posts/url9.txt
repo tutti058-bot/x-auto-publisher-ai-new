@@ -1,1 +1,1 @@
-https://github.com/pochenai/nano-llm-posttraining
+https://pypi.org/project/cdy-agent/

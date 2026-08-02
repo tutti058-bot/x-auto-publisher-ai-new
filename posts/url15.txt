@@ -1,1 +1,1 @@
-https://timesofindia.indiatimes.com/city/mangaluru/senior-citizen-loses-16-2-lakh-in-online-investment-scam/articleshow/132789235.cms
+https://pypi.org/project/jupyterlab-claude-code-extension/1.2.72/

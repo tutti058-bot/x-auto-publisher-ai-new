@@ -1,1 +1,1 @@
-https://timesofindia.indiatimes.com/city/coimbatore/thoppu-venkatachalam-removed-from-dmk-erode-central-district-secretary-post/articleshow/132789306.cms
+https://pypi.org/project/cdy-agent/0.1.0/

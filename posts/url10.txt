@@ -1,1 +1,1 @@
-https://www.xda-developers.com/tested-local-llms-nas-smart-home-automation-one-didnt-fall-apart/
+https://pypi.org/project/accountingqb/3.5.4/
