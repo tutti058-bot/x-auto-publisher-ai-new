@@ -9,50 +9,196 @@
 
 <title>AI NEWS 管理画面</title>
 
+<link rel="icon" href="images/favicon.png">
+
 <style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
 
 body{
 
-font-family:sans-serif;
-background:#f5f7fb;
-margin:0;
-padding:30px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+background:#0f172a;
+color:#fff;
+
+}
+
+header{
+
+position:sticky;
+top:0;
+background:#111827;
+padding:18px 30px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+border-bottom:1px solid rgba(255,255,255,.08);
+z-index:1000;
+
+}
+
+.logo img{
+
+width:180px;
+height:auto;
+display:block;
+
+}
+
+.home{
+
+color:#fff;
+text-decoration:none;
+font-weight:bold;
+
+}
+
+.container{
+
+max-width:1200px;
+margin:auto;
+padding:40px 20px;
 
 }
 
 h1{
 
-color:#111827;
-margin-bottom:25px;
+font-size:36px;
+margin-bottom:30px;
 
 }
 
-.card{
+.toolbar{
 
-background:#fff;
-padding:20px;
-margin-bottom:20px;
-border-radius:12px;
-box-shadow:0 5px 15px rgba(0,0,0,.08);
+display:flex;
+gap:15px;
+flex-wrap:wrap;
+margin-bottom:30px;
 
 }
 
 button{
 
-padding:10px 18px;
-border:none;
-border-radius:8px;
 background:#2563eb;
 color:#fff;
+border:none;
+padding:12px 22px;
+border-radius:10px;
+font-size:15px;
 cursor:pointer;
-margin-right:10px;
-margin-top:10px;
+transition:.2s;
 
 }
 
 button:hover{
 
-opacity:.9;
+background:#1d4ed8;
+
+}
+
+.card{
+
+background:#1f2937;
+border-radius:18px;
+padding:25px;
+margin-bottom:25px;
+box-shadow:0 10px 30px rgba(0,0,0,.25);
+
+}
+
+.card h2{
+
+font-size:24px;
+margin-bottom:15px;
+color:#fff;
+
+}
+
+.card p{
+
+color:#d1d5db;
+line-height:1.8;
+margin-bottom:15px;
+
+}
+
+.card small{
+
+color:#9ca3af;
+display:block;
+margin-bottom:15px;
+
+}
+
+.actions{
+
+display:flex;
+gap:12px;
+flex-wrap:wrap;
+
+}
+
+.actions button{
+
+margin:0;
+
+}
+
+#news-list{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(340px,1fr));
+gap:25px;
+
+}
+
+@media(max-width:768px){
+
+header{
+
+padding:15px;
+
+}
+
+.logo img{
+
+width:150px;
+
+}
+
+.container{
+
+padding:25px 15px;
+
+}
+
+h1{
+
+font-size:28px;
+
+}
+
+#news-list{
+
+grid-template-columns:1fr;
+
+}
+
+button{
+
+width:100%;
+
+}
+
+.toolbar{
+
+flex-direction:column;
+
+}
 
 }
 
@@ -62,9 +208,27 @@ opacity:.9;
 
 <body>
 
+<header>
+
+<a href="index.html" class="logo">
+
+<img src="images/header-logo.png" alt="AI NEWS">
+
+</a>
+
+<a href="index.html" class="home">
+
+🏠 ホーム
+
+</a>
+
+</header>
+
+<div class="container">
+
 <h1>🤖 AI NEWS 管理画面</h1>
 
-<div style="margin:25px 0;display:flex;gap:15px;flex-wrap:wrap;">
+<div class="toolbar">
 
 <button onclick="showToday()">
 📰 今日の記事
@@ -80,7 +244,17 @@ opacity:.9;
 
 </div>
 
-<div id="news-list"></div>
+<div id="news-list">
+
+<div style="text-align:center;padding:60px 20px;color:#9ca3af;">
+
+記事を読み込み中...
+
+</div>
+
+</div>
+
+</div>
 
 <script src="admin.js"></script>
 
