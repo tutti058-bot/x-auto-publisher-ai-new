@@ -77,9 +77,29 @@ box-shadow:0 5px 20px rgba(0,0,0,.15);
 
 .logo{
 
-font-size:28px;
+display:flex;
+
+align-items:center;
+
+gap:12px;
+
+font-size:34px;
 
 font-weight:800;
+
+color:#fff;
+
+text-decoration:none;
+
+}
+
+.logo img{
+
+width:42px;
+
+height:42px;
+
+object-fit:contain;
 
 }
 
@@ -388,7 +408,8 @@ flex-direction:column;
 <header>
 
 <a href="index.html" class="logo">
-🤖 AI NEWS
+    <img src="images/logo.png" alt="AI NEWS">
+    <span>AI NEWS</span>
 </a>
 
 <a href="index.html" class="home-btn">
