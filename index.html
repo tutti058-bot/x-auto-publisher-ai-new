@@ -561,11 +561,17 @@ input{
 
 #news-list{
 
-    width:90%;
+    width:92%;
 
-    max-width:950px;
+    max-width:1400px;
 
     margin:40px auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:28px;
 
 }
 
@@ -582,6 +588,12 @@ input{
     margin-bottom:35px;
 
     transition:.25s;
+
+    display:flex;
+
+    flex-direction:column;
+
+    height:100%;
 
 }
 
@@ -606,6 +618,12 @@ input{
 .content{
 
     padding:28px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    flex:1;
 
 }
 
@@ -860,6 +878,12 @@ footer p{
 .content{
 
     padding:22px;
+
+}
+
+#news-list{
+
+    grid-template-columns:1fr;
 
 }
 
