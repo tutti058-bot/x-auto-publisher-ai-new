@@ -91,8 +91,15 @@ document.getElementById("share-line").onclick = () => {
 
 };
 
-// リンクコピー
+// Facebookで共有
+document.getElementById("share-facebook").onclick = () => {
 
+  window.open(
+    `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(window.location.href)}`,
+    "_blank"
+  );
+
+};
 
 // 関連記事表示
 function showRelated(news, currentItem) {
