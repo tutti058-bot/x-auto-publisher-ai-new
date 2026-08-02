@@ -49,7 +49,11 @@ function renderNews(news) {
 
     card.innerHTML = `
       <div class="card-image">
-    <img src="${item.image}" alt="${item.title}">
+    <img
+src="${item.image && item.image !== "null"
+? item.image
+: "images/no-image.jpg"}"
+alt="${item.title}">
     <span class="category-tag">${item.category || "AI"}</span>
 </div>
 
