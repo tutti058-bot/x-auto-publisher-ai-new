@@ -20,9 +20,12 @@ async function loadNews() {
     const posted =
       localStorage.getItem("posted-"+realIndex)==="1";
 
-    html += `
+      const disabled =
+posted ? "disabled" : "";
 
-<div class="card">
+html += `
+
+<div class="card ${posted ? "posted" : ""}">
 
 <h2>${item.title}</h2>
 
@@ -32,17 +35,20 @@ async function loadNews() {
 
 <br><br>
 
+<div class="actions">
+
 <button onclick="copyPost(${realIndex})">
 📋 コピー
 </button>
 
-<button onclick="postX(${realIndex})">
-🐦 X投稿
+<button ${disabled}
+onclick="postX(${realIndex})">
+
+${posted ? "✅ 投稿済み" : "🐦 X投稿"}
+
 </button>
 
-<button onclick="markPosted(${realIndex})">
-${posted ? "✅ 投稿済み" : "☑ 投稿済みにする"}
-</button>
+</div>
 
 </div>
 
