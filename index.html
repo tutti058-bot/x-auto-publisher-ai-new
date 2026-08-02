@@ -10,10 +10,10 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-6MRVP27M7D"></script>
 
 <script>
-window.dataLayer=window.dataLayer||[];
+window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
-gtag('js',new Date());
-gtag('config','G-6MRVP27M7D');
+gtag('js', new Date());
+gtag('config', 'G-6MRVP27M7D');
 </script>
 
 <title>AI NEWS</title>
@@ -24,244 +24,412 @@ content="世界のAIニュースをリアルタイムでお届け">
 
 <style>
 
+/* ==========================================
+　　RESET
+========================================== */
+
 *{
-margin:0;
-padding:0;
-box-sizing:border-box;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
 }
 
 body{
-font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
-background:#f5f7fb;
-color:#111827;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans JP",sans-serif;
+    background:#f4f7fb;
+    color:#111827;
+    line-height:1.7;
 }
 
 a{
-text-decoration:none;
-color:inherit;
+    text-decoration:none;
+    color:inherit;
 }
 
+img{
+    display:block;
+    max-width:100%;
+}
+
+button,
+input{
+    font-family:inherit;
+}
+
+.container{
+    width:min(1200px,92%);
+    margin:auto;
+}
+
+/* ==========================================
+　　HEADER
+========================================== */
+
 .site-header{
-position:sticky;
-top:0;
-z-index:9999;
-background:#111827;
-box-shadow:0 4px 18px rgba(0,0,0,.18);
+
+    position:sticky;
+
+    top:0;
+
+    z-index:9999;
+
+    background:#0f172a;
+
+    backdrop-filter:blur(12px);
+
+    box-shadow:0 8px 30px rgba(0,0,0,.15);
+
 }
 
 .header-inner{
-max-width:1300px;
-margin:auto;
-padding:14px 24px;
-display:flex;
-justify-content:space-between;
-align-items:center;
+
+    max-width:1300px;
+
+    margin:auto;
+
+    padding:14px 24px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
 }
 
 .logo img{
-width:180px;
-display:block;
+
+    width:180px;
+
 }
 
 .header-icons{
-display:flex;
-gap:12px;
+
+    display:flex;
+
+    gap:10px;
+
 }
 
 .header-icons button{
-width:42px;
-height:42px;
-border:none;
-border-radius:12px;
-background:#1f2937;
-color:#fff;
-font-size:18px;
-cursor:pointer;
-transition:.25s;
+
+    width:44px;
+
+    height:44px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:#1e293b;
+
+    color:#fff;
+
+    font-size:18px;
+
+    cursor:pointer;
+
+    transition:.25s;
+
 }
 
 .header-icons button:hover{
-background:#2563eb;
-transform:translateY(-2px);
+
+    background:#2563eb;
+
+    transform:translateY(-2px);
+
 }
 
+/* ==========================================
+　　SIDE MENU
+========================================== */
+
 .side-menu{
-position:fixed;
-top:0;
-right:-320px;
-width:300px;
-height:100%;
-background:#111827;
-padding-top:90px;
-transition:.3s;
-z-index:10000;
-box-shadow:-10px 0 30px rgba(0,0,0,.25);
+
+    position:fixed;
+
+    top:0;
+
+    right:-320px;
+
+    width:300px;
+
+    height:100%;
+
+    background:#111827;
+
+    padding-top:90px;
+
+    transition:.3s;
+
+    z-index:10000;
+
+    box-shadow:-10px 0 30px rgba(0,0,0,.25);
+
 }
 
 .side-menu.open{
-right:0;
+
+    right:0;
+
 }
 
 .side-menu a{
-display:block;
-padding:18px 28px;
-color:#fff;
-border-bottom:1px solid rgba(255,255,255,.08);
-transition:.25s;
+
+    display:block;
+
+    padding:18px 26px;
+
+    color:#fff;
+
+    border-bottom:1px solid rgba(255,255,255,.08);
+
 }
 
 .side-menu a:hover{
-background:#2563eb;
+
+    background:#2563eb;
+
 }
+
+/* ==========================================
+　　HERO
+========================================== */
 
 .hero{
 
-max-width:1200px;
-margin:35px auto;
+    max-width:1400px;
 
-padding:70px 50px;
+    height:560px;
 
-border-radius:30px;
+    margin:30px auto 45px;
 
-background:
-linear-gradient(135deg,#111827,#1d4ed8);
+    border-radius:28px;
 
-color:#fff;
+    overflow:hidden;
 
-text-align:center;
+    background:
+    linear-gradient(rgba(5,15,40,.55),rgba(5,15,40,.70)),
+    url("images/hero-bg.jpg");
 
-box-shadow:
-0 20px 45px rgba(37,99,235,.25);
+    background-size:cover;
+
+    background-position:center;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    color:#fff;
+
+    box-shadow:0 25px 60px rgba(0,0,0,.25);
 
 }
 
 .hero h1{
 
-font-size:56px;
+    font-size:84px;
 
-font-weight:800;
+    font-weight:900;
 
-margin-bottom:18px;
+    letter-spacing:3px;
+
+    margin-bottom:20px;
+
+    text-shadow:0 10px 25px rgba(0,0,0,.4);
 
 }
 
 .hero p{
 
-font-size:22px;
+    font-size:30px;
 
-line-height:1.8;
+    line-height:1.8;
 
-opacity:.95;
-
-margin-bottom:35px;
+    margin-bottom:45px;
 
 }
 
 .hero-badge{
 
-display:flex;
+    display:flex;
 
-justify-content:center;
+    justify-content:center;
 
-gap:14px;
+    flex-wrap:wrap;
 
-flex-wrap:wrap;
+    gap:18px;
 
 }
 
 .hero-badge span{
 
-background:rgba(255,255,255,.18);
+    padding:14px 24px;
 
-padding:12px 22px;
+    border-radius:999px;
 
-border-radius:999px;
+    background:rgba(255,255,255,.15);
 
-backdrop-filter:blur(10px);
+    border:1px solid rgba(255,255,255,.2);
 
-font-weight:700;
+    backdrop-filter:blur(12px);
+
+    font-weight:700;
 
 }
 
+.hero-buttons{
+
+    margin-top:45px;
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+}
+
+.hero-main{
+
+    background:#2563eb;
+
+    color:#fff;
+
+    padding:18px 34px;
+
+    border-radius:14px;
+
+    font-weight:bold;
+
+    transition:.25s;
+
+}
+
+.hero-main:hover{
+
+    background:#1d4ed8;
+
+    transform:translateY(-3px);
+
+}
+
+.hero-sub{
+
+    border:2px solid #fff;
+
+    color:#fff;
+
+    padding:18px 34px;
+
+    border-radius:14px;
+
+    transition:.25s;
+
+}
+
+.hero-sub:hover{
+
+    background:#fff;
+
+    color:#111827;
+
+}
+
+/* ==========================================
+　　SEARCH
+========================================== */
+
 #search{
 
-width:90%;
+    width:90%;
 
-max-width:950px;
+    max-width:950px;
 
-display:block;
+    display:block;
 
-margin:35px auto;
+    margin:35px auto;
 
-padding:20px 24px;
+    padding:20px 24px;
 
-border:none;
+    border:none;
 
-border-radius:20px;
+    border-radius:20px;
 
-font-size:18px;
+    background:#fff;
 
-background:#fff;
+    font-size:18px;
 
-box-shadow:0 12px 35px rgba(0,0,0,.08);
+    box-shadow:0 12px 35px rgba(0,0,0,.08);
 
-outline:none;
+    transition:.3s;
 
-transition:.3s;
+    outline:none;
 
 }
 
 #search:focus{
 
-transform:translateY(-2px);
+    transform:translateY(-2px);
 
-box-shadow:
-0 0 0 4px rgba(37,99,235,.15),
-0 18px 40px rgba(37,99,235,.18);
+    box-shadow:
+    0 0 0 4px rgba(37,99,235,.15),
+    0 18px 40px rgba(37,99,235,.18);
 
 }
 
+/* ==========================================
+　　CATEGORY
+========================================== */
+
 .category-buttons{
 
-display:flex;
+    display:flex;
 
-justify-content:center;
+    justify-content:center;
 
-flex-wrap:wrap;
+    flex-wrap:wrap;
 
-gap:14px;
+    gap:14px;
 
-margin:35px auto;
+    margin:35px auto;
 
 }
 
 .category-buttons button{
 
-border:none;
+    border:none;
 
-border-radius:999px;
+    border-radius:999px;
 
-padding:12px 22px;
+    padding:12px 22px;
 
-color:#fff;
+    color:#fff;
 
-font-size:15px;
+    font-size:15px;
 
-font-weight:700;
+    font-weight:700;
 
-cursor:pointer;
+    box-shadow:0 6px 18px rgba(0,0,0,.12);
 
-transition:.25s;
-
-box-shadow:0 6px 18px rgba(0,0,0,.12);
+    transition:.25s;
 
 }
 
 .category-buttons button:hover{
 
-transform:translateY(-4px) scale(1.05);
-
-box-shadow:0 12px 30px rgba(0,0,0,.18);
+    transform:translateY(-4px);
 
 }
 
@@ -273,357 +441,771 @@ box-shadow:0 12px 30px rgba(0,0,0,.18);
 .category-buttons button:nth-child(6){background:#1877F2;}
 .category-buttons button:nth-child(7){background:#000;}
 
+/* ==========================================
+　　RANKING
+========================================== */
+
 #ranking{
 
-width:90%;
+    width:90%;
 
-max-width:950px;
+    max-width:950px;
 
-margin:35px auto;
+    margin:40px auto;
 
-padding:25px;
+    padding:28px;
 
-background:#fff;
+    background:#fff;
 
-border-radius:22px;
+    border-radius:24px;
 
-box-shadow:0 12px 35px rgba(0,0,0,.08);
+    box-shadow:0 12px 35px rgba(0,0,0,.08);
 
 }
 
 .ranking-title{
 
-font-size:28px;
+    font-size:30px;
 
-font-weight:800;
+    font-weight:800;
 
-margin-bottom:25px;
+    margin-bottom:24px;
 
 }
 
 .rank-card{
 
-display:flex;
+    display:flex;
 
-align-items:center;
+    align-items:center;
 
-gap:18px;
+    gap:18px;
 
-padding:20px;
+    padding:20px;
 
-border-radius:18px;
+    margin-bottom:16px;
 
-margin-bottom:16px;
+    border-radius:18px;
 
-background:#fff;
+    background:#fff;
 
-box-shadow:0 8px 25px rgba(0,0,0,.08);
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
 
-transition:.25s;
+    transition:.25s;
 
 }
 
 .rank-card:hover{
 
-transform:translateY(-3px);
+    transform:translateY(-3px);
 
-box-shadow:0 16px 35px rgba(0,0,0,.15);
+    box-shadow:0 18px 35px rgba(0,0,0,.15);
 
 }
 
 .rank-no{
 
-font-size:34px;
+    width:60px;
 
-width:60px;
+    font-size:34px;
 
-text-align:center;
+    text-align:center;
 
 }
 
-.gold{background:#FFF8E1;}
-.silver{background:#F5F5F5;}
-.bronze{background:#FBE9E7;}
+.gold{
+
+    background:#FFF8E1;
+
+}
+
+.silver{
+
+    background:#F5F5F5;
+
+}
+
+.bronze{
+
+    background:#FBE9E7;
+
+}
 
 .rank-info{
 
-flex:1;
+    flex:1;
 
 }
 
 .rank-info a{
 
-font-size:18px;
+    font-size:18px;
 
-font-weight:700;
+    font-weight:700;
 
 }
 
 .rank-view{
 
-margin-top:8px;
+    margin-top:8px;
 
-color:#666;
+    font-size:14px;
 
-font-size:14px;
+    color:#6b7280;
 
 }
 
+/* ==========================================
+　　NEWS CARD
+========================================== */
+
 #news-list{
 
-width:90%;
+    width:90%;
 
-max-width:950px;
+    max-width:950px;
 
-margin:35px auto;
+    margin:40px auto;
 
 }
 
 .card{
 
-background:#fff;
+    background:#fff;
 
-border-radius:24px;
+    border-radius:24px;
 
-overflow:hidden;
+    overflow:hidden;
 
-box-shadow:0 12px 35px rgba(0,0,0,.08);
+    box-shadow:0 12px 35px rgba(0,0,0,.08);
 
-margin-bottom:35px;
+    margin-bottom:35px;
 
-transition:.25s;
+    transition:.25s;
 
 }
 
 .card:hover{
 
-transform:translateY(-4px);
+    transform:translateY(-5px);
 
-box-shadow:0 20px 45px rgba(0,0,0,.15);
+    box-shadow:0 22px 45px rgba(0,0,0,.15);
 
 }
 
 .card img{
 
-width:100%;
+    width:100%;
 
-display:block;
+    height:auto;
+
+    display:block;
 
 }
 
 .content{
 
-padding:28px;
+    padding:28px;
 
 }
 
 .title{
 
-font-size:30px;
+    font-size:30px;
 
-font-weight:800;
+    font-weight:800;
 
-margin-bottom:18px;
+    line-height:1.4;
 
-line-height:1.4;
+    margin-bottom:18px;
 
 }
 
 .desc{
 
-line-height:1.9;
+    color:#4b5563;
 
-color:#4b5563;
+    line-height:1.9;
 
 }
 
+.card a{
+
+    display:inline-block;
+
+    margin-top:18px;
+
+    color:#2563eb;
+
+    font-weight:700;
+
+}
+
+/* ==========================================
+　　PAGINATION
+========================================== */
+
 #pagination{
 
-text-align:center;
+    text-align:center;
 
-margin:50px 0;
+    margin:50px auto 70px;
 
 }
 
 #pagination button{
 
-padding:12px 18px;
+    border:none;
 
-border:none;
+    border-radius:12px;
 
-border-radius:12px;
+    background:#2563eb;
 
-margin:4px;
+    color:#fff;
 
-background:#2563eb;
+    padding:12px 18px;
 
-color:#fff;
+    margin:5px;
 
-cursor:pointer;
+    font-weight:700;
 
-font-weight:700;
+    cursor:pointer;
+
+    transition:.25s;
 
 }
 
+#pagination button:hover{
+
+    transform:translateY(-2px);
+
+    background:#1d4ed8;
+
+}
+
+/* ==========================================
+　　DARK MODE
+========================================== */
+
 body.dark{
 
-background:#0f172a;
+    background:#0f172a;
 
-color:#fff;
+    color:#f8fafc;
 
 }
 
 body.dark .card,
 body.dark #ranking{
 
-background:#1e293b;
+    background:#1e293b;
 
-color:#fff;
+    color:#fff;
 
 }
 
 body.dark .desc{
 
-color:#d1d5db;
+    color:#d1d5db;
 
 }
 
-@media(max-width:768px){
+body.dark .rank-view{
+
+    color:#cbd5e1;
+
+}
+
+body.dark #search{
+
+    background:#111827;
+
+    color:#fff;
+
+    border:1px solid #334155;
+
+}
+
+body.dark #search::placeholder{
+
+    color:#94a3b8;
+
+}
+
+/* ==========================================　　
+　　　FOOTER
+========================================== */
+
+footer{
+
+    margin-top:80px;
+
+    padding:40px 20px;
+
+    background:#111827;
+
+    color:#fff;
+
+    text-align:center;
+
+}
+
+footer p{
+
+    opacity:.8;
+
+    margin-top:8px;
+
+}
+
+/* ==========================================
+  MOBILE
+========================================== */
+
+@media (max-width:768px){
 
 .hero{
 
-padding:40px 20px;
+    height:auto;
+
+    padding:60px 20px;
+
+    border-radius:20px;
 
 }
 
 .hero h1{
 
-font-size:38px;
+    font-size:42px;
 
 }
 
 .hero p{
 
-font-size:18px;
+    font-size:20px;
+
+}
+
+.hero-buttons{
+
+    flex-direction:column;
+
+    align-items:center;
+
+}
+
+.hero-main,
+.hero-sub{
+
+    width:100%;
+
+    max-width:320px;
+
+    text-align:center;
 
 }
 
 .logo img{
 
-width:150px;
+    width:150px;
 
 }
 
 .header-icons button{
 
-width:38px;
+    width:38px;
 
-height:38px;
+    height:38px;
+
+    font-size:16px;
 
 }
 
-.title{
+.category-buttons{
 
-font-size:24px;
+    gap:10px;
+
+}
+
+.category-buttons button{
+
+    padding:10px 18px;
+
+    font-size:14px;
 
 }
 
 .rank-card{
 
-display:block;
+    display:block;
 
-text-align:center;
+    text-align:center;
+
+}
+
+.rank-no{
+
+    margin-bottom:15px;
+
+    width:100%;
+
+}
+
+.title{
+
+    font-size:24px;
+
+}
+
+.content{
+
+    padding:22px;
 
 }
 
 }
+
+/* ==========================================
+   HERO CONTENT
+========================================== */
+
+.hero-content{
+    width:100%;
+    max-width:900px;
+    margin:auto;
+    padding:20px;
+    text-align:center;
+}
+
+.hero-content h1{
+    font-size:84px;
+    font-weight:900;
+    letter-spacing:3px;
+    margin-bottom:20px;
+    text-shadow:0 8px 25px rgba(0,0,0,.45);
+}
+
+.hero-content p{
+    font-size:30px;
+    line-height:1.8;
+    margin-bottom:40px;
+    color:#fff;
+}
+
+.hero-badge{
+    display:flex;
+    justify-content:center;
+    gap:18px;
+    flex-wrap:wrap;
+    margin-bottom:45px;
+}
+
+.hero-badge span{
+    background:rgba(255,255,255,.15);
+    border:1px solid rgba(255,255,255,.18);
+    backdrop-filter:blur(10px);
+    padding:14px 24px;
+    border-radius:999px;
+    color:#fff;
+    font-weight:700;
+}
+
+.hero-buttons{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.hero-main,
+.hero-sub{
+    display:inline-block;
+    padding:16px 32px;
+    border-radius:14px;
+    font-size:18px;
+    font-weight:700;
+    transition:.25s;
+}
+
+.hero-main{
+    background:#2563eb;
+    color:#fff;
+}
+
+.hero-main:hover{
+    background:#1d4ed8;
+    transform:translateY(-3px);
+}
+
+.hero-sub{
+    border:2px solid #fff;
+    color:#fff;
+}
+
+.hero-sub:hover{
+    background:#fff;
+    color:#111827;
+}
+
+@media(max-width:768px){
+
+.hero-content h1{
+    font-size:46px;
+}
+
+.hero-content p{
+    font-size:20px;
+}
+
+.hero-buttons{
+    flex-direction:column;
+    align-items:center;
+}
+
+.hero-main,
+.hero-sub{
+    width:100%;
+    max-width:300px;
+}
+
+}
+
+/* ==========================================
+END
+========================================== */
 
 </style>
-
-</head>
 
 <body>
 
 <header class="site-header">
 
-<div class="header-inner">
+    <div class="header-inner">
 
-<a href="index.html" class="logo">
-<img src="images/logo.png" alt="AI NEWS">
-</a>
+        <a href="index.html" class="logo">
+            <img src="images/logo.png" alt="AI NEWS">
+        </a>
 
-<div class="header-icons">
-<button id="search-btn">🔍</button>
-<button id="dark-btn">🌙</button>
-<button id="menu-btn">☰</button>
-</div>
+        <div class="header-icons">
 
-</div>
+            <button id="search-btn" title="検索">
+                🔍
+            </button>
+
+            <button id="dark-btn" title="ダークモード">
+                🌙
+            </button>
+
+            <button id="menu-btn" title="メニュー">
+                ☰
+            </button>
+
+        </div>
+
+    </div>
 
 </header>
 
+<!-- サイドメニュー -->
+
 <div id="side-menu" class="side-menu">
 
-<a href="index.html">🏠 ホーム</a>
-<a href="#" onclick="filterNews('ALL');closeMenu();">📰 すべて</a>
-<a href="#" onclick="filterNews('OpenAI');closeMenu();">🤖 OpenAI</a>
-<a href="#" onclick="filterNews('Google');closeMenu();">💎 Google</a>
-<a href="#" onclick="filterNews('Anthropic');closeMenu();">🟣 Anthropic</a>
-<a href="#" onclick="filterNews('Microsoft');closeMenu();">🪟 Microsoft</a>
-<a href="#" onclick="filterNews('Meta');closeMenu();">🦙 Meta</a>
-<a href="#" onclick="filterNews('xAI');closeMenu();">🚀 xAI</a>
-<a href="#" onclick="scrollRanking();closeMenu();">🔥 人気ランキング</a>
+    <a href="index.html">🏠 ホーム</a>
+
+    <a href="#" onclick="filterNews('ALL');closeMenu();">
+        📰 すべて
+    </a>
+
+    <a href="#" onclick="filterNews('OpenAI');closeMenu();">
+        🤖 OpenAI
+    </a>
+
+    <a href="#" onclick="filterNews('Google');closeMenu();">
+        💎 Google
+    </a>
+
+    <a href="#" onclick="filterNews('Anthropic');closeMenu();">
+        🟣 Anthropic
+    </a>
+
+    <a href="#" onclick="filterNews('Microsoft');closeMenu();">
+        🪟 Microsoft
+    </a>
+
+    <a href="#" onclick="filterNews('Meta');closeMenu();">
+        🦙 Meta
+    </a>
+
+    <a href="#" onclick="filterNews('xAI');closeMenu();">
+        🚀 xAI
+    </a>
+
+    <a href="#" onclick="scrollRanking();closeMenu();">
+        🔥 人気ランキング
+    </a>
 
 </div>
+
+<!-- ヒーロー -->
 
 <section class="hero">
 
-<h1>🤖 AI NEWS</h1>
+    <div class="hero-content">
 
-<p>
+        <h1>🤖 AI NEWS</h1>
 
-世界のAIニュースを<br>
+        <p>
 
-リアルタイムで配信
+            世界のAIニュースを<br>
+            リアルタイムで配信
 
-</p>
+        </p>
 
-<div class="hero-badge">
+        <div class="hero-badge">
 
-<span>🚀 毎日自動更新</span>
+            <span>🚀 毎日自動更新</span>
 
-<span>⚡ AI要約</span>
+            <span>⚡ AI要約</span>
 
-<span>🌎 世界のAI情報</span>
+            <span>🌎 世界のAI情報</span>
 
-</div>
+        </div>
+
+        <div class="hero-buttons">
+
+            <a href="#news-list" class="hero-main">
+                🔥 最新ニュース
+            </a>
+
+            <a href="#ranking" class="hero-sub">
+                📈 人気ランキング
+            </a>
+
+        </div>
+
+    </div>
 
 </section>
+
+<!-- 検索 -->
 
 <input
 type="text"
 id="search"
 placeholder="🔍 AIニュースを検索...">
 
+<!-- カテゴリ -->
+
 <div class="category-buttons">
 
-<button onclick="filterNews('ALL')">🤖 すべて</button>
-<button onclick="filterNews('OpenAI')">💬 OpenAI</button>
-<button onclick="filterNews('Google')">💎 Google</button>
-<button onclick="filterNews('Anthropic')">🟣 Anthropic</button>
-<button onclick="filterNews('Microsoft')">🪟 Microsoft</button>
-<button onclick="filterNews('Meta')">🦙 Meta</button>
-<button onclick="filterNews('xAI')">🚀 xAI</button>
+    <button onclick="filterNews('ALL')">
+        🤖 すべて
+    </button>
+
+    <button onclick="filterNews('OpenAI')">
+        💬 OpenAI
+    </button>
+
+    <button onclick="filterNews('Google')">
+        💎 Google
+    </button>
+
+    <button onclick="filterNews('Anthropic')">
+        🟣 Anthropic
+    </button>
+
+    <button onclick="filterNews('Microsoft')">
+        🪟 Microsoft
+    </button>
+
+    <button onclick="filterNews('Meta')">
+        🦙 Meta
+    </button>
+
+    <button onclick="filterNews('xAI')">
+        🚀 xAI
+    </button>
 
 </div>
 
-<div id="ranking" style="scroll-margin-top:100px;"></div>
+<!-- ランキング -->
 
-<div id="news-list"></div>
+<div id="ranking" style="scroll-margin-top:100px;">
 
-<div id="pagination"></div>
+</div>
+
+<!-- 最新ニュース -->
+
+<section class="container">
+
+    <h2 class="section-title">
+
+        📰 最新ニュース
+
+    </h2>
+
+    <div id="news-list">
+
+    </div>
+
+</section>
+
+<!-- ページネーション -->
+
+<div id="pagination">
+
+</div>
+
+<!-- フッター -->
+
+<footer>
+
+    <div class="container">
+
+        <h3 style="font-size:28px;margin-bottom:12px;">
+
+            🤖 AI NEWS
+
+        </h3>
+
+        <p>
+
+            世界のAIニュースをリアルタイムで配信
+
+        </p>
+
+        <div style="margin:30px 0;display:flex;justify-content:center;gap:30px;flex-wrap:wrap;">
+
+            <a href="index.html">
+                ホーム
+            </a>
+
+            <a href="#">
+                プライバシーポリシー
+            </a>
+
+            <a href="#">
+                お問い合わせ
+            </a>
+
+            <a href="#">
+                利用規約
+            </a>
+
+        </div>
+
+        <p style="font-size:14px;opacity:.7;">
+
+            © 2026 AI NEWS All Rights Reserved.
+
+        </p>
+
+    </div>
+
+</footer>
 
 <script type="module" src="app.js"></script>
 
 </body>
+
 </html>
