@@ -1,1 +1,1 @@
-https://www.makeuseof.com/taught-chatgpt-claude-and-gemini-the-same-lie-then-tried-to-erase-it/
+https://pypi.org/project/favai/

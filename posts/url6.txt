@@ -1,1 +1,1 @@
-https://pypi.org/project/trelix-mcp/2.11.1/
+https://pypi.org/project/openballast/0.1.1/

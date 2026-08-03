@@ -1,1 +1,1 @@
-https://pypi.org/project/leghorn/0.2/
+https://pypi.org/project/accountingqb/3.11.0/

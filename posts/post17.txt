@@ -1,2 +1,3 @@
-Apple Maps vs. Google Maps vs. Waze：どのCarPlayアプリが優勝？  
-Apple Maps、Google Maps、WazeのCarPlayでの使い勝手を比較。Apple MapsはiOSとの連携が強み、Google Mapsは詳細な地図情報と多数の機能を提供、Wazeはリアルタイムの交通情報に優れる。ユーザーのニーズにより最適な選択が変わる。
+Mike C. Fletcher：glTF用OMIオーディオ拡張
+
+Mike C. FletcherによるglTF（3Dモデルのファイル形式）用のOMIオーディオ拡張が紹介されています。この拡張は、3Dモデルに空間オーディオ機能を追加し、リアルな音響体験を実現することを目的としています。ユーザーは音源の位置や動きを設定でき、より没入感のあるVRやAR環境の構築が可能になります。

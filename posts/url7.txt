@@ -1,1 +1,1 @@
-https://pypi.org/project/clawmetry/0.12.634/
+https://pypi.org/project/meshai-claude-code/0.2.0/

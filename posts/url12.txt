@@ -1,1 +1,1 @@
-https://pypi.org/project/iaiops/0.22.0/
+https://pypi.org/project/claude-coordinator/0.4.97/
