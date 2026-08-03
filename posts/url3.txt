@@ -1,1 +1,1 @@
-https://pypi.org/project/safeframe/
+https://pypi.org/project/neuralmind/2.0.1/

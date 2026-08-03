@@ -1,1 +1,1 @@
-https://biztoc.com/x/3c2010d9fee3a110
+https://pypi.org/project/finops-mcp/0.8.201/

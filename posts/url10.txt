@@ -1,1 +1,1 @@
-https://pypi.org/project/openballast/
+https://pypi.org/project/nexus-shield-cli/

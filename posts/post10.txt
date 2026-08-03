@@ -1,3 +1,2 @@
-「openballastがPyPIに追加されました」
-
-オープンソースのPythonパッケージ「openballast」がPythonパッケージインデックス(PyPI)に公開されました。これにより、Python利用者は簡単にopenballastをインストール・利用できるようになります。ツールの詳細やインストール方法もPyPIのページで確認可能です。
+nexus-shield-cliがPyPIに追加されました  
+nexus-shield-cliがPythonパッケージインデックス（PyPI）に新たに登録されました。このCLIツールは、Nexusプラットフォームのセキュリティ機能を強化し、開発者が簡単に利用できるように設計されています。今後のプロジェクトにおいてセキュリティ管理の効率化が期待されます。

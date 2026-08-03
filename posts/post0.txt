@@ -1,3 +1,3 @@
-タイトル：Show HN: MCP Emails – GmailやIMAP/SMTP受信箱用のMCPサーバー
+Show HN: MicroCodex Coding Agent – OpenAI/codexをC++で再実装
 
-概要：MCP Emailsは、GmailやIMAP/SMTP対応のメール受信箱向けに設計されたMCPサーバーです。これにより、複数のメールアカウントを一元的に管理でき、効率的なメール操作が可能となります。オープンソースプロジェクトとして公開され、メール管理の自動化や拡張性を求めるユーザーに最適です。
+OpenAIのCodexをC++で再実装した「MicroCodex Coding Agent」が公開されました。これは、コード生成AIを独自に構築し、より軽量かつ高速に動作させることを目指したプロジェクトです。開発者はこれにより、カスタマイズ可能なコーディングアシスタントの基盤を提供しています。

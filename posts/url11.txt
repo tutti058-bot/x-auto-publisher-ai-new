@@ -1,1 +1,1 @@
-https://www.nzherald.co.nz/nz/the-ai-trap-our-children-are-falling-into-editorial/premium/RYXQHUNMLBBPJBRFGUSLE74J7E/
+https://pypi.org/project/nexus-shield-cli/0.1.0/

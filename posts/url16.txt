@@ -1,1 +1,1 @@
-https://pypi.org/project/favai/
+https://pypi.org/project/cgh-summarize/0.2.1/

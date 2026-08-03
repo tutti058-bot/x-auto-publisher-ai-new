@@ -1,1 +1,1 @@
-https://pypi.org/project/railmux/0.4.0.dev1/
+https://pypi.org/project/clipzing-mcp/
