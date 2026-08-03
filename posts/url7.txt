@@ -1,1 +1,1 @@
-https://pypi.org/project/claude-coordinator/0.4.94/
+https://pypi.org/project/leashd/1.4.0/

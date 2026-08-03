@@ -1,1 +1,1 @@
-https://futurism.com/artificial-intelligence/openai-escaped-models-rampaging-extensively
+https://pypi.org/project/skyglance/0.2.1/

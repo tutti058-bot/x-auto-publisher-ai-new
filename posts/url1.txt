@@ -1,1 +1,1 @@
-https://pypi.org/project/broz-cli/
+https://pypi.org/project/llm-verse-avneesh/0.1.8/

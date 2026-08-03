@@ -1,1 +1,1 @@
-https://pypi.org/project/ai-synapse/1.0.4/
+https://pypi.org/project/mcp-test-harness-openai/4.0.0/

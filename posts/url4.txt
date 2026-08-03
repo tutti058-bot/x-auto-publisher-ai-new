@@ -1,1 +1,1 @@
-https://pypi.org/project/rein-agentic-kit/0.9.0/
+https://pypi.org/project/skyglance/
