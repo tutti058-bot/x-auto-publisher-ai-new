@@ -1,1 +1,1 @@
-https://pypi.org/project/mcp-test-harness-xai/
+https://pypi.org/project/gh-claude/0.1.1/

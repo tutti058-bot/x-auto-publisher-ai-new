@@ -1,1 +1,1 @@
-https://pypi.org/project/skyglance/
+https://pypi.org/project/pyobfus/0.5.7/

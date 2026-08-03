@@ -1,3 +1,2 @@
-mcp-test-harness-anthropic 4.0.0 リリース
-
-mcp-test-harness-anthropicのバージョン4.0.0がリリースされました。この新バージョンでは複数の機能改善とバグ修正が含まれており、テスト環境の効率化と安定性の向上が図られています。開発者は最新のツールを利用することで、よりスムーズなテスト実行が可能となります。
+Apple Maps vs. Google Maps vs. Waze：どのCarPlayアプリが優勝？  
+Apple Maps、Google Maps、WazeのCarPlayでの使い勝手を比較。Apple MapsはiOSとの連携が強み、Google Mapsは詳細な地図情報と多数の機能を提供、Wazeはリアルタイムの交通情報に優れる。ユーザーのニーズにより最適な選択が変わる。

@@ -1,1 +1,1 @@
-https://www.helpnetsecurity.com/2026/08/02/week-in-review-claude-breached-three-companies-during-tests-ad-cs-domain-takeover-poc-released/
+https://pypi.org/project/gh-claude/0.2.1/

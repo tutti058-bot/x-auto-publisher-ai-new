@@ -1,1 +1,1 @@
-https://www.nzherald.co.nz/technology/when-rogue-ai-launches-a-cyberattack-who-is-legally-responsible/YCJNAX6WKZES3CQV2JT4IZ4ECQ/
+https://pypi.org/project/trelix-mcp/2.11.1/
