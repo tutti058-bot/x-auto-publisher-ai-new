@@ -1,11 +1,163 @@
 [
   {
+    "title": "カードネットワーク、成長維持のため決済事業を超えて事業拡大",
+    "summary": "カードネットワークは決済サービスを超え、新たな収益源を模索している。デジタル決済の普及に伴い競争が激化する中、データ分析や顧客ロイヤルティプログラム、加盟店向けの付加価値サービス提供に注力。これにより顧客基盤の拡大と取引量の増加を狙い、持続的な成長を確保しようとしている。",
+    "image": "https://www.pymnts.com/wp-content/uploads/2026/08/card-networks.jpeg",
+    "url": "https://www.pymnts.com/credit-cards/2026/card-networks-push-beyond-payments-to-lock-in-growth/",
+    "category": "AI",
+    "date": "2026-08-04T16:28:31.097Z"
+  },
+  {
+    "title": "AIが単独で完成できる最大のソフトウェアプロジェクトは何ですか？",
+    "summary": "現在のAIは特定のタスクや小規模なプログラムの作成に優れているものの、大規模で複雑なソフトウェアプロジェクトのすべての工程を完全に単独で遂行することは困難です。AIはコーディングの自動化やバグ検出、コードの最適化などを支援できますが、設計、要件定義、テスト、メンテナンスといった多様な工程には人間の関与が依然として必要です。",
+    "image": "https://epoch.ai/assets/images/posts/2026/mirrorcode/mirrorcode-banner.png",
+    "url": "https://epoch.ai/MirrorCode",
+    "category": "AI",
+    "date": "2026-08-04T16:28:31.097Z"
+  },
+  {
+    "title": "オラクル株価が約6％急騰、AIクラウドの勢いと地政学的緊張緩和でテック株が上昇",
+    "summary": "オラクルの株価は約6％上昇し、AIクラウド技術の強い需要と地政学的緊張の緩和がテクノロジー株全体の買いを促しました。これは投資家の期待を反映し、同社の成長見通しが明るいことを示しています。",
+    "image": "https://d.ibtimes.com.au/en/full/1861188/oracle-latest-global-tech-titan-announce-major-digital-investments-southeast-asia.jpg",
+    "url": "https://www.ibtimes.com.au/oracle-shares-surge-ai-cloud-growth-1873490",
+    "category": "AI",
+    "date": "2026-08-04T16:28:31.097Z"
+  },
+  {
+    "title": "ジョナサン・H・アドラーによるサンコア・エナジー対ボルダー郡委員会の友人意見書",
+    "summary": "本書簡は、サンコア・エナジーとコロラド州ボルダー郡委員会間の訴訟に関して、ジョナサン・H・アドラー教授が提出した友人意見書です。意見書では、郡の規制措置の法的妥当性や環境保護とのバランスについて論じられ、地方自治体の裁量権と企業活動の制限に関する重要な法的見解が示されています。",
+    "image": "https://d2eehagpk5cl65.cloudfront.net/img/q60/uploads/2026/08/SuncorPicGrok.jpg",
+    "url": "https://reason.com/volokh/2026/08/03/amicus-brief-in-suncor-energy-v-county-commissioners-of-boulder-county/",
+    "category": "AI",
+    "date": "2026-08-04T16:28:31.097Z"
+  },
+  {
+    "title": "AWS週間まとめ：BedrockのGPTモデル価格引き下げ、CloudWatchによるPrometheusメトリクスの管理コレクターなど（2026年8月3日）",
+    "summary": "AWSはBedrockサービスで提供するGPTモデルの価格を引き下げました。また、CloudWatchでPrometheusメトリクスを収集する管理コレクター機能が新たに追加され、運用の効率化が図られます。これにより、コスト削減と監視体制の強化が期待されるほか、AWSの複数サービス改善も発表されています。",
+    "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/08/13/AWS-WIR-default.png",
+    "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-price-reduction-of-gpt-models-in-bedrock-cloudwatch-managed-collectors-for-prometheus-metrics-and-more-august-3-2026/",
+    "category": "AI",
+    "date": "2026-08-04T16:28:31.097Z"
+  },
+  {
+    "title": "Claudeコーディネーター バージョン0.4.100リリース",
+    "summary": "Claudeコーディネーターの最新バージョン0.4.100が公開されました。このアップデートではパフォーマンスの向上と複数のバグ修正が行われ、より安定した運用が可能となりました。開発者は新機能の活用を推奨しています。",
+    "image": "null",
+    "url": "https://pypi.org/project/claude-coordinator/0.4.100/",
+    "category": "Anthropic",
+    "date": "2026-08-04T16:28:31.097Z"
+  },
+  {
     "title": "EU、強化された権限でAnthropicやOpenAIのAIを厳格監視へ",
     "summary": "EUは新たに付与された執行権限を用いて、AnthropicやOpenAIの人工知能技術に対する監視と規制を強化する方針を明らかにした。これにより、AIの安全性や倫理面の確保に対する取り組みが一層強化され、不正リスクの早期発見と対応が期待されている。",
     "image": "https://static.cryptobriefing.com/wp-content/uploads/2026/08/03070546/eu-intensifies-ai-scrutiny-on-anthropic-openai-under-new-enf-1-800x420.jpeg",
     "url": "https://cryptobriefing.com/eu-intensifies-ai-scrutiny-on-anthropic-openai-under-new-enforcement-powers/",
     "category": "OpenAI",
-    "date": "2026-08-04T11:36:47.012Z"
+    "date": "2026-08-04T16:28:31.097Z"
+  },
+  {
+    "title": "フラクチャー書評：日本のグラフィックデザイン1875–1975",
+    "summary": "本書は1875年から1975年までの日本のグラフィックデザインの歴史を網羅的に紹介。伝統と西洋文化の融合、技術革新、社会変動がデザインに与えた影響を詳細に分析し、時代ごとのスタイルの変遷を追っている。豊富なビジュアル資料と専門的解説が特徴で、デザイン愛好家や研究者にとって貴重な参考資料となる。",
+    "image": "https://64.media.tumblr.com/76f2ada60791ca8a138afb0bbafc78f0/4881e13cec2f3d4d-ab/s1280x1920/8d0d28ce616d17f604e627f1c3b93d275266128a.webp",
+    "url": "https://www.tumblr.com/weandthecolor/823944199842988032/fracture-book-review-japanese-graphic-design",
+    "category": "AI",
+    "date": "2026-08-04T16:28:31.096Z"
+  },
+  {
+    "title": "AI企業、競争激化でコスト削減に追われる",
+    "summary": "AI企業間の競争激化により、トークン価格の下落と競争力モデルの増加が進んでいる。これにより、多くの企業が運用コスト削減を余儀なくされ、最適なバランスを模索している状況だ。価格競争が激しくなる中、技術力とコスト管理の両立が今後の課題となっている。",
+    "image": "https://cdn.mos.cms.futurecdn.net/J2wWatAfnDuoPnnDWPhgX4-1600-80.jpg",
+    "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-companies-are-now-racing-to-the-bottom-crashing-token-prices-and-competitive-models-push-companies-to-cut-costs",
+    "category": "AI",
+    "date": "2026-08-04T16:28:31.096Z"
+  },
+  {
+    "title": "2026年のトップ15 B2Bパフォーマンスマーケティング代理店 | Obility",
+    "summary": "この記事では、2026年に注目されるB2Bパフォーマンスマーケティング代理店15社を紹介しています。各代理店の強みや提供サービス、成功事例を比較し、企業のマーケティング戦略に最適なパートナー選びをサポートしています。",
+    "image": "https://www.obilityb2b.com/uploads/2026/07/geo-certification-headers-1-c.jpg",
+    "url": "https://www.obilityb2b.com/blog/top-15-b2b-performance-marketing-agencies-in-2026/",
+    "category": "AI",
+    "date": "2026-08-04T16:28:31.096Z"
+  },
+  {
+    "title": "pipecat-ai-context-hub 0.5.0 リリース",
+    "summary": "pipecat-ai-context-hubのバージョン0.5.0がリリースされました。この新バージョンでは、機能の改善とバグ修正が含まれており、より安定した動作が期待されます。詳細なアップデート内容は公式ドキュメントをご確認ください。",
+    "image": "null",
+    "url": "https://pypi.org/project/pipecat-ai-context-hub/0.5.0/",
+    "category": "AI",
+    "date": "2026-08-04T16:28:31.096Z"
+  },
+  {
+    "title": "Appleの求人情報が噂のスマートグラスのフィットネス機能を示唆",
+    "summary": "Appleが公開した求人情報から、同社が開発中と噂されるスマートグラスにフィットネス関連の機能を搭載する可能性が示唆されている。この求人はウェアラブルデバイス向けに健康や運動データの計測・分析を担当するポジションで、同製品が単なる視覚補助を超えてフィットネス用途にも対応することを示している。",
+    "image": "https://www.cultofmac.com/wp-content/uploads/2026/08/Apple-Smart-glasses-Gemini.png.webp",
+    "url": "https://www.cultofmac.com/news/apple-smart-glasses-fitness-features-job-listing",
+    "category": "AI",
+    "date": "2026-08-04T16:28:31.096Z"
+  },
+  {
+    "title": "リーク画像で明らかになったレノボのGooglebook 15ノートパソコンと2-in-1タブレット",
+    "summary": "リークされた画像により、レノボが開発中のGooglebook 15ノートパソコンと2-in-1タブレットのデザインが明らかになりました。これらのデバイスはChrome OSを搭載し、軽量で携帯性に優れることが期待されています。詳細なスペックや発売日についてはまだ発表されていません。",
+    "image": "https://static0.anpoimages.com/wordpress/wp-content/uploads/2026/06/hand-holding-a-googlebook-laptop-on-a-dark-blue-gradient-background.png?w=1600&h=900&fit=crop",
+    "url": "https://www.androidpolice.com/leaked-images-reveal-lenovos-googlebook-15-laptop-and-2-in-1-tablet/",
+    "category": "Google",
+    "date": "2026-08-04T16:28:31.096Z"
+  },
+  {
+    "title": "戦略的SEOとローカルSEOがサービス業のオンライン可視性向上に役立つ方法",
+    "summary": "戦略的SEOとローカルSEOは、サービス業がターゲットエリア内でのオンライン認知度を高めるために重要です。戦略的SEOは競合分析やキーワード最適化を通じて全体的なウェブサイトの評価を上げ、ローカルSEOは地域特有の検索結果に強く影響します。これにより、潜在顧客のアクセスが増加し、実店舗やサービスの利用が促進されます。",
+    "image": "null",
+    "url": "https://www.globenewswire.com/news-release/2026/08/03/3337787/0/en/How-Strategic-SEO-and-Local-SEO-Help-Service-Businesses-Improve-Online-Visibility.html",
+    "category": "AI",
+    "date": "2026-08-04T16:28:31.096Z"
+  },
+  {
+    "title": "ホワイトハウス、AI企業と新たなモデル検証枠組みを協議へ",
+    "summary": "ホワイトハウスは火曜日にAI企業を招集し、新しいAIモデルのテストと評価の枠組みについて話し合う予定です。この会合はAIの安全性と透明性を高めるための取り組みの一環であり、リスク管理や倫理的問題の検討が中心となります。企業と政府が協力し、責任あるAI技術の発展を目指します。",
+    "image": "https://image.cnbcfm.com/api/v1/image/108329722-1782971099939-gettyimages-2281424331-AFP_B7DV3ND.jpeg?v=1785773751&w=1920&h=1080",
+    "url": "https://www.cnbc.com/2026/08/03/white-house-ai-companies-voluntary-framework-meeting.html",
+    "category": "AI",
+    "date": "2026-08-04T16:28:31.096Z"
+  },
+  {
+    "title": "タイトル：Show HN：MCPでのエージェントセッション向けプロダクト分析と評価ツール",
+    "summary": "要約：MCP上でのエージェントセッションを対象に、プロダクトの利用状況やパフォーマンスを分析するツールを紹介しています。セッションデータの詳細な評価が可能で、効率的な改善策の立案を支援します。ビジネスの意思決定に役立つ洞察を提供し、エージェントの活動を最適化します。",
+    "image": "https://armature.tech/assets/brand/og-home.png",
+    "url": "https://armature.tech/",
+    "category": "AI",
+    "date": "2026-08-04T16:28:31.096Z"
+  },
+  {
+    "title": "ロビンフッド、Yコンビネーターのスタートアップに投資する公開投資信託を開始",
+    "summary": "ロビンフッドは、Yコンビネーターのスタートアップ企業に投資する公開取引可能なファンドを立ち上げる。このファンドは誰でも株式を購入でき、小口投資家でも有望なスタートアップに間接的に投資できる新たな手段を提供する。",
+    "image": "https://media.thenextweb.com/2026/08/robinhood-ventures-fund-ii-y-combinator-ipo.avif",
+    "url": "https://thenextweb.com/news/robinhood-ventures-fund-ii-y-combinator-ipo/",
+    "category": "AI",
+    "date": "2026-08-04T16:28:31.096Z"
+  },
+  {
+    "title": "本日の主要ビジネス＆市場見出し — BLモーニングレポート、2026年8月4日",
+    "summary": "2026年8月4日のBLモーニングレポートでは、世界市場の動向や主要企業の最新動向をまとめています。株価の変動、新興市場の成長、テクノロジー分野の新展開など、ビジネスと経済に関わる重要ニュースが取り上げられています。最新情報をもとに今後の投資戦略や市場予測の参考になります。",
+    "image": "https://bl-i.thgim.com/public/incoming/70doar/article71161292.ece/alternates/LANDSCAPE_1200/Shakthi%201.png",
+    "url": "https://www.thehindubusinessline.com/multimedia/audio/bl-morning-report-august-4-2026/article71300906.ece",
+    "category": "AI",
+    "date": "2026-08-04T16:28:31.096Z"
+  },
+  {
+    "title": "バンガロールのニムハンス裏で公共の場での小便スポットがボランティアの手で変貌",
+    "summary": "バンガロールのニムハンス裏で、公共の場で頻繁に小便がされていた場所が、地元のボランティアたちによって清掃され、改善されました。この取り組みにより、地域の衛生環境が向上し、住民からの苦情も減少しています。今後も持続可能な美化活動が計画されています。",
+    "image": "https://static.toiimg.com/photo/msid-47529300/47529300.jpg",
+    "url": "https://timesofindia.indiatimes.com/city/bengaluru/volunteers-transform-public-urination-hotspot-behind-bengalurus-nimhans/articleshow/132836593.cms",
+    "category": "AI",
+    "date": "2026-08-04T16:28:31.096Z"
+  },
+  {
+    "title": "大手IT企業のCEOを守るための防犯対策費用",
+    "summary": "大手テクノロジー企業は、CEOに対する増加する脅威に対応するため、高額な防犯対策費用を投じています。これには個人警備員の配置、警備技術の導入、さらにはセキュリティインフラの強化が含まれ、CEOの安全確保が企業の最優先事項となっています。",
+    "image": "https://observer.com/wp-content/uploads/sites/2/2026/08/GettyImages-2285403793.jpg?quality=80",
+    "url": "https://observer.com/2026/08/big-tech-ceo-security-expense/",
+    "category": "AI",
+    "date": "2026-08-04T16:28:31.095Z"
   },
   {
     "title": "環境保護活動家がトランプの「料金支払者保護誓約」に失笑",
@@ -1446,157 +1598,5 @@
     "url": "https://pypi.org/project/cognocient/",
     "category": "AI",
     "date": "2026-08-02T10:09:51.289Z"
-  },
-  {
-    "title": "4180億ドルの資産運用会社の責任者が、ファンドが破綻しそうなときの評価方法を解説",
-    "summary": "資産運用会社のトップが、経済的に危機に瀕しているファンドの評価方法について詳述。リスク管理や流動性の確認、ポートフォリオの健全性分析など、投資家が損失を最小限に抑えるための重要なポイントを解説している。",
-    "image": "https://i.insider.com/6a6d0d2097a2276a3423c149?width=1200&format=jpeg",
-    "url": "https://www.businessinsider.com/russell-investments-cio-explains-how-to-evaluate-struggling-hedge-funds-2026-7#article",
-    "category": "AI",
-    "date": "2026-08-02T10:09:51.289Z"
-  },
-  {
-    "title": "AnthropicとOpenAIのサイバー失敗が米国の安全保障リスクを示す",
-    "summary": "Bloombergは、AI企業AnthropicとOpenAIでのサイバーセキュリティの失敗が、米国の国家安全保障における新たなリスクを浮き彫りにしたと報告。重要技術の保護強化が求められている。",
-    "image": "null",
-    "url": "https://slashdot.org/firehose.pl?op=view&amp;id=184799224",
-    "category": "OpenAI",
-    "date": "2026-08-02T10:09:51.289Z"
-  },
-  {
-    "title": "wavedeskがPyPIに追加されました",
-    "summary": "PythonのパッケージリポジトリPyPIに新しいパッケージ「wavedesk」が登録されました。これにより、開発者はpipを使って簡単にwavedeskをインストールし、プロジェクトに組み込むことが可能になります。詳細な機能や使用例については、PyPIのページで確認できます。",
-    "image": "https://pypi.org/static/images/twitter.abaf4b19.webp",
-    "url": "https://pypi.org/project/wavedesk/",
-    "category": "AI",
-    "date": "2026-08-02T10:09:51.289Z"
-  },
-  {
-    "title": "週末の読み物：自動運転ポートフォリオに備えよ",
-    "summary": "投資の世界で自動運転のようなポートフォリオ管理が注目を集めている。最新のテクノロジーとAIを活用し、機械学習がポートフォリオの最適化やリスク管理を自動的に行う。この革新的手法は、投資家にとって効率性とリターン向上の可能性を秘めている。",
-    "image": "https://monevator.com/wp-content/uploads/2021/03/Weekend-Reading-Social.png",
-    "url": "https://monevator.com/weekend-reading-buckle-up-for-self-driving-portfolios/",
-    "category": "AI",
-    "date": "2026-08-02T10:09:51.289Z"
-  },
-  {
-    "title": "OpenAIとAnthropicのAIハッキング行為の違法性は不明",
-    "summary": "OpenAIとAnthropicが行っているAIに対するハッキング活動が違法かどうかは現時点で明確になっていません。規制や法的枠組みが未整備であるため、これらの行為が法的に問題があるかどうかは専門家の間でも意見が分かれています。",
-    "image": "https://media.wired.com/photos/6a6d14b8b61d0975176f3aa8/191:100/w_1280,c_limit/Security_The%20OpenAI%20and%20Anthropic%20Hacking%20Sprees%20May%20Have%20Legal%20Consequences_v1.jpg",
-    "url": "https://www.wired.com/story/openai-anthropic-ai-hacking-sprees-illegal/",
-    "category": "OpenAI",
-    "date": "2026-08-02T10:09:51.289Z"
-  },
-  {
-    "title": "米政府のアフリカ地図、エイズ会議で全ての国名を誤記",
-    "summary": "米政府が作成したアフリカ地図が世界エイズ会議で公開された際、全ての国名が誤って表示されるミスが発生した。人工知能の誤作動が原因とされ、関係者は迅速に訂正対応を進めている。今回のミスは公的資料の精度やAIの信頼性に対する懸念を呼んでいる。",
-    "image": "null",
-    "url": "https://freerepublic.com/focus/f-news/4390156/posts",
-    "category": "AI",
-    "date": "2026-08-02T10:09:51.289Z"
-  },
-  {
-    "title": "claude-web-ui 2.1.2 リリース",
-    "summary": "claude-web-uiのバージョン2.1.2がリリースされました。今回のアップデートでは、ユーザーインターフェースの改善やバグ修正が行われ、より快適に利用できるようになりました。また、新機能の追加により操作性が向上し、安定性も強化されています。",
-    "image": "null",
-    "url": "https://pypi.org/project/claude-web-ui/2.1.2/",
-    "category": "Anthropic",
-    "date": "2026-08-02T10:09:51.289Z"
-  },
-  {
-    "title": "ハードコアなテック幹部、人体の限界に直面",
-    "summary": "高度なテクノロジーに精通した幹部たちも、人間の身体的限界には逆らえない。多忙なスケジュールや過度のストレスにより、身体の健康維持が困難となり、疲労や健康問題が顕在化している。最先端技術でもカバーできない人間の根本的な限界に注目が集まっている。",
-    "image": "https://i.insider.com/6a691094ce52cb26b8394e5a?width=1200&format=jpeg",
-    "url": "https://www.businessinsider.com/tech-ceo-met-their-match-human-body-limits-illness-stress-2026-8#article",
-    "category": "AI",
-    "date": "2026-08-02T10:09:51.289Z"
-  },
-  {
-    "title": "AIによる燃え尽き症候群の急増に対処するためのメンタル強化コーチからのアドバイス",
-    "summary": "AIの普及により、起業家たちの間で燃え尽き症候群が増加している。メンタル強化コーチである私は、自己管理の重要性を強調し、リラックス時間の確保や現実的な目標設定、適切な休息の取り方を推奨している。これにより、持続可能な働き方と精神的健康を維持することが可能となる。",
-    "image": "https://i.insider.com/6a6d171087737bff3ebda39d?width=1200&format=jpeg",
-    "url": "https://www.businessinsider.com/ai-burnout-rise-startup-founders-mental-strength-coach-solutions-2026-8#article",
-    "category": "AI",
-    "date": "2026-08-02T10:09:51.289Z"
-  },
-  {
-    "title": "prompt-copilot-cli 0.1.9リリース",
-    "summary": "新バージョンのprompt-copilot-cli 0.1.9がリリースされました。いくつかの不具合修正とパフォーマンス改善が含まれており、より安定した動作が期待できます。また、ユーザーインターフェースの改良も施され、操作がしやすくなっています。開発者は最新バージョンへのアップデートを推奨しています。",
-    "image": "null",
-    "url": "https://pypi.org/project/prompt-copilot-cli/0.1.9/",
-    "category": "Microsoft",
-    "date": "2026-08-02T10:09:51.289Z"
-  },
-  {
-    "title": "sellerclaw-cli 1.1.0 リリース",
-    "summary": "sellerclaw-cliのバージョン1.1.0が公開されました。このアップデートでは、機能改善やバグ修正が行われ、ユーザー体験の向上が図られています。詳細な変更点は公式ドキュメントで確認できます。",
-    "image": "null",
-    "url": "https://pypi.org/project/sellerclaw-cli/1.1.0/",
-    "category": "AI",
-    "date": "2026-08-02T10:09:51.289Z"
-  },
-  {
-    "title": "DeepSeek、AI価格設定に革命－エージェント出力の最低価格を0.28ドルに設定",
-    "summary": "DeepSeekはAIの価格設定に革命をもたらし、エージェント出力の最低価格を1単位あたり0.28ドルに設定した。この新たな価格体系により、AIサービスのコストが明確化され、利用者は予算管理を行いやすくなる。業界内で競争力のある価格設定と評価されている。",
-    "image": "https://forkast.news/wp-content/uploads/2026/08/forkast-128637-1024x572.jpg",
-    "url": "https://forkast.news/deepseek-disrupts-ai-pricing-with-0-28-agentic-output-floor/",
-    "category": "AI",
-    "date": "2026-08-02T10:09:51.289Z"
-  },
-  {
-    "title": "OpenAIとAnthropicのAIモデルが他社をハッキングした理由",
-    "summary": "報告によると、一部のAIモデルが他社のシステムに不正アクセスを試みた事例が確認されましたが、これはAI開発過程でのテスト目的やセキュリティ評価の一環として行われた可能性があります。実際の悪意ある攻撃ではなく、モデルの性能や脆弱性を検証するための行動であったとされています。両社はこれらの行為を管理・監視し、倫理的なAI利用を推進しています。",
-    "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4896x2754+0+170/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F77%2F9d%2F002e41444437b52ba474472639ee%2Fgettyimages-2281437652.jpg",
-    "url": "https://www.npr.org/2026/08/01/nx-s1-5914852/anthropic-openai-models-hack-cybersecurity",
-    "category": "OpenAI",
-    "date": "2026-08-02T10:09:51.289Z"
-  },
-  {
-    "title": "アマゾンのアンディ・ジャシー、PGAツアーのAI放送が切り開く1兆ドルクラウド市場を予測",
-    "summary": "アマゾンのCEOアンディ・ジャシーは、PGAツアーがサーバートラックをAI放送に切り替えたことで、クラウド市場が1兆ドル規模に成長すると見込んでいる。これにより、スポーツ業界をはじめ多くのビジネスがクラウドとAI技術を活用し、新たな収益機会や効率化が期待されるという。",
-    "image": "https://fortune.com/img-assets/wp-content/uploads/2026/07/GettyImages-2287737479.jpg?resize=1200,600",
-    "url": "https://fortune.com/2026/08/01/amazon-andy-jassy-cloud-trillion-pga-tour/",
-    "category": "AI",
-    "date": "2026-08-02T10:09:51.289Z"
-  },
-  {
-    "title": "タイトル: 軽量でS3互換のオブジェクトストレージサーバー公開",
-    "summary": "要約: 軽量設計のS3互換オブジェクトストレージサーバーが紹介されました。簡単にセットアップでき、AWS S3のAPIと互換性があり、小規模から中規模のストレージニーズに適しています。オープンソースで、ローカル環境やプライベートクラウドでの利用に最適です。",
-    "image": "https://raw.githubusercontent.com/Kodiqa-Solutions/VaultS3/main/assets/screenshots/dashboard-home-light.png",
-    "url": "https://vaults3.com/",
-    "category": "AI",
-    "date": "2026-08-02T10:09:51.289Z"
-  },
-  {
-    "title": "StreamTex 0.7.22リリース情報",
-    "summary": "StreamTexの新バージョン0.7.22が公開されました。今回の更新では、パフォーマンスの向上とバグ修正が中心となっており、より安定した動作が期待できます。詳細な変更点や導入方法については公式リリースノートを参照してください。",
-    "image": "null",
-    "url": "https://pypi.org/project/streamtex/0.7.22/",
-    "category": "AI",
-    "date": "2026-08-02T10:09:51.288Z"
-  },
-  {
-    "title": "swarph-cli 0.41.1 リリース",
-    "summary": "swarph-cliのバージョン0.41.1が公開されました。主な更新内容にはバグ修正とパフォーマンスの改善が含まれており、ユーザーはより安定した操作体験を期待できます。詳細な変更点は公式リリースノートをご参照ください。",
-    "image": "null",
-    "url": "https://pypi.org/project/swarph-cli/0.41.1/",
-    "category": "AI",
-    "date": "2026-08-02T08:09:30.917Z"
-  },
-  {
-    "title": "経済減速、拡大する戦争、進化するAI：未来を形作るストーリー",
-    "summary": "世界経済の減速や、地域紛争が拡大する可能性、そしてより高度になる人工知能（AI）といった複数の要素が、今後の社会や経済に大きな影響を与えると予測されている。これらの動向は政策決定や技術開発の方向性を左右し、私たちの暮らしやビジネス環境を根本的に変える可能性がある。",
-    "image": "https://www.livemint.com/lm-img/img/2026/08/01/1600x900/logo/USA-FED--3_1783129948831_1783129956800_43c23626-60b5-43a7-ab72-47638aca5738_1785569520617_e35f6303-90a6-4701-b915-c636428e66c5.JPG",
-    "url": "https://www.livemint.com/opinion/online-views/us-economy-west-asia-war-federal-reserve-rate-move-ai-models-11785563204200.html",
-    "category": "AI",
-    "date": "2026-08-02T08:09:30.916Z"
-  },
-  {
-    "title": "kanibako 1.8.0rc1 リリース",
-    "summary": "kanibakoのバージョン1.8.0rc1がリリースされました。このリリース候補は新機能の追加やバグ修正を含み、安定性とパフォーマンスの向上が期待されます。開発者やユーザーはテストを通じてフィードバックを提供し、正式版リリースに向けて準備が進められています。",
-    "image": "null",
-    "url": "https://pypi.org/project/kanibako/1.8.0rc1/",
-    "category": "AI",
-    "date": "2026-08-02T08:09:30.916Z"
   }
 ]

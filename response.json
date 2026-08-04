@@ -1,14 +1,14 @@
 {
-  "id": "chatcmpl-E97jozBwJ0XSeWkXwiLrlRFMjrTgk",
+  "id": "chatcmpl-E9CI9Ti7EhFEwE6o2OFDLzDp4EWO4",
   "object": "chat.completion",
-  "created": 1785843404,
+  "created": 1785860909,
   "model": "gpt-4.1-mini-2025-04-14",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "EU、強化された権限でAnthropicやOpenAIのAIを厳格監視へ  \nEUは新たに付与された執行権限を用いて、AnthropicやOpenAIの人工知能技術に対する監視と規制を強化する方針を明らかにした。これにより、AIの安全性や倫理面の確保に対する取り組みが一層強化され、不正リスクの早期発見と対応が期待されている。",
+        "content": "Claudeコーディネーター バージョン0.4.100リリース\n\nClaudeコーディネーターの最新バージョン0.4.100が公開されました。このアップデートではパフォーマンスの向上と複数のバグ修正が行われ、より安定した運用が可能となりました。開発者は新機能の活用を推奨しています。",
         "refusal": null,
         "annotations": []
       },
@@ -17,9 +17,9 @@
     }
   ],
   "usage": {
-    "prompt_tokens": 57,
-    "completion_tokens": 119,
-    "total_tokens": 176,
+    "prompt_tokens": 52,
+    "completion_tokens": 94,
+    "total_tokens": 146,
     "prompt_tokens_details": {
       "cached_tokens": 0,
       "audio_tokens": 0
@@ -32,5 +32,5 @@
     }
   },
   "service_tier": "default",
-  "system_fingerprint": "fp_162d0a701a"
+  "system_fingerprint": "fp_709d7ca04b"
 }
