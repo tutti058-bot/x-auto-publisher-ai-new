@@ -1,1 +1,1 @@
-https://abcnews.com/Technology/wireStory/colleges-ai-boom-means-dabble-computer-science-135316494
+https://pypi.org/project/agent-forge-installer/0.4.38/

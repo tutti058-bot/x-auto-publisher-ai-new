@@ -1,1 +1,1 @@
-https://www.channelnewsasia.com/business/deepseeks-new-ai-model-far-cheapest-well-known-models-run-research-firm-says-6294731
+https://pypi.org/project/opendocs-sdk/

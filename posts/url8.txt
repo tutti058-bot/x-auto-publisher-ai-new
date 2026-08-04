@@ -1,1 +1,1 @@
-https://pypi.org/project/algocean-codex-oauth/0.4.2/
+https://pypi.org/project/nubra-backtest-engine/

@@ -1,5 +1,165 @@
 [
   {
+    "title": "EU、強化された権限でAnthropicやOpenAIのAIを厳格監視へ",
+    "summary": "EUは新たに付与された執行権限を用いて、AnthropicやOpenAIの人工知能技術に対する監視と規制を強化する方針を明らかにした。これにより、AIの安全性や倫理面の確保に対する取り組みが一層強化され、不正リスクの早期発見と対応が期待されている。",
+    "image": "https://static.cryptobriefing.com/wp-content/uploads/2026/08/03070546/eu-intensifies-ai-scrutiny-on-anthropic-openai-under-new-enf-1-800x420.jpeg",
+    "url": "https://cryptobriefing.com/eu-intensifies-ai-scrutiny-on-anthropic-openai-under-new-enforcement-powers/",
+    "category": "OpenAI",
+    "date": "2026-08-04T11:36:47.012Z"
+  },
+  {
+    "title": "環境保護活動家がトランプの「料金支払者保護誓約」に失笑",
+    "summary": "トランプ氏の「料金支払者保護誓約」が環境保護団体から批判を受けている。この誓約は電気料金の引き上げを防ぐとされるが、多くの専門家は気候変動対策の遅れを懸念し、現状維持を優先するだけの内容だと指摘している。環境への影響を考慮しない政策に不満が高まっている。",
+    "image": "https://www.motherjones.com/wp-content/uploads/2026/07/073126trumpratepayerprotection.png?w=1200&h=630&crop=1",
+    "url": "https://www.motherjones.com/politics/2026/08/environmentalists-are-rolling-their-eyes-at-trumps-ratepayer-protection-pledge/",
+    "category": "AI",
+    "date": "2026-08-04T11:36:47.011Z"
+  },
+  {
+    "title": "SOCにおけるFOMO：ClaudeのようなAIプラットフォームの実際の役割",
+    "summary": "近年、セキュリティ運用センター（SOC）でAI活用への期待が高まる中、FOMO（取り残される恐怖感）も広がっています。AIプラットフォームClaudeは自動化や分析支援で注目されるものの、完全な代替ではなく、現場の専門家と協働しつつ効率化を図るツールとして活用されるケースが増加しています。",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvsPqZrMBUJ3CH2LqsxL_1HWV6F-qs8FbnvytY_bz9ZlSUptj-3SPJ-BAlDBrF9V39V2F_D35LPU8BgSdDNfyPi2tqESWH_g2qzP2ospA36aF2CexX2_bRw7ee6qG4uqAyI24lavgb5wER2wuKWYd6rOUpdG0pbhlR4aAtEvSTuAQYmv8a5izEpv63mcA/s1700-e365/phish-main.jpg",
+    "url": "https://thehackernews.com/2026/08/fomo-in-soc-where-ai-platforms-like.html",
+    "category": "Anthropic",
+    "date": "2026-08-04T11:36:47.011Z"
+  },
+  {
+    "title": "CEOが1万ドルをAIトークンに投資、ビットコイン脆弱性の調査に利用",
+    "summary": "あるCEOがビットコインのセキュリティ脆弱性を探るためにAIトークンに1万ドルを投じた。この動きは、暗号通貨業界における新たな脅威の現状と、AI技術の活用がもたらすリスクと可能性を示している。",
+    "image": "https://static.cryptobriefing.com/wp-content/uploads/2026/08/03071956/laptop-with-an-image-of-cryptocurrency-800x420.jpeg",
+    "url": "https://cryptobriefing.com/ceo-ai-tokens-bitcoin-vulnerability-detection/",
+    "category": "AI",
+    "date": "2026-08-04T11:36:47.011Z"
+  },
+  {
+    "title": "nubra-backtest-engineがPyPIに追加",
+    "summary": "nubra-backtest-engineがPythonのパッケージリポジトリPyPIに新たに公開されました。このエンジンはバックテスト機能を提供し、金融データのシミュレーションや市場戦略の検証を効率的に行うことが可能です。開発者やトレーダーにとって利便性が向上します。",
+    "image": "null",
+    "url": "https://pypi.org/project/nubra-backtest-engine/",
+    "category": "AI",
+    "date": "2026-08-04T11:36:47.011Z"
+  },
+  {
+    "title": "nubra-backtest-engine 0.1.0のリリース",
+    "summary": "nubra-backtest-engineのバージョン0.1.0が公開されました。このバージョンは基本的なバックテスト機能を提供し、ユーザーが投資戦略のシミュレーションを行いやすくすることを目的としています。今後のアップデートで機能拡充が期待されています。",
+    "image": "null",
+    "url": "https://pypi.org/project/nubra-backtest-engine/0.1.0/",
+    "category": "AI",
+    "date": "2026-08-04T11:36:47.011Z"
+  },
+  {
+    "title": "agent-forge-installer 0.4.38リリース",
+    "summary": "agent-forge-installerのバージョン0.4.38が公開されました。今回のアップデートでは、インストールプロセスの安定性向上や既知の不具合修正が行われています。詳細な変更点や対応環境については公式ドキュメントをご参照ください。",
+    "image": "null",
+    "url": "https://pypi.org/project/agent-forge-installer/0.4.38/",
+    "category": "AI",
+    "date": "2026-08-04T11:36:47.011Z"
+  },
+  {
+    "title": "2026年7月27日の週の脆弱性概要",
+    "summary": "この週に報告された主な脆弱性には、複数のソフトウェアで発見された深刻なセキュリティ欠陥が含まれています。攻撃者はこれらの脆弱性を利用して情報漏洩や遠隔コード実行が可能であるため、ユーザーや管理者は速やかなパッチ適用や対策を推奨されています。詳細な影響範囲と対応策が各ベンダーから発表されています。",
+    "image": "null",
+    "url": "https://www.cisa.gov/news-events/bulletins/sb26-215",
+    "category": "AI",
+    "date": "2026-08-04T11:36:47.011Z"
+  },
+  {
+    "title": "マイクロソフト、今年中にコパイロット「スーパーアプリ」を発売へ",
+    "summary": "マイクロソフトは今年中にコパイロットを統合した「スーパーアプリ」をリリースすると発表しました。このアプリは単なる利便性向上にとどまらず、生産性やユーザー体験を大幅に変革することを目的としています。複数のツールやサービスを一体化し、効率的な作業環境を提供します。",
+    "image": "https://devops.com/wp-content/uploads/2026/08/Microsoft_Copilot_Super_App_770x330.jpg",
+    "url": "https://devops.com/microsoft-confirms-copilot-super-app-is-coming-this-year-and-its-about-more-than-convenience/",
+    "category": "AI",
+    "date": "2026-08-04T11:36:47.011Z"
+  },
+  {
+    "title": "中国のアリババ、米国のAI覇権に再挑戦",
+    "summary": "中国の大手IT企業アリババは、人工知能（AI）分野で米国の覇権に再度挑戦しています。最新のAI技術や研究開発に多額の投資を続け、グローバル市場での存在感を強化。アリババは独自のAIプラットフォーム開発を進めるとともに、米国企業に対抗する態勢を整えています。",
+    "image": "https://biztoc.com/cdn/349f23a2bd75cb86_s.webp",
+    "url": "https://biztoc.com/x/349f23a2bd75cb86",
+    "category": "AI",
+    "date": "2026-08-04T11:36:47.011Z"
+  },
+  {
+    "title": "AnthropicやOpenAIなど欧州AI法の施行権限で新たな監視対象に",
+    "summary": "AnthropicやOpenAIを含む複数のAI企業が、EUの新たなAI規制で強化された監視と遵守の対象となっています。EU AI法の施行権限により、これら企業の製品やサービスの透明性・安全性が厳しくチェックされ、法令違反には罰則が科される見込みです。",
+    "image": "https://biztoc.com/cdn/15e1a75e167d3893_s.webp",
+    "url": "https://biztoc.com/x/15e1a75e167d3893",
+    "category": "OpenAI",
+    "date": "2026-08-04T11:36:47.011Z"
+  },
+  {
+    "title": "ChatGPTが議会での初期AI支出を席巻、規制の検討が進む",
+    "summary": "議会における初期の人工知能（AI）関連支出でChatGPTが大きな存在感を示している。議員らはAIの急速な発展に伴い、その安全性や倫理面を考慮した規制の必要性を検討しており、今後の政策形成においてAI技術への投資と規制のバランスが焦点となっている。",
+    "image": "https://biztoc.com/cdn/995/og.png",
+    "url": "https://biztoc.com/x/ef60508e80de82a3",
+    "category": "OpenAI",
+    "date": "2026-08-04T11:36:47.011Z"
+  },
+  {
+    "title": "物語は交流の中に：Bonhommeの高級ブランド向けデジタル体験",
+    "summary": "Bonhommeは高級ブランドに特化したデジタル体験を提供し、消費者とのインタラクションを重視したサービスを展開しています。単なる商品の紹介ではなく、ブランドの世界観やストーリーをデジタル空間で体感できる仕組みを構築し、顧客との深いエンゲージメントを実現しています。これによりブランド価値の向上を図り、新しい顧客体験を創出しています。",
+    "image": "https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/07/Photo-1-1.jpg?x48895",
+    "url": "https://tympanus.net/codrops/2026/08/03/the-story-is-in-the-interaction-bonhommes-digital-experiences-for-luxury-brands/",
+    "category": "AI",
+    "date": "2026-08-04T11:36:47.011Z"
+  },
+  {
+    "title": "opendocs-sdkがPyPIに追加されました",
+    "summary": "opendocs-sdkがPythonパッケージインデックス（PyPI）に新たに公開されました。これにより、開発者はpipコマンドを使って簡単にこのSDKをインストールし、文書処理や生成の作業を効率化できるようになります。SDKの利用で開発がよりスムーズになることが期待されています。",
+    "image": "https://pypi.org/static/images/twitter.abaf4b19.webp",
+    "url": "https://pypi.org/project/opendocs-sdk/",
+    "category": "AI",
+    "date": "2026-08-04T11:36:47.011Z"
+  },
+  {
+    "title": "Show HN: Nightcrawler – スマホ上で動作するローカルAIペンテスティングエージェント",
+    "summary": "Nightcrawlerはスマートフォン上で動作するローカルAIベースのペンテスティングエージェントです。ユーザーが自身のデバイスでセキュリティテストを実行でき、クラウドを介さずにプライバシーを保護しながら脆弱性診断が可能です。軽量かつ効率的に動作し、モバイル環境でのセキュリティ強化に貢献します。",
+    "image": "https://opengraph.githubassets.com/ba5954ff5e7831012419bfa77a876bd63a616f8f69617ac62df523cab3a58b91/garagehq/nightcrawler",
+    "url": "https://github.com/garagehq/nightcrawler/",
+    "category": "AI",
+    "date": "2026-08-04T11:36:47.011Z"
+  },
+  {
+    "title": "2026年に女性が在宅でお金を稼ぐためのおすすめAIツール10選",
+    "summary": "女性が自宅で収入を得るための最新AIツールを紹介。ライティング支援や画像生成、データ解析、動画編集など、多様な分野に対応し、初心者でも使いやすいものを厳選。これらのAIツールを活用することで、効率よく副業やフリーランスの仕事を始められ、収入源の拡大が期待できる。",
+    "image": "https://i0.wp.com/graphicdesignjunction.com/wp-content/uploads/2026/08/10-Best-AI-Tools-for-Women-to-Earn-Money-from-Home-2026.jpg",
+    "url": "https://graphicdesignjunction.com/2026/08/ai-tools-for-women-to-earn-money/",
+    "category": "AI",
+    "date": "2026-08-04T11:36:47.010Z"
+  },
+  {
+    "title": "旅行AIがヒップマンクから学べること、16年後の教訓",
+    "summary": "16年前に登場した旅行検索サイト「ヒップマンク」は、使いやすいインターフェースと斬新な航空券検索機能で注目を集めました。現在の旅行AIは、ヒップマンクのようにユーザー体験を最優先に設計し、スムーズな検索と比較機能を取り入れることが成功の鍵となります。また、個々のニーズに最適化した提案や価格透明性を重視する姿勢も重要です。",
+    "image": "https://skift.com/wp-content/uploads/2026/08/image.png?resize=1024,576",
+    "url": "https://skift.com/2026/08/03/what-travel-ai-can-learn-from-hipmunk-16-years-later/",
+    "category": "AI",
+    "date": "2026-08-04T11:36:47.010Z"
+  },
+  {
+    "title": "データセンターを望む唯一の町",
+    "summary": "テキサス州の小さな町は、経済活性化のためにデータセンター誘致を望んでいる。多くの地域が反対する中、この町は雇用創出や税収増加を期待し、積極的に受け入れ態勢を整えている。デジタル時代におけるインフラ整備の重要性が背景にある。",
+    "image": "https://cdn.theatlantic.com/thumbor/5WE9-bv8oQ6Hw2N6eFajsk0NTbM=/0x667:2664x2055/1200x625/media/img/mt/2026/07/jay_maine_film_82/original.jpg",
+    "url": "https://www.theatlantic.com/technology/2026/08/jay-maine-wants-data-center/688043/",
+    "category": "AI",
+    "date": "2026-08-04T11:36:47.010Z"
+  },
+  {
+    "title": "Show HN: 小説や物語を書くための美しいウェブアプリ",
+    "summary": "小説や物語を書くための美しいデザインのウェブアプリが公開されました。使いやすいインターフェースで、創作活動をサポートし、執筆を効率化します。作家やライターにおすすめのツールです。",
+    "image": "https://opengraph.githubassets.com/4851a950b4e03e85cbe3204bea6c3bb352e9859629ab8aaaa3898c42f94b2170/jpmoo/brigid",
+    "url": "https://github.com/jpmoo/brigid",
+    "category": "AI",
+    "date": "2026-08-04T11:36:47.010Z"
+  },
+  {
+    "title": "AIがゲームのルールを変える",
+    "summary": "人工知能（AI）は、ゲーム業界に革命をもたらしており、プレイヤーの体験やゲーム開発の方法を大きく変えています。AI技術の進歩により、より高度でリアルなNPCの挙動や、個別化されたゲーム体験の提供が可能となり、業界全体のイノベーションが促進されています。",
+    "image": "null",
+    "url": "https://marketoonist.com/2026/08/ai-overviews-changing-the-game.html",
+    "category": "AI",
+    "date": "2026-08-04T11:36:47.010Z"
+  },
+  {
     "title": "cswap-pin 0.1.9 リリース情報",
     "summary": "cswap-pinのバージョン0.1.9がリリースされました。この新バージョンでは、いくつかのバグ修正やパフォーマンスの最適化が行われ、ユーザー体験が向上しています。詳細な変更点は公式リリースノートをご参照ください。",
     "image": "null",
@@ -1438,165 +1598,5 @@
     "url": "https://pypi.org/project/kanibako/1.8.0rc1/",
     "category": "AI",
     "date": "2026-08-02T08:09:30.916Z"
-  },
-  {
-    "title": "memor-cli 0.10.1 リリース情報",
-    "summary": "memor-cliのバージョン0.10.1がリリースされました。今回のアップデートではバグ修正やパフォーマンスの向上が行われ、ユーザー体験が改善されています。詳細な変更点は公式リリースノートを参照してください。",
-    "image": "null",
-    "url": "https://pypi.org/project/memor-cli/0.10.1/",
-    "category": "AI",
-    "date": "2026-08-02T08:09:30.916Z"
-  },
-  {
-    "title": "クロードコードクリエイターのボリス・チャーニー氏、精度向上のためCLAUDE.md削除を推奨",
-    "summary": "クレイドの開発者ボリス・チャーニー氏は、より正確な結果を得るために「CLAUDE.md」というファイルの削除を勧めています。これはコード生成やAIの精度改善に寄与すると示唆されており、開発者コミュニティから注目されています。",
-    "image": "https://www.geeky-gadgets.com/wp-content/uploads/2026/07/boris-cherny-claude-code.jpg",
-    "url": "https://www.geeky-gadgets.com/delete-claude-md-files/",
-    "category": "Anthropic",
-    "date": "2026-08-02T08:09:30.916Z"
-  },
-  {
-    "title": "Android AutoとApple CarPlayを250マイル走行テスト、一押しはどちらか？",
-    "summary": "250マイルにわたりAndroid AutoとApple CarPlayの機能を比較テストしました。操作性や連携性、ナビゲーションの精度などを評価した結果、どちらか一方を継続して使いたいと思える製品が明確になりました。詳細はレビューで判明します。",
-    "image": "https://cdn.mos.cms.futurecdn.net/JNcguhia7tT8oqFPMWw8PC-2000-80.jpg",
-    "url": "https://www.techradar.com/vehicle-tech/car-infotainment/i-logged-250-miles-testing-android-auto-vs-apple-carplay-and-theres-one-im-going-to-stick-with",
-    "category": "AI",
-    "date": "2026-08-02T08:09:30.916Z"
-  },
-  {
-    "title": "タイトル: prompt-copilot-cli 0.1.8リリース",
-    "summary": "要約: prompt-copilot-cliのバージョン0.1.8が公開されました。この新バージョンでは、操作の安定性向上やバグ修正が行われ、ユーザー体験がさらに改善されています。CLIツールとしての利便性が増し、より効率的な作業が可能となっています。",
-    "image": "null",
-    "url": "https://pypi.org/project/prompt-copilot-cli/0.1.8/",
-    "category": "Microsoft",
-    "date": "2026-08-02T08:09:30.916Z"
-  },
-  {
-    "title": "june-openai-agents 0.1.0リリース",
-    "summary": "june-openai-agentsのバージョン0.1.0が公開されました。この新バージョンではOpenAIエージェントの基本機能が実装され、より効率的なAIタスク実行が可能となりました。開発者はこれを利用して様々なカスタムエージェントの作成が容易になります。今後のアップデートにも期待が高まっています。",
-    "image": "null",
-    "url": "https://pypi.org/project/june-openai-agents/0.1.0/",
-    "category": "OpenAI",
-    "date": "2026-08-02T08:09:30.916Z"
-  },
-  {
-    "title": "「june-openai-agents」がPyPIに追加",
-    "summary": "「june-openai-agents」がPythonの公式パッケージリポジトリPyPIに新たに公開されました。このパッケージはOpenAIのエージェント関連機能を提供し、開発者がより簡単にAIエージェントの実装や利用を行えるようになります。インストールや使用方法もPyPI経由で手軽に行えます。",
-    "image": "null",
-    "url": "https://pypi.org/project/june-openai-agents/",
-    "category": "OpenAI",
-    "date": "2026-08-02T08:09:30.916Z"
-  },
-  {
-    "title": "タイトル：Show HN: Wisp – Luaスクリプト対応のLinuxシェルと構造化パイプライン",
-    "summary": "要約：WispはLinux向けの新しいシェルで、Luaスクリプティングを組み込み、構造化されたパイプライン処理を特徴としています。これにより、従来のシェルよりも柔軟かつ効率的なコマンド実行とスクリプト作成が可能です。ユーザーは複雑な操作を簡単に自動化し、高度な処理を行えます。",
-    "image": "https://opengraph.githubassets.com/8bec9d41a2fd154b077f53a0ee46f145f1d93aadf832e369a7387a742c0b27bc/Hinikaa/wisp",
-    "url": "https://github.com/Hinikaa/wisp",
-    "category": "AI",
-    "date": "2026-08-02T08:09:30.916Z"
-  },
-  {
-    "title": "AgentSquid 0.1.2リリースのお知らせ",
-    "summary": "AgentSquidのバージョン0.1.2が公開されました。このアップデートでは、バグ修正とパフォーマンス改善が含まれており、より安定した動作が期待できます。開発者は最新バージョンへのアップデートを推奨しています。詳細な変更点は公式リリースノートで確認可能です。",
-    "image": "null",
-    "url": "https://pypi.org/project/agentsquid/0.1.2/",
-    "category": "AI",
-    "date": "2026-08-02T08:09:30.916Z"
-  },
-  {
-    "title": "railmux 0.3.0 リリース",
-    "summary": "railmuxのバージョン0.3.0がリリースされました。新機能の追加やバグ修正が行われ、パフォーマンスの向上が図られています。詳細な変更点や更新内容は公式リリースノートを参照してください。",
-    "image": "null",
-    "url": "https://pypi.org/project/railmux/0.3.0/",
-    "category": "AI",
-    "date": "2026-08-02T08:09:30.916Z"
-  },
-  {
-    "title": "llmai 0.3.6リリース",
-    "summary": "llmaiのバージョン0.3.6がリリースされました。このアップデートでは、機能の改善とバグ修正が行われており、より安定した動作が期待できます。詳細な変更点については公式ドキュメントを参照してください。",
-    "image": "null",
-    "url": "https://pypi.org/project/llmai/0.3.6/",
-    "category": "AI",
-    "date": "2026-08-02T08:09:30.916Z"
-  },
-  {
-    "title": "Atlassian-Skills 0.4.0 リリース",
-    "summary": "Atlassian-Skillsのバージョン0.4.0がリリースされました。このアップデートでは、新機能の追加や既存スキルの改善、バグ修正が行われ、ユーザー体験が向上しました。詳細な変更内容は公式ドキュメントで確認できます。",
-    "image": "null",
-    "url": "https://pypi.org/project/atlassian-skills/0.4.0/",
-    "category": "AI",
-    "date": "2026-08-02T08:09:30.916Z"
-  },
-  {
-    "title": "FlipkartとNetflixが提携した理由",
-    "summary": "FlipkartとNetflixは、顧客体験の向上と市場シェア拡大を目的に提携を発表しました。FlipkartのユーザーベースにNetflixのストリーミングサービスを提供し、両社のサービスを融合させることで、顧客への付加価値を高める狙いがあります。これにより、ショッピングとエンターテインメントが一体化した新たな体験を実現します。",
-    "image": "https://im.rediff.com/1200-630/movies/2026/aug/01flipkart-netflix.jpg",
-    "url": "https://www.rediff.com/movies/report/why-have-flipkart-netflix-tied-up/20260801.htm",
-    "category": "AI",
-    "date": "2026-08-02T08:09:30.916Z"
-  },
-  {
-    "title": "AgentSquid 0.1.2rc2リリース",
-    "summary": "AgentSquidのバージョン0.1.2rc2が公開されました。本リリースでは、バグ修正やパフォーマンスの向上が行われ、安定性が増しています。開発者とユーザーは最新バージョンへのアップデートを推奨されています。",
-    "image": "null",
-    "url": "https://pypi.org/project/agentsquid/0.1.2rc2/",
-    "category": "AI",
-    "date": "2026-08-02T08:09:30.916Z"
-  },
-  {
-    "title": "Google、「Pixel 11」シリーズの「Pixel Glow」機能は別名に変更か",
-    "summary": "GoogleのPixel 11シリーズに搭載予定の通知機能「Pixel Glow」は、正式リリース時に異なる名称になる可能性が高いと報告されている。この機能は端末の側面が光る仕組みを提供し、ユーザーに通知を視覚的に知らせるもので、ブランド戦略の一環として名称変更が検討されている模様だ。",
-    "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/Googles-Pixel-Glow-am-Pixel-11-wird-wohl-ganz-anders-heissen.jpg",
-    "url": "https://www.notebookcheck.net/Google-s-Pixel-Glow-feature-on-the-Pixel-11-series-will-likely-have-a-completely-different-name.1357679.0.html",
-    "category": "Google",
-    "date": "2026-08-02T08:09:30.916Z"
-  },
-  {
-    "title": "nerva-core 0.4.0リリース",
-    "summary": "nerva-coreのバージョン0.4.0がリリースされました。本バージョンでは、パフォーマンス改善やバグ修正、新機能の追加が行われ、より安定した動作が可能になっています。ユーザー体験の向上が図られており、システムの信頼性も向上しました。",
-    "image": "null",
-    "url": "https://pypi.org/project/nerva-core/0.4.0/",
-    "category": "AI",
-    "date": "2026-08-02T08:09:30.916Z"
-  },
-  {
-    "title": "AIソリューション提供者を狙うフィッシングキャンペーン",
-    "summary": "最新のフィッシングキャンペーンが、AIソリューションを提供する企業を標的に行われています。攻撃者は偽のメールやウェブサイトを使い、機密情報や認証情報を盗み取ろうとしています。企業はセキュリティ対策の強化と従業員教育の徹底が求められています。",
-    "image": "https://isc.sans.edu/diaryimages/images/isc-20260801-1.png",
-    "url": "https://isc.sans.edu/diary/33206",
-    "category": "AI",
-    "date": "2026-08-02T08:09:30.916Z"
-  },
-  {
-    "title": "openapi-ai-sdkがPyPIに追加されました",
-    "summary": "新しいPythonパッケージ「openapi-ai-sdk」がPythonのパッケージリポジトリPyPIに公開されました。これにより、開発者は簡単にこのSDKをインストールしてAI APIとの連携を行うことが可能になります。",
-    "image": "null",
-    "url": "https://pypi.org/project/openapi-ai-sdk/",
-    "category": "AI",
-    "date": "2026-08-02T06:47:54.027Z"
-  },
-  {
-    "title": "ChatGPTがRevolut口座利用者向けに最大1年間無料提供",
-    "summary": "Revolutの口座を持つユーザーは、ChatGPTのサブスクリプションを最大1年間無料で利用可能になる新サービスが開始されました。この提携により、AIチャットボットの高度な機能を追加費用なしで体験できるようになります。",
-    "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/ChatGPT-Go-OpenAI.png",
-    "url": "https://www.notebookcheck.net/ChatGPT-subscription-free-for-up-to-a-year-New-offer-with-a-Revolut-account.1357612.0.html",
-    "category": "OpenAI",
-    "date": "2026-08-02T06:47:54.027Z"
-  },
-  {
-    "title": "nim-claude-proxy 0.4.2リリース",
-    "summary": "nim-claude-proxyのバージョン0.4.2が公開されました。このアップデートでは、パフォーマンスの改善やバグ修正が行われ、より安定した動作が可能となりました。開発者は最新バージョンの導入を推奨しています。",
-    "image": "null",
-    "url": "https://pypi.org/project/nim-claude-proxy/0.4.2/",
-    "category": "Anthropic",
-    "date": "2026-08-02T06:47:54.027Z"
-  },
-  {
-    "title": "GraphSift 4.11.0リリース",
-    "summary": "GraphSiftの最新バージョン4.11.0が公開され、新機能やバグ修正が含まれています。今回のアップデートでは性能の向上やユーザーインターフェースの改善が図られ、より快適にデータ解析が行えるようになりました。詳細な変更点は公式リリースノートで確認可能です。",
-    "image": "null",
-    "url": "https://pypi.org/project/graphsift/4.11.0/",
-    "category": "AI",
-    "date": "2026-08-02T06:47:54.026Z"
   }
 ]

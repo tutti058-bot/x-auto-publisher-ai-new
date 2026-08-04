@@ -1,1 +1,1 @@
-https://pypi.org/project/pylumbergh/0.1.0a199/
+https://pypi.org/project/nubra-backtest-engine/0.1.0/
