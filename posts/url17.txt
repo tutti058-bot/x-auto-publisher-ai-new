@@ -1,1 +1,1 @@
-https://aws.amazon.com/blogs/aws/aws-weekly-roundup-price-reduction-of-gpt-models-in-bedrock-cloudwatch-managed-collectors-for-prometheus-metrics-and-more-august-3-2026/
+https://github.com/smokeeaasd/yet-another-opencode-plugin

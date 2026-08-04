@@ -1,1 +1,1 @@
-https://www.pymnts.com/credit-cards/2026/card-networks-push-beyond-payments-to-lock-in-growth/
+https://pypi.org/project/cgh-summarize/0.2.2/
