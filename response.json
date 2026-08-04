@@ -1,14 +1,14 @@
 {
-  "id": "chatcmpl-E8tR4i75g6SOWfHt1lqPXgbcGAxUL",
+  "id": "chatcmpl-E92lGzuTkeYMuPF1TD2D7k6BSyMct",
   "object": "chat.completion",
-  "created": 1785788426,
+  "created": 1785824274,
   "model": "gpt-4.1-mini-2025-04-14",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "タイトル：Show HN: Kota – AIエージェントCLIを同じ場所に集約\n\n要約：Kotaは、複数のAIエージェントのコマンドラインインターフェース（CLI）を一つのプラットフォームに統合し、効率的に操作できるツールです。これにより、異なるAIエージェントの機能を同時に活用しやすくなり、作業の生産性向上が期待されます。開発者やユーザーがAIツールをより効果的に利用できる環境を提供します。",
+        "content": "DeepSeekの新AIモデル、既存モデルで最も低コストと調査会社が発表  \n調査会社によると、DeepSeekの新しいAIモデルは運用コストが非常に低く、既存の有名モデルよりも圧倒的に安価であることが判明した。これにより、企業のAI活用がさらに促進される可能性が示唆されている。",
         "refusal": null,
         "annotations": []
       },
@@ -17,9 +17,9 @@
     }
   ],
   "usage": {
-    "prompt_tokens": 57,
-    "completion_tokens": 140,
-    "total_tokens": 197,
+    "prompt_tokens": 63,
+    "completion_tokens": 97,
+    "total_tokens": 160,
     "prompt_tokens_details": {
       "cached_tokens": 0,
       "audio_tokens": 0
@@ -32,5 +32,5 @@
     }
   },
   "service_tier": "default",
-  "system_fingerprint": "fp_f60b1316f6"
+  "system_fingerprint": "fp_3f92b42838"
 }

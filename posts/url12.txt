@@ -1,1 +1,1 @@
-https://languagelog.ldc.upenn.edu/nll/?p=73953
+https://pypi.org/project/cswap-pin/0.1.9/

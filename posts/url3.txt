@@ -1,1 +1,1 @@
-https://pypi.org/project/neuralmind/2.0.1/
+https://pypi.org/project/gosce-langsmith-traced-llm-orchestration-agent/0.1.0/

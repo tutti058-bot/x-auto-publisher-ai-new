@@ -1,5 +1,165 @@
 [
   {
+    "title": "cswap-pin 0.1.9 リリース情報",
+    "summary": "cswap-pinのバージョン0.1.9がリリースされました。この新バージョンでは、いくつかのバグ修正やパフォーマンスの最適化が行われ、ユーザー体験が向上しています。詳細な変更点は公式リリースノートをご参照ください。",
+    "image": "null",
+    "url": "https://pypi.org/project/cswap-pin/0.1.9/",
+    "category": "AI",
+    "date": "2026-08-04T06:18:00.129Z"
+  },
+  {
+    "title": "MPEdbの紹介：SQLite3の代替で同時実行サポート付き",
+    "summary": "MPEdbはSQLite3の代替として設計されており、同時実行（コンカレンシー）をサポートしています。従来のSQLite3が単一プロセスでのアクセスに制限があるのに対し、MPEdbは複数のプロセスやスレッドからの安全かつ効率的な同時アクセスを可能にすることで、パフォーマンスと使いやすさの向上を目指しています。",
+    "image": "https://opengraph.githubassets.com/a9520883355baf5161460bdbb639bf05396284787be652fae9d5d3dacb879491/punnerud/mpedb",
+    "url": "https://github.com/punnerud/mpedb",
+    "category": "AI",
+    "date": "2026-08-04T06:18:00.129Z"
+  },
+  {
+    "title": "ステートレスMCPに再び関心が集まる（mcp-explorerとdatasette-mcpに影響）",
+    "summary": "ステートレスMCP（メッセージ制御プロトコル）が再び注目を集め、mcp-explorerやdatasette-mcpといったツール開発のインスピレーションとなっています。これらのツールはMCPの利便性を向上させ、効率的なデータ管理や探索を実現しています。",
+    "image": "https://raw.githubusercontent.com/simonw/til/refs/heads/main/llms/claude-add-custom-connector-dialog.webp",
+    "url": "https://simonwillison.net/2026/Jul/31/stateless-mcp/",
+    "category": "AI",
+    "date": "2026-08-04T06:18:00.129Z"
+  },
+  {
+    "title": "Raft実装におけるバグの発見 | Antithesis",
+    "summary": "Raftコンセンサスアルゴリズムの実装には多くのバグが潜んでおり、正確性の検証が難しいことが指摘されています。Antithesisは複数のRaft実装を分析し、設計上や実装上の問題点を明らかにしました。これにより、分散システムの安定性向上に向けた重要な知見が得られています。",
+    "image": "https://antithesis.com/_astro/cover.C2TWoGrq_Z1dNdEc.jpg",
+    "url": "https://antithesis.com/blog/2026/finding-bugs-in-raft-implementations/",
+    "category": "AI",
+    "date": "2026-08-04T06:18:00.129Z"
+  },
+  {
+    "title": "DeepSeekの新しいAIモデル、著名なモデルの中で最も低コストであると研究企業が発表",
+    "summary": "調査会社によれば、DeepSeekが開発した新しいAIモデルは、既存の著名なAIモデルと比較して、運用コストが大幅に低いことが判明した。このモデルは高い性能を維持しつつ、費用効率に優れているため、多くの企業での採用が期待されている。研究者たちは、この経済的なAI技術が業界に大きな影響を与えると指摘している。",
+    "image": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-48988,resizemode-75,msid-132820248/tech/artificial-intelligence/deepseeks-new-ai-model-is-by-far-the-cheapest-of-well-known-models-to-run-research-firm-says.jpg",
+    "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/deepseeks-new-ai-model-is-by-far-the-cheapest-of-well-known-models-to-run-research-firm-says/articleshow/132820248.cms",
+    "category": "AI",
+    "date": "2026-08-04T06:18:00.129Z"
+  },
+  {
+    "title": "DeepSeekの新AIモデル、既存モデルで最も低コストと調査会社が発表",
+    "summary": "調査会社によると、DeepSeekの新しいAIモデルは運用コストが非常に低く、既存の有名モデルよりも圧倒的に安価であることが判明した。これにより、企業のAI活用がさらに促進される可能性が示唆されている。",
+    "image": "https://dam.mediacorp.sg/image/upload/s--B1CfPFs3--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2026-08-03T054143Z_1_LYNXMPEM720DI_RTROPTP_3_CHINA-AI-DEEPSEEK.JPG?itok=XOpyRoLE",
+    "url": "https://www.channelnewsasia.com/business/deepseeks-new-ai-model-far-cheapest-well-known-models-run-research-firm-says-6294731",
+    "category": "AI",
+    "date": "2026-08-04T06:18:00.129Z"
+  },
+  {
+    "title": "タイトル：Show HN: Kota – AIエージェントCLIを同じ場所に集約",
+    "summary": "要約：Kotaは、複数のAIエージェントのコマンドラインインターフェース（CLI）を一つのプラットフォームに統合し、効率的に操作できるツールです。これにより、異なるAIエージェントの機能を同時に活用しやすくなり、作業の生産性向上が期待されます。開発者やユーザーがAIツールをより効果的に利用できる環境を提供します。",
+    "image": "null",
+    "url": "https://www.kota.place/",
+    "category": "AI",
+    "date": "2026-08-04T06:18:00.129Z"
+  },
+  {
+    "title": "Nvidia対Alphabet：収益動向が示すAIリーダーの実態",
+    "summary": "NvidiaとAlphabetの最新の収益動向を比較すると、NvidiaはAI需要の急増により市場での売上が大幅に伸びている。一方、AlphabetもAI分野での投資を強化しているものの、収益成長はやや緩やかで、両社の戦略や市場ポジションに注目が集まっている。",
+    "image": "https://s.yimg.com/lo/mysterio/api/999EF3A757A91C10DBAF14CEC27C53A3AB3C46629FAEBB4E62FF04A4B74B9FB2/subgraphmysterio/resizefill_w1200_h800;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2Fc28c33fd1d46ae94d005833cc94f53d3",
+    "url": "https://247wallst.com/investing/2026/08/02/nvidia-vs-alphabet-what-revenue-trends-reveal-about-the-ai-leaders/",
+    "category": "AI",
+    "date": "2026-08-04T06:18:00.129Z"
+  },
+  {
+    "title": "gosce-mcp-native-llm-orchestration-agent 0.1.0リリース",
+    "summary": "gosce-mcp-native-llm-orchestration-agentのバージョン0.1.0が公開されました。このエージェントはネイティブの大規模言語モデル（LLM）オーケストレーションを支援し、複数のLLMタスクを効率的に管理・実行することが可能です。開発者はこれにより複雑なLLM連携をスムーズに構築できるようになりました。",
+    "image": "null",
+    "url": "https://pypi.org/project/gosce-mcp-native-llm-orchestration-agent/0.1.0/",
+    "category": "AI",
+    "date": "2026-08-04T06:18:00.128Z"
+  },
+  {
+    "title": "gosce-mcp-native-llm-orchestration-agentがPyPIに追加されました。",
+    "summary": "この新しいパッケージは、ネイティブなLLMオーケストレーションエージェントとして機能し、複数の大型言語モデルの管理や調整を効率化します。開発者がPyPIから簡単にインストール可能で、AIアプリケーションの構築や運用に役立つことが期待されています。",
+    "image": "null",
+    "url": "https://pypi.org/project/gosce-mcp-native-llm-orchestration-agent/",
+    "category": "AI",
+    "date": "2026-08-04T06:18:00.128Z"
+  },
+  {
+    "title": "gosce-langsmith-traced-llm-orchestration-agentがPyPIに追加されました。",
+    "summary": "この新しいエージェントは、LangSmithプラットフォームと連携し、LLM（大規模言語モデル）のオーケストレーションを効率的に管理するツールです。PyPIで公開されたことで、Pythonプロジェクトに簡単に導入可能となり、開発者は高度なLLM操作を容易に実装できるようになります。",
+    "image": "null",
+    "url": "https://pypi.org/project/gosce-langsmith-traced-llm-orchestration-agent/",
+    "category": "AI",
+    "date": "2026-08-04T06:18:00.128Z"
+  },
+  {
+    "title": "gosce-langsmith-traced-llm-orchestration-agent 0.1.0リリース",
+    "summary": "新バージョン0.1.0のgosce-langsmith-traced-llm-orchestration-agentが公開されました。このエージェントは大規模言語モデルのオーケストレーションを支援し、トレース機能を備えているため、処理の追跡やデバッグが容易になります。開発者の効率向上を目指したアップデートです。",
+    "image": "null",
+    "url": "https://pypi.org/project/gosce-langsmith-traced-llm-orchestration-agent/0.1.0/",
+    "category": "AI",
+    "date": "2026-08-04T06:18:00.128Z"
+  },
+  {
+    "title": "オルトマンの提言が育児におけるAI利用の議論を喚起",
+    "summary": "オープンAIのサム・オルトマンCEOが、育児にAIを活用することを支持する発言をし、賛否両論を巻き起こしています。一部は効率化や教育支援を評価する一方で、子どもの成長における人間の関わりの重要性を訴える声も強まっています。AIの倫理的側面や依存リスクについても議論されています。",
+    "image": "https://biztoc.com/cdn/cdd0bf39dcd98c8e_s.webp",
+    "url": "https://biztoc.com/x/cdd0bf39dcd98c8e",
+    "category": "AI",
+    "date": "2026-08-04T06:18:00.128Z"
+  },
+  {
+    "title": "ラボの好奇心から主流の脅威へ：Black Hat USA 2026とAIエージェントセキュリティの台頭",
+    "summary": "Black Hat USA 2026では、AIエージェントのセキュリティ問題が主要テーマとして取り上げられています。研究段階だったAI技術が、悪意ある攻撃に利用されるリスクが高まり、企業や個人の安全を脅かす深刻な課題となっています。専門家たちは、新しい防御策の確立と倫理的ガイドラインの重要性を強調しています。",
+    "image": "https://forkast.news/wp-content/uploads/2026/08/blackhat-2026-ai-agent-security-mainstream-1024x572.jpg",
+    "url": "https://forkast.news/from-lab-curiosity-to-mainstream-threat-black-hat-usa-2026-and-the-rise-of-ai-agent-security/",
+    "category": "AI",
+    "date": "2026-08-04T06:18:00.128Z"
+  },
+  {
+    "title": "mokata 0.0.16 リリースのお知らせ",
+    "summary": "mokataの新バージョン0.0.16がリリースされました。今回のアップデートでは、バグ修正やパフォーマンスの向上が含まれており、より安定した動作が期待できます。また、一部の機能改善も行われており、ユーザーエクスペリエンスの向上に寄与しています。詳細は公式リリースノートをご参照ください。",
+    "image": "null",
+    "url": "https://pypi.org/project/mokata/0.0.16/",
+    "category": "AI",
+    "date": "2026-08-04T06:18:00.128Z"
+  },
+  {
+    "title": "タイトル：中国でClaude/Codexが90％オフで提供中",
+    "summary": "要約：中国のユーザー向けに、AIモデルClaudeやCodexが通常価格の90％オフで販売されています。この割引により、これらの高度なAIツールを手頃な価格で利用可能となり、多くの開発者や企業が恩恵を受けています。購入や利用条件についての詳細は現地のサービス提供者から確認が推奨されています。",
+    "image": "null",
+    "url": "https://news.ycombinator.com/item?id=49151751",
+    "category": "Anthropic",
+    "date": "2026-08-04T06:18:00.128Z"
+  },
+  {
+    "title": "algocean-codex-oauth 0.4.2 リリース情報",
+    "summary": "アルゴシーンのalgocean-codex-oauthがバージョン0.4.2にアップデートされました。この新版ではOAuth認証の改善やバグ修正が行われ、セキュリティと安定性が向上しています。新機能の追加により、開発者がよりスムーズに認証連携を実装可能になりました。",
+    "image": "null",
+    "url": "https://pypi.org/project/algocean-codex-oauth/0.4.2/",
+    "category": "AI",
+    "date": "2026-08-04T06:18:00.128Z"
+  },
+  {
+    "title": "pylumbergh 0.1.0a199のリリース情報",
+    "summary": "pylumberghのバージョン0.1.0a199がリリースされました。これはアルファ版であり、新機能やバグ修正が含まれている可能性がありますが、詳細な更新内容については明記されていません。利用に際しては注意が必要です。",
+    "image": "null",
+    "url": "https://pypi.org/project/pylumbergh/0.1.0a199/",
+    "category": "AI",
+    "date": "2026-08-04T06:18:00.128Z"
+  },
+  {
+    "title": "AIブームで誰もがコンピュータサイエンスに興味を持つ",
+    "summary": "AIの急速な発展により、多くの人々がコンピュータサイエンスに関心を持ち始めています。特に機械学習やデータサイエンスの分野でスキルを身につけたいという需要が高まっており、教育機関やオンラインコースの受講者数も増加しています。この傾向は今後も続く見込みです。",
+    "image": "https://i.abcnewsfe.com/a/900213c3-a372-48ed-845b-395917a162de/wirestory_f0dca8e4f7e16297ad27c2b02adc2530_16x9.jpg?w=1600",
+    "url": "https://abcnews.com/Technology/wireStory/colleges-ai-boom-means-dabble-computer-science-135316494",
+    "category": "AI",
+    "date": "2026-08-04T06:18:00.128Z"
+  },
+  {
+    "title": "メディアテック株、AIチップのラリーと好決算で新高値に迫る",
+    "summary": "メディアテックの株価は、AIチップ需要の高まりと好調な決算発表を背景に急騰し、ほぼ取引制限の上限に達しました。これにより同社の株価は新たな史上最高値付近まで上昇しています。市場ではAI関連銘柄の注目度が一段と高まっていることが示されています。",
+    "image": "https://d.ibtimes.com.au/en/full/1895474/mediatek-shares-surge-near-daily-limit-ai-chip-rally.jpg",
+    "url": "https://www.ibtimes.com.au/mediatek-shares-surge-ai-ambitions-strategic-partnerships-1873406",
+    "category": "AI",
+    "date": "2026-08-04T06:18:00.128Z"
+  },
+  {
     "title": "nexus-shield-cli 0.1.0リリース",
     "summary": "nexus-shield-cliのバージョン0.1.0がリリースされました。このツールはNexusリポジトリのセキュリティ管理を支援し、新機能やバグ修正が含まれています。詳細なリリースノートは公式ドキュメントをご覧ください。",
     "image": "null",
@@ -52,22 +212,6 @@
     "summary": "Krepisのバージョン0.26.1が公開されました。このアップデートではバグ修正やパフォーマンスの向上が図られ、より安定した動作が期待されます。詳細な変更点や新機能については公式リリースノートをご参照ください。",
     "image": "null",
     "url": "https://pypi.org/project/krepis/0.26.1/",
-    "category": "AI",
-    "date": "2026-08-03T20:20:28.310Z"
-  },
-  {
-    "title": "タイトル：Show HN: Kota – AIエージェントCLIを同じ場所に集約",
-    "summary": "要約：Kotaは、複数のAIエージェントのコマンドラインインターフェース（CLI）を一つのプラットフォームに統合し、効率的に操作できるツールです。これにより、異なるAIエージェントの機能を同時に活用しやすくなり、作業の生産性向上が期待されます。開発者やユーザーがAIツールをより効果的に利用できる環境を提供します。",
-    "image": "null",
-    "url": "https://www.kota.place/",
-    "category": "AI",
-    "date": "2026-08-03T20:20:28.310Z"
-  },
-  {
-    "title": "Nvidia対Alphabet：収益動向が示すAIリーダーの実態",
-    "summary": "NvidiaとAlphabetの最新の収益動向を比較すると、NvidiaはAI需要の急増により市場での売上が大幅に伸びている。一方、AlphabetもAI分野での投資を強化しているものの、収益成長はやや緩やかで、両社の戦略や市場ポジションに注目が集まっている。",
-    "image": "https://s.yimg.com/lo/mysterio/api/999EF3A757A91C10DBAF14CEC27C53A3AB3C46629FAEBB4E62FF04A4B74B9FB2/subgraphmysterio/resizefill_w1200_h800;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2Fc28c33fd1d46ae94d005833cc94f53d3",
-    "url": "https://247wallst.com/investing/2026/08/02/nvidia-vs-alphabet-what-revenue-trends-reveal-about-the-ai-leaders/",
     "category": "AI",
     "date": "2026-08-03T20:20:28.310Z"
   },
@@ -1454,149 +1598,5 @@
     "url": "https://pypi.org/project/graphsift/4.11.0/",
     "category": "AI",
     "date": "2026-08-02T06:47:54.026Z"
-  },
-  {
-    "title": "symforgeがPyPIに追加されました",
-    "summary": "Pythonの数式操作ライブラリであるsymforgeが公式Pythonパッケージインデックス(PyPI)に登録されました。これにより、pipコマンドで簡単にインストール可能となり、数式の生成や操作をPython環境で手軽に行えるようになります。科学技術計算や教育分野での利用拡大が期待されています。",
-    "image": "https://pypi.org/static/images/twitter.abaf4b19.webp",
-    "url": "https://pypi.org/project/symforge/",
-    "category": "AI",
-    "date": "2026-08-02T06:47:54.026Z"
-  },
-  {
-    "title": "今日のNYTミニクロスワード回答、8月1日土曜日分",
-    "summary": "ニューヨークタイムズの2024年8月1日土曜日のミニクロスワードの答えが公開されました。パズルの難易度や解答のヒントも含まれており、クロスワード愛好者にとって参考になる内容です。",
-    "image": "https://www.cnet.com/wp-content/uploads/sites/2/50d61b9b-1c76-4678-9a92-f6eca531f4a8.jpg",
-    "url": "https://www.cnet.com/tech/gaming/todays-nyt-mini-crossword-answers-for-saturday-aug-1/",
-    "category": "AI",
-    "date": "2026-08-02T06:47:54.026Z"
-  },
-  {
-    "title": "commentdeskがPyPIに追加されました",
-    "summary": "PythonのパッケージリポジトリであるPyPIに、新しいパッケージ「commentdesk」が公開されました。これにより、開発者はpipを使って簡単にcommentdeskをインストールし、プロジェクトに組み込むことが可能になります。詳細な機能や使い方はPyPIのページで確認できます。",
-    "image": "https://pypi.org/static/images/twitter.abaf4b19.webp",
-    "url": "https://pypi.org/project/commentdesk/",
-    "category": "AI",
-    "date": "2026-08-02T06:47:54.026Z"
-  },
-  {
-    "title": "rapid-mlx 0.11.5 リリース",
-    "summary": "rapid-mlxのバージョン0.11.5がリリースされました。このアップデートでは、バグ修正とパフォーマンスの向上が含まれており、ユーザーの操作性が改善されています。詳細な変更点や導入方法は公式ドキュメントで確認可能です。",
-    "image": "null",
-    "url": "https://pypi.org/project/rapid-mlx/0.11.5/",
-    "category": "AI",
-    "date": "2026-08-02T06:47:54.026Z"
-  },
-  {
-    "title": "ChatGPTをApple Healthに接続してみた結果",
-    "summary": "ChatGPTをApple Healthと連携させ、健康データを分析しました。歩数や心拍数などの情報を元に、日々の健康状態や改善点を提案。データの可視化やトレンド把握も可能になり、自己管理がしやすくなると判明しました。",
-    "image": "null",
-    "url": "https://www.youtube.com/supported_browsers?next_url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DelkOj_yPxd0",
-    "category": "OpenAI",
-    "date": "2026-08-02T06:47:54.026Z"
-  },
-  {
-    "title": "関係を大きく変える4つの星座",
-    "summary": "この記事では、近いうちに恋愛関係に大きな変化を迎える4つの星座について解説しています。これらの星座の人々は、新たな関係の始まりや、現在のパートナーとの絆の強化など、重要な転機を迎える可能性があります。恋愛面での前向きな展開が期待できる時期です。",
-    "image": "https://thoughtcatalog.com/wp-content/uploads/2026/03/jonathan-borba-EkgBSvdANbo-unsplash-e1772857227242.jpg?crop=0,12,100,46.72&w=1536",
-    "url": "https://thoughtcatalog.com/nicole-stawiarski/2026/08/4-zodiacs-about-to-make-a-relationship-pivot/",
-    "category": "AI",
-    "date": "2026-08-02T06:47:54.026Z"
-  },
-  {
-    "title": "railmux 0.2.21 リリース",
-    "summary": "railmuxのバージョン0.2.21がリリースされました。このアップデートでは、バグ修正とパフォーマンスの改善が行われ、安定性が向上しています。また、一部の機能強化によりユーザーエクスペリエンスが改善されました。詳細な変更点は公式リリースノートを参照してください。",
-    "image": "null",
-    "url": "https://pypi.org/project/railmux/0.2.21/",
-    "category": "AI",
-    "date": "2026-08-02T06:47:54.026Z"
-  },
-  {
-    "title": "申し訳ありませんが、そのリクエストにはお応えできません。",
-    "summary": "",
-    "image": "https://substackcdn.com/image/fetch/$s_!AuAH!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5b5de6ad-903b-4a84-9ff1-ba88b38036b6_2082x1012.jpeg",
-    "url": "https://www.digitaldigging.org/p/how-to-plant-a-nuclear-plant-in-iran",
-    "category": "AI",
-    "date": "2026-08-02T06:47:54.026Z"
-  },
-  {
-    "title": "GitHub - TAJD/economist-style-guide-plugin",
-    "summary": "TAJDによる「economist-style-guide-plugin」は、エコノミスト誌のスタイルガイドに準拠した文章作成を支援するGitHubのプラグインです。ライティングの一貫性を保ち、表現の標準化を図るためのツールであり、編集者やライターに便利な機能を提供しています。",
-    "image": "https://opengraph.githubassets.com/1a76808146e38a353ab46a9db7598d8013ff70f8ff1207f5e909898df55dd769/TAJD/economist-style-guide-plugin",
-    "url": "https://github.com/TAJD/economist-style-guide-plugin",
-    "category": "AI",
-    "date": "2026-08-02T06:47:54.026Z"
-  },
-  {
-    "title": "マイクロソフトのコパイロットがスーパ－アプリに成長、サティア・ナデラは今年中にスマホへの導入を目指す",
-    "summary": "マイクロソフトのコパイロット機能は、複数のツールやサービスを一体化したスーパ－アプリ化を進めています。CEOのサティア・ナデラ氏は、今年中にコパイロットをスマートフォンに搭載し、ユーザーの日常業務をさらに効率化することを目指しています。",
-    "image": "https://www.intomobile.com/wp-content/uploads/2026/07/multisite_img_6a6d878b531b5.jpg",
-    "url": "https://www.intomobile.com/2026/07/31/microsofts-copilot-is-becoming-a-super-app-and-satya-nadella-wants-it-on-your-phone-this-year/",
-    "category": "AI",
-    "date": "2026-08-02T06:47:54.026Z"
-  },
-  {
-    "title": "praisonai-mcp 0.0.10 リリース",
-    "summary": "新バージョン0.0.10のpraisonai-mcpが公開されました。今回のアップデートではバグ修正とパフォーマンスの向上が含まれており、より安定した動作が期待できます。詳細は公式ドキュメントをご参照ください。",
-    "image": "null",
-    "url": "https://pypi.org/project/praisonai-mcp/0.0.10/",
-    "category": "AI",
-    "date": "2026-08-02T06:47:54.026Z"
-  },
-  {
-    "title": "GPS位置情報のバグ追跡",
-    "summary": "GPSの位置情報に関するバグを追跡し、その原因を解明する取り組みが進められています。正確な位置情報の提供は多くのサービスに不可欠であり、バグ修正によりユーザー体験の向上とシステムの信頼性強化が期待されています。",
-    "image": "null",
-    "url": "http://www.lemis.com/grog/diary-jul2026.php?topics=c#D-20260801-013929",
-    "category": "AI",
-    "date": "2026-08-02T06:47:54.026Z"
-  },
-  {
-    "title": "odoo-mcp-multi 0.14.0 リリース",
-    "summary": "odoo-mcp-multiのバージョン0.14.0が公開されました。本バージョンでは機能改善やバグ修正が行われ、パフォーマンスの向上が図られています。詳細な変更点やアップデート内容は公式リリースノートで確認可能です。",
-    "image": "null",
-    "url": "https://pypi.org/project/odoo-mcp-multi/0.14.0/",
-    "category": "AI",
-    "date": "2026-08-02T06:47:54.026Z"
-  },
-  {
-    "title": "rein-agentic-kit 0.7.2リリース",
-    "summary": "rein-agentic-kitのバージョン0.7.2が公開されました。このアップデートでは、複数のバグ修正とパフォーマンスの最適化が含まれており、ユーザーエクスペリエンスが向上しています。新機能の追加は限定的ですが、安定性が改善されています。開発者は最新版へのアップデートを推奨しています。",
-    "image": "null",
-    "url": "https://pypi.org/project/rein-agentic-kit/0.7.2/",
-    "category": "AI",
-    "date": "2026-08-02T06:47:54.025Z"
-  },
-  {
-    "title": "rein-agentic-kitがPyPIに追加されました。",
-    "summary": "この新しいパッケージは、エージェントの行動決定や強化学習のためのツールキットとして設計されており、開発者が簡単に活用できるようになっています。AIの自律的な行動制御に役立つ機能を備えており、オープンソースコミュニティでの利用促進が期待されます。",
-    "image": "null",
-    "url": "https://pypi.org/project/rein-agentic-kit/",
-    "category": "AI",
-    "date": "2026-08-02T06:47:54.025Z"
-  },
-  {
-    "title": "ウールワースのオンラインショッピング",
-    "summary": "ウールワースはオーストラリアの大手スーパーで、オンラインショッピングサービスを提供しています。ユーザーは食料品や日用品をウェブサイトやアプリから注文でき、自宅配送や店舗での受け取りが可能です。利便性が高く、多忙な生活に適したサービスとされています。",
-    "image": "null",
-    "url": "http://www.lemis.com/grog/diary-jul2026.php?topics=c#D-20260801-023205",
-    "category": "AI",
-    "date": "2026-08-02T06:47:54.025Z"
-  },
-  {
-    "title": "彼の結婚式の招待客が到着する中、450億ドルの基金が崩壊寸前だった",
-    "summary": "結婚式の招待客が集まる中、彼の管理する450億ドルの大規模ファンドが突然崩壊の危機に直面した。資産運用の失敗や市場の混乱が重なり、基金の価値が急落。結婚式の華やかな場面とは裏腹に、彼は経済的な重圧と向き合うこととなった。",
-    "image": "null",
-    "url": "https://freerepublic.com/focus/f-news/4390078/posts",
-    "category": "AI",
-    "date": "2026-08-02T01:45:49.462Z"
-  },
-  {
-    "title": "タイトル：GNOMEのセキュリティ追跡に関するいくつかの変更について",
-    "summary": "要約：GNOMEのセキュリティ追跡システムに関する変更が発表されました。これにより、脆弱性管理の効率化や追跡の透明性向上が目的とされています。関係者は新体制に適応し、より迅速な対応を期待しています。",
-    "image": "https://seclists.org/images/oss-sec-img.png",
-    "url": "https://seclists.org/oss-sec/2026/q3/365",
-    "category": "AI",
-    "date": "2026-08-02T01:45:49.462Z"
   }
 ]

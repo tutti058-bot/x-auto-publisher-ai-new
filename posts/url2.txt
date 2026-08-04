@@ -1,1 +1,1 @@
-https://pypi.org/project/accountingqb/3.13.0/
+https://pypi.org/project/gosce-langsmith-traced-llm-orchestration-agent/

@@ -1,1 +1,1 @@
-https://pypi.org/project/clipzing-mcp/
+https://pypi.org/project/gosce-mcp-native-llm-orchestration-agent/

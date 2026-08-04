@@ -1,1 +1,1 @@
-https://github.com/paoloanzn/microcodex
+https://pypi.org/project/gosce-mcp-native-llm-orchestration-agent/0.1.0/

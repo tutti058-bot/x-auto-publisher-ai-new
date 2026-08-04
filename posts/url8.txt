@@ -1,1 +1,1 @@
-https://pypi.org/project/rocket-review/0.2.0/
+https://pypi.org/project/algocean-codex-oauth/0.4.2/
