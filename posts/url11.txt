@@ -1,1 +1,1 @@
-https://techcrunch.com/2026/08/03/whos-legally-to-blame-for-anthropic-and-openais-autonomous-ai-hacks-its-complicated/
+https://pypi.org/project/atlassian-skills/0.4.3/

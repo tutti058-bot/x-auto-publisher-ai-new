@@ -1,1 +1,1 @@
-https://biztoc.com/x/60c276eae18a490a
+https://pypi.org/project/coding-agent-vcr/0.2.1/
