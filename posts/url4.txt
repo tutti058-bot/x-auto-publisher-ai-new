@@ -1,1 +1,1 @@
-https://pypi.org/project/weight-audit/
+https://steveharrison.dev/salaryticker/

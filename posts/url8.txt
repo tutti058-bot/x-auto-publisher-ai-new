@@ -1,1 +1,1 @@
-https://pypi.org/project/fcp-mcp-server/0.14.2/
+https://github.com/MakazhanAlpamys/Soup
