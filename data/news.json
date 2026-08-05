@@ -1,11 +1,155 @@
 [
   {
+    "title": "Unity AI Gatewayが正式リリース",
+    "summary": "UnityはAI Gatewayの一般提供を開始しました。これにより、開発者はUnityのプラットフォーム上でAIモデルを容易に統合・活用できるようになり、ゲームやアプリの開発効率と体験向上が期待されます。",
+    "image": "https://www.databricks.com/sites/default/files/2026-08/2026-08-Blog-Unity-AI-Gateway-GA-OG-1200x628-navy-2x.png",
+    "url": "https://www.databricks.com/blog/unity-ai-gateway-generally-available",
+    "category": "AI",
+    "date": "2026-08-05T16:13:31.258Z"
+  },
+  {
+    "title": "15州の司法長官、OpenAIにHugging Faceハック関連資料の保存を指示",
+    "summary": "15州の司法長官が、OpenAIに対しHugging Faceのハッキング事件に関連するすべての資料の保存を求めました。この指示は、事件の詳細な調査と証拠保全を目的としたもので、OpenAIが関係資料の適切な管理を行うよう促しています。",
+    "image": "https://biztoc.com/cdn/7a2029d50ea56f34_s.webp",
+    "url": "https://biztoc.com/x/7a2029d50ea56f34",
+    "category": "OpenAI",
+    "date": "2026-08-05T16:13:31.258Z"
+  },
+  {
+    "title": "ライブ：SpaceX、初の収益報告で期待を超えるか？",
+    "summary": "SpaceXが初めての収益報告を公開し、市場や投資家の注目が集まっています。同社の商業打ち上げ事業やStarlink衛星インターネットサービスの成長が期待されており、収益規模や利益率が注目ポイントです。報告内容によっては宇宙産業全体への影響も予想されます。",
+    "image": "https://biztoc.com/cdn/4cf6fe21dd04d118_s.webp",
+    "url": "https://biztoc.com/x/4cf6fe21dd04d118",
+    "category": "AI",
+    "date": "2026-08-05T16:13:31.258Z"
+  },
+  {
+    "title": "pysae-ai-tools 0.1.1695リリース",
+    "summary": "pysae-ai-toolsのバージョン0.1.1695がリリースされました。このバージョンでは、AIツールの機能改善やバグ修正が行われ、より安定した動作が期待されています。詳細な変更点は公式リリースノートをご確認ください。",
+    "image": "null",
+    "url": "https://pypi.org/project/pysae-ai-tools/0.1.1695/",
+    "category": "AI",
+    "date": "2026-08-05T16:13:31.258Z"
+  },
+  {
+    "title": "多くの国で有給休暇は20〜40日提供",
+    "summary": "多くの国々では、有給休暇として20日から40日程度が一般的に提供されています。この範囲は労働者の休息と仕事のバランスを取るために設定され、多様な労働環境や法律に基づいて異なっています。",
+    "image": "https://storage.ghost.io/c/f0/60/f060ef3f-d4e0-4af4-9255-1373fbf0a44f/content/images/size/w1200/2026/07/Artboard-6-copy@2x-80-1.jpg",
+    "url": "https://www.not-ship.com/not-ship-summer-vacation/",
+    "category": "AI",
+    "date": "2026-08-05T16:13:31.258Z"
+  },
+  {
+    "title": "dbx-tools-modelがPyPIに追加",
+    "summary": "dbx-tools-modelがPythonのパッケージインデックス(PyPI)に新たに登録されました。このツールにより、DBX環境でのモデル管理や開発が効率化され、Pythonユーザーは簡単にインストールして利用可能となります。",
+    "image": "https://pypi.org/static/images/twitter.abaf4b19.webp",
+    "url": "https://pypi.org/project/dbx-tools-model/",
+    "category": "AI",
+    "date": "2026-08-05T16:13:31.258Z"
+  },
+  {
+    "title": "FBIエージェントが100万ドルの暗号通貨を盗み、アメリカ国外に逃亡した場合の資金の使い道をChatGPTに尋ねる",
+    "summary": "FBIのエージェントが100万ドル相当の暗号通貨を盗み出し、アメリカから逃亡する計画を立てていた。彼はChatGPTに対し、もし国を離れたらその資金をどう使うかを尋ねていたことが明らかになった。現在、当局が捜査を進めている。",
+    "image": "https://en.protothema.gr/wp-content/uploads/2026/08/maketa-fbi-1.jpg-1.jpg",
+    "url": "https://en.protothema.gr/2026/08/04/fbi-agent-stole-1-million-in-cryptocurrency-asked-chatgpt-what-it-would-do-with-the-money-if-leaving-the-u-s/",
+    "category": "OpenAI",
+    "date": "2026-08-05T16:13:31.258Z"
+  },
+  {
+    "title": "休日前に買い物客の3分の2がAIを活用",
+    "summary": "休日前が近づく中、買い物客の約3分の2が人工知能（AI）を利用していることが明らかになりました。AIは商品選びや価格比較に役立ち、より効率的なショッピング体験を提供しています。これにより消費者の購買行動や小売業界に大きな影響を与えています。",
+    "image": "https://imgproxy.divecdn.com/HVFkR5jfzOp_rkIeB_R2stNgFXMH-90Hx-DbY21Oxmw/g:nowe:0:65/c:2119:1197/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xNzY3NTkyNTcxLmpwZw==.webp",
+    "url": "https://www.retaildive.com/news/holiday-shoppers-using-ai-gift-purchases/826939/",
+    "category": "AI",
+    "date": "2026-08-05T16:13:31.258Z"
+  },
+  {
+    "title": "パランティアCEOアレックス・カープ、「生産手段の掌握」を目指す「マルクス主義的」AIラボを批判",
+    "summary": "パランティアのCEOアレックス・カープは、AI研究ラボが「マルクス主義的」アプローチで生産手段を掌握しようとしていると非難しました。彼は、これらのAI企業が自社の技術を通じて市場や労働構造を支配しようとしていると警告し、技術のあり方や運用に対する倫理的な議論の必要性を強調しました。",
+    "image": "https://media.breitbart.com/media/2026/08/Palantir-boss-Alex-Karp-640x335.jpg",
+    "url": "https://www.breitbart.com/tech/2026/08/04/palantir-ceo-alex-karp-blasts-marxist-ai-labs-trying-to-capture-the-means-of-production/",
+    "category": "AI",
+    "date": "2026-08-05T16:13:31.258Z"
+  },
+  {
+    "title": "ダリオ氏：AIバブルは大恐慌の領域に達している",
+    "summary": "著名投資家レイ・ダリオ氏は、現在のAIブームが経済の大恐慌時代に匹敵する泡沫（バブル）状態にあると警告しました。彼は、投資家の過度な熱狂が持続不可能であり、市場の調整が不可避になると述べています。 AI技術の急速な発展は注目される一方で、投機による価格の過剰高評価に注意を促しています。",
+    "image": "https://s.yimg.com/lo/mysterio/api/C9E60721EFB522BB6167DCD07663169867295D9C7DFF47E40D815402D8AA08B3/subgraphmysterio/resizefill_w1200_h800;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Ffortune_175%2F4be026dd5818f73ffcc03b06882e2e3d",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/ray-dalio-ai-bubble-nearing-070000246.html",
+    "category": "AI",
+    "date": "2026-08-05T16:13:31.258Z"
+  },
+  {
+    "title": "プレゼンテーション：エンジニアリング組織におけるAI成熟度の5段階 - チームが停滞する場所と理由",
+    "summary": "本プレゼンテーションでは、エンジニアリング組織がAI導入で経験する5つの成熟度段階を解説。各段階でチームが直面しやすい課題や停滞の原因を特定し、効果的に前進するための戦略を提案しています。これにより、AI活用の進展と組織の成長促進を支援します。",
+    "image": "https://res.infoq.com/presentations/ai-sdlc-maturity-framework-bottlenecks/en/card_header_image/LizzieMatusov-twittercard-1785314207748.jpg",
+    "url": "https://www.infoq.com/presentations/ai-sdlc-maturity-framework-bottlenecks/",
+    "category": "AI",
+    "date": "2026-08-05T16:13:31.258Z"
+  },
+  {
+    "title": "聖書解釈の違い：エクセジェシス対イセジェシス",
+    "summary": "エクセジェシスはテキストの本来の意味を客観的に解釈する方法で、イセジェシスは個人的な先入観を持ち込み意味を読み取る行為を指します。正しい聖書理解のためにはエクセジェシスが重要であり、偏見を排して原文の意図を尊重することが求められます。",
+    "image": "https://www.logos.com/grow/wp-content/uploads/2026/08/Blog-Image-_-Typographic-_-Apr-_-Exegesis-vs.-eisegesis.png",
+    "url": "https://www.logos.com/grow/exegesis-vs-eisegesis/",
+    "category": "AI",
+    "date": "2026-08-05T16:13:31.258Z"
+  },
+  {
+    "title": "CodeRouter-CLI 2.12.0リリース",
+    "summary": "CodeRouter-CLIの最新バージョン2.12.0が公開されました。本バージョンでは、パフォーマンスの向上と複数のバグ修正が行われており、ユーザー体験の改善が図られています。また、新機能としてカスタムルーティング設定のサポートが追加され、柔軟なネットワーク管理が可能になりました。詳細なアップデート内容は公式ドキュメントをご確認ください。",
+    "image": "null",
+    "url": "https://pypi.org/project/coderouter-cli/2.12.0/",
+    "category": "AI",
+    "date": "2026-08-05T16:13:31.258Z"
+  },
+  {
+    "title": "ASUS Zenbook 14 2K OLEDタッチスクリーンノートパソコンが300ドルの大幅値下げ",
+    "summary": "ASUS Zenbook 14 2K OLED搭載ノートパソコンが300ドル値下げされ、学生やビジネスプロにとって魅力的な買い得品となっています。高解像度のタッチスクリーンや軽量設計で使いやすく、性能と携帯性を両立。新学期や仕事用に最適なモデルです。",
+    "image": "https://cdn.mos.cms.futurecdn.net/GYPHEPx53JgEM6cct8aUg8-2000-80.jpg",
+    "url": "https://www.techradar.com/pro/massive-usd300-price-drop-on-the-asus-zenbook-14-2k-oled-touchscreen-laptop-is-a-brilliant-laptop-deal-for-back-to-school-students-and-business-pros",
+    "category": "AI",
+    "date": "2026-08-05T16:13:31.258Z"
+  },
+  {
+    "title": "AIがハッカーに優位性をもたらす。オンライン詐欺から身を守る方法",
+    "summary": "AI技術の進化により、ハッカーは巧妙な詐欺手法を開発しやすくなっています。これにより、フィッシングメールや偽サイトの精度が上がり、被害が拡大しています。対策としては、二段階認証の導入や怪しいリンクをクリックしない、最新のセキュリティソフトを使用することが重要です。ユーザーの警戒心と適切な防御策がオンライン被害を減らす鍵となります。",
+    "image": "https://media.cnn.com/api/v1/images/stellar/prod/2026-07-31t202224z-521009670-rc2urlaat363-rtrmadp-3-openai-hugging-face-investigation.JPG?c=16x9&q=w_800,c_fill",
+    "url": "https://www.cnn.com/2026/08/04/tech/ai-online-scams-protection",
+    "category": "AI",
+    "date": "2026-08-05T16:13:31.258Z"
+  },
+  {
+    "title": "サムスン ギャラクシーウォッチウルトラ2 レビュー：バッテリー性能向上、さらに進化したギャラクシーウォッチ",
+    "summary": "サムスンの最新スマートウォッチ「ギャラクシーウォッチウルトラ2」は、バッテリー持続時間が改善され、使いやすさと機能性がさらに高まりました。高精度な健康管理機能や耐久性も向上し、前モデルからの大幅な進化が評価されています。日常生活からスポーツまで幅広く活用できる高性能モデルとなっています。",
+    "image": "https://www.cnet.com/wp-content/uploads/sites/2/GalaxyWatchu2.jpg",
+    "url": "https://www.cnet.com/tech/mobile/samsung-galaxy-watch-ultra-2-review-better-battery-better-galaxy-watch/",
+    "category": "AI",
+    "date": "2026-08-05T16:13:31.258Z"
+  },
+  {
     "title": "UPムクヤマントリクリシャクチャトラヴリティ計画：農家の子どもたちを支援",
     "summary": "この計画は、ウッタル・プラデーシュ州の農家の子供たちに教育支援を提供することを目的としています。奨学金を通じて、農家の学生が高等教育を受けやすくし、生活向上と地域の発展を促進します。教育格差の解消に寄与し、持続可能な農村社会の実現を目指しています。",
     "image": "https://static.toiimg.com/thumb/msid-132855033,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
     "url": "https://timesofindia.indiatimes.com/city/lucknow/up-mukhyamantri-krishak-chhatravriti-yojana-empowering-the-children-of-farmers/articleshow/132855033.cms",
     "category": "AI",
-    "date": "2026-08-05T11:32:50.889Z"
+    "date": "2026-08-05T16:13:31.258Z"
+  },
+  {
+    "title": "OpenAI、ChatGPT Atlas終了時の影響を説明",
+    "summary": "OpenAIは、今週末にChatGPT Atlasが停止することによる影響について説明しました。ユーザーは一時的にサービス利用が制限される可能性がありますが、主要な機能には大きな支障はないとしています。また、停止後の代替手段やサポート体制についても明確に案内される予定です。",
+    "image": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2025/10/open-ai-browser.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+    "url": "https://9to5mac.com/2026/08/04/openai-explains-what-will-happen-when-chatgpt-atlas-shuts-down-this-weekend/",
+    "category": "OpenAI",
+    "date": "2026-08-05T16:13:31.257Z"
+  },
+  {
+    "title": "アップル、さらなる元従業員がOpenAIに機密情報を提供した可能性を主張",
+    "summary": "アップルは、元従業員数人がOpenAIに同社の機密情報を提供した疑いがあると主張しています。この件は企業間の技術情報や知的財産の流出問題として注目されており、アップルは損害賠償請求や法的措置を検討していることが報じられています。",
+    "image": "null",
+    "url": "https://slashdot.org/firehose.pl?op=view&amp;id=184850460",
+    "category": "OpenAI",
+    "date": "2026-08-05T16:13:31.257Z"
   },
   {
     "title": "Show HN: Salary Ticker – 給料が増える様子を表示するmacOSメニューバーアプリ",
@@ -108,22 +252,6 @@
     "summary": "Keyvとその関連プロジェクトの関係者が、Shai-Huludによる活動的なサプライチェーン攻撃で侵害されました。この攻撃により、マルウェアが正規のソフトウェアに混入され、多数のユーザーが影響を受けています。セキュリティ専門家は迅速な対策を呼びかけています。",
     "image": "https://cdn.prod.website-files.com/642adcaf364024654c71df23/6a71ca1f4e190f1129a4d78a_Social_ShaiHulud-Template-Light_16x9.png",
     "url": "https://www.aikido.dev/blog/keyv-and-friends-compromised-in-npm-supply-chain-attack",
-    "category": "AI",
-    "date": "2026-08-05T11:32:50.888Z"
-  },
-  {
-    "title": "AIがハッカーに優位性をもたらす。オンライン詐欺から身を守る方法",
-    "summary": "AI技術の進化により、ハッカーは巧妙な詐欺手法を開発しやすくなっています。これにより、フィッシングメールや偽サイトの精度が上がり、被害が拡大しています。対策としては、二段階認証の導入や怪しいリンクをクリックしない、最新のセキュリティソフトを使用することが重要です。ユーザーの警戒心と適切な防御策がオンライン被害を減らす鍵となります。",
-    "image": "https://media.cnn.com/api/v1/images/stellar/prod/2026-07-31t202224z-521009670-rc2urlaat363-rtrmadp-3-openai-hugging-face-investigation.JPG?c=16x9&q=w_800,c_fill",
-    "url": "https://www.cnn.com/2026/08/04/tech/ai-online-scams-protection",
-    "category": "AI",
-    "date": "2026-08-05T11:32:50.888Z"
-  },
-  {
-    "title": "サムスン ギャラクシーウォッチウルトラ2 レビュー：バッテリー性能向上、さらに進化したギャラクシーウォッチ",
-    "summary": "サムスンの最新スマートウォッチ「ギャラクシーウォッチウルトラ2」は、バッテリー持続時間が改善され、使いやすさと機能性がさらに高まりました。高精度な健康管理機能や耐久性も向上し、前モデルからの大幅な進化が評価されています。日常生活からスポーツまで幅広く活用できる高性能モデルとなっています。",
-    "image": "https://www.cnet.com/wp-content/uploads/sites/2/GalaxyWatchu2.jpg",
-    "url": "https://www.cnet.com/tech/mobile/samsung-galaxy-watch-ultra-2-review-better-battery-better-galaxy-watch/",
     "category": "AI",
     "date": "2026-08-05T11:32:50.888Z"
   },
@@ -1470,133 +1598,5 @@
     "url": "https://www.blogger.com/browser-not-supported/?ref=/comment/fullpage/post/26204193/7337910937698269750",
     "category": "AI",
     "date": "2026-08-03T13:31:34.175Z"
-  },
-  {
-    "title": "gh-claude 0.1.2リリース",
-    "summary": "gh-claudeのバージョン0.1.2がリリースされました。このバージョンでは、バグ修正とパフォーマンス改善が行われ、ユーザー体験の向上が図られています。詳細な変更点は公式リリースノートで確認可能です。",
-    "image": "null",
-    "url": "https://pypi.org/project/gh-claude/0.1.2/",
-    "category": "Anthropic",
-    "date": "2026-08-03T13:31:34.175Z"
-  },
-  {
-    "title": "FET暗号通貨価格予測：人工超知能連合は2026年末までに300％上昇するか？",
-    "summary": "FET（Fetch.ai）は人工超知能技術の進展と連携し、2026年末までに価格が300％上昇する可能性が議論されています。市場での需要拡大や技術革新が鍵となり、投資家の期待が高まっています。",
-    "image": "https://bitcoinfoundation.org/wp-content/uploads/2026/07/fet-1.webp",
-    "url": "https://bitcoinfoundation.org/news/altcoins/fet-crypto-price-prediction/",
-    "category": "AI",
-    "date": "2026-08-03T13:31:34.175Z"
-  },
-  {
-    "title": "iaiops 0.22.0 リリース",
-    "summary": "iaiopsのバージョン0.22.0がリリースされました。このアップデートでは、パフォーマンスの改善やバグ修正、新機能の追加が行われ、より安定した運用が可能になりました。ユーザー体験の向上を目指した複数の改良点も含まれています。",
-    "image": "null",
-    "url": "https://pypi.org/project/iaiops/0.22.0/",
-    "category": "AI",
-    "date": "2026-08-03T13:31:34.175Z"
-  },
-  {
-    "title": "clawmetry 0.12.633 リリース情報",
-    "summary": "clawmetryのバージョン0.12.633がリリースされました。今回のアップデートでは、バグ修正とパフォーマンスの改善が中心となっており、ユーザーの利用環境が安定するよう調整が行われています。詳細な変更内容は公式サイトで確認可能です。",
-    "image": "null",
-    "url": "https://pypi.org/project/clawmetry/0.12.633/",
-    "category": "AI",
-    "date": "2026-08-03T13:31:34.175Z"
-  },
-  {
-    "title": "Wedbush、NvidiaのOpenAIデータセンター支援疑惑に伴う短期リスクを指摘",
-    "summary": "Wedbushは、NvidiaがOpenAIのデータセンター支援に関与しているとされる件について、短期的なリスクが存在すると警告しています。この疑惑が市場に与える影響や企業の評価への影響が懸念されており、投資家は注意を払うべき状況です。",
-    "image": "https://biztoc.com/cdn/1348881aa7f9cb2d_s.webp",
-    "url": "https://biztoc.com/x/1348881aa7f9cb2d",
-    "category": "OpenAI",
-    "date": "2026-08-03T13:31:34.175Z"
-  },
-  {
-    "title": "Leghorn 0.2リリース",
-    "summary": "Leghornのバージョン0.2が公開されました。この新バージョンではパフォーマンスの向上やバグ修正が行われ、より安定した動作が期待できます。ユーザーインターフェースの改善も含まれ、使いやすさが向上しました。今後のアップデートにも注目です。",
-    "image": "null",
-    "url": "https://pypi.org/project/leghorn/0.2/",
-    "category": "AI",
-    "date": "2026-08-03T13:31:34.175Z"
-  },
-  {
-    "title": "ChatGPT、Claude、Geminiに同じ嘘を教え、その後消去を試みた",
-    "summary": "私はChatGPT、Claude、Geminiという3つのAIに同じ嘘の情報を教え、その後それを消去しようと試みました。各AIの反応や記憶の消去がどのように行われるかを比較し、AIの学習と修正機能の仕組みを探りました。",
-    "image": "https://static0.makeuseofimages.com/wordpress/wp-content/uploads/wm/2026/06/gemini-claude-chatgpt-on-dock.png?w=1600&h=900&fit=crop",
-    "url": "https://www.makeuseof.com/taught-chatgpt-claude-and-gemini-the-same-lie-then-tried-to-erase-it/",
-    "category": "OpenAI",
-    "date": "2026-08-03T13:31:34.175Z"
-  },
-  {
-    "title": "Apple Maps vs. Google Maps vs. Waze：どのCarPlayアプリが優勝？",
-    "summary": "Apple Maps、Google Maps、WazeのCarPlayでの使い勝手を比較。Apple MapsはiOSとの連携が強み、Google Mapsは詳細な地図情報と多数の機能を提供、Wazeはリアルタイムの交通情報に優れる。ユーザーのニーズにより最適な選択が変わる。",
-    "image": "https://www.geeky-gadgets.com/wp-content/uploads/2026/08/Apple-Maps-vs.-Google-Maps-vs.-Waze.jpg",
-    "url": "https://www.geeky-gadgets.com/best-carplay-navigation-app/",
-    "category": "Google",
-    "date": "2026-08-03T13:31:34.175Z"
-  },
-  {
-    "title": "UberのCTO、トークンマキシング騒動後に異なるAI戦略を提示",
-    "summary": "トークンマキシングによる混乱後、UberのCTOが新たなAI戦略を公開しました。以前の焦点から転換し、より実用的で効率的なAI活用を目指すとのことです。今後の取り組みに注目が集まっています。",
-    "image": "https://i.insider.com/6a6cf95f87737bff3ebda296?width=1000&format=jpeg",
-    "url": "https://www.businessinsider.com/uber-turns-best-ai-engineers-loose-pods-business-2026-8#article",
-    "category": "AI",
-    "date": "2026-08-03T13:31:34.174Z"
-  },
-  {
-    "title": "テック系起業家の450億ドルAIファンド、豪華なカリフォルニア結婚式直前に崩壊",
-    "summary": "有名テック起業家が設立した450億ドル規模のAIファンドが、カリフォルニアでの豪華な結婚式開催数日前に突然崩壊した。ファンドの資金調達に失敗し、関係者や投資家に大打撃を与えた。崩壊の背景には経営上の問題や市場の不確実性があるとみられている。",
-    "image": "https://nypost.com/wp-content/uploads/sites/2/2026/08/136223744.jpg?quality=75&strip=all&w=1200",
-    "url": "https://nypost.com/2026/08/02/us-news/tech-bros-ai-fund-collapses-days-before-lavish-california-wedding/",
-    "category": "AI",
-    "date": "2026-08-03T13:31:34.174Z"
-  },
-  {
-    "title": "ポケットサイズのAndroid電子書籍リーダーを6ヶ月使ってみた結果",
-    "summary": "この電子書籍リーダーのおかげで読書習慣が復活したが、スマホ中毒は解消されなかった。小型で持ち運びやすく、書籍へのアクセスも簡単だったが、通知やアプリの誘惑が残っていたため、スマホ依存から完全に離れることはできなかった。読書とスマホ使用のバランスを見直すきっかけにもなった。",
-    "image": "https://cdn.mos.cms.futurecdn.net/rpuL4dywhQxw8Zqhj3eNiS-1221-80.jpg",
-    "url": "https://www.techradar.com/tablets/ereaders/i-spent-6-months-with-this-pocket-android-ereader-and-it-got-me-into-books-again-but-didnt-break-my-smartphone-addiction",
-    "category": "AI",
-    "date": "2026-08-03T13:31:34.174Z"
-  },
-  {
-    "title": "mcp-test-harness-gemini 4.0.1 リリース情報",
-    "summary": "mcp-test-harness-geminiのバージョン4.0.1がリリースされました。この新バージョンではバグ修正やパフォーマンスの向上が行われ、より安定したテスト環境を提供します。開発者は最新バージョンへのアップデートを推奨されています。",
-    "image": "null",
-    "url": "https://pypi.org/project/mcp-test-harness-gemini/4.0.1/",
-    "category": "Google",
-    "date": "2026-08-03T08:52:55.514Z"
-  },
-  {
-    "title": "mcp-test-harness-anthropic バージョン4.0.1リリース",
-    "summary": "mcp-test-harness-anthropicの最新版4.0.1がリリースされました。このアップデートでは、バグ修正や性能向上が図られ、より安定した動作が可能になりました。開発者は最新バージョンの導入を推奨されています。",
-    "image": "null",
-    "url": "https://pypi.org/project/mcp-test-harness-anthropic/4.0.1/",
-    "category": "Anthropic",
-    "date": "2026-08-03T08:52:55.514Z"
-  },
-  {
-    "title": "Packwright 0.3.3リリース",
-    "summary": "Packwrightのバージョン0.3.3が公開されました。このアップデートでは、バグ修正とパフォーマンスの向上が行われ、より安定した動作が可能になりました。また、一部の依存関係の更新により、セキュリティ面の強化も図られています。開発者は最新版へのアップデートが推奨されています。",
-    "image": "null",
-    "url": "https://pypi.org/project/packwright/0.3.3/",
-    "category": "AI",
-    "date": "2026-08-03T08:52:55.514Z"
-  },
-  {
-    "title": "mcp-test-harness-openai 4.0.0リリース",
-    "summary": "mcp-test-harness-openaiのバージョン4.0.0が公開されました。新機能や改善点が含まれており、テスト効率の向上が期待されます。詳細なリリースノートで変更点を確認できます。",
-    "image": "null",
-    "url": "https://pypi.org/project/mcp-test-harness-openai/4.0.0/",
-    "category": "OpenAI",
-    "date": "2026-08-03T08:52:55.514Z"
-  },
-  {
-    "title": "mcp-test-harness-azure 4.0.0リリース",
-    "summary": "mcp-test-harness-azureのバージョン4.0.0がリリースされました。最新バージョンでは、Azure環境向けのテスト機能が強化され、パフォーマンスの改善や新たなテストシナリオの追加が行われています。これにより、Azureでの開発・運用テストがより効率的かつ効果的になります。",
-    "image": "null",
-    "url": "https://pypi.org/project/mcp-test-harness-azure/4.0.0/",
-    "category": "AI",
-    "date": "2026-08-03T08:52:55.514Z"
   }
 ]

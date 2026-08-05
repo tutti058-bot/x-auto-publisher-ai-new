@@ -1,1 +1,1 @@
-https://economictimes.indiatimes.com/magazines/panache/anyone-can-make-a-robot-at-home-hyderabad-father-builds-robotic-arm-for-son-with-just-youtube-and-ai-heres-how-he-did-it/articleshow/132858010.cms
+https://pypi.org/project/pysae-ai-tools/0.1.1695/
