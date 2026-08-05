@@ -1,1 +1,1 @@
-https://biztoc.com/x/4cf6fe21dd04d118
+https://pypi.org/project/corvus-cli/0.1.24/

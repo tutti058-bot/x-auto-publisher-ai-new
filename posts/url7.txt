@@ -1,1 +1,1 @@
-https://pypi.org/project/dbx-tools-model/
+https://pypi.org/project/latenzy/0.1.0/

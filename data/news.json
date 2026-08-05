@@ -1,5 +1,165 @@
 [
   {
+    "title": "企業を買収し、その後AIで再構築する",
+    "summary": "企業を買収した後に人工知能（AI）を活用して業務プロセスや製品を再構築する戦略が注目されている。既存のビジネスモデルをAIによって効率化し、新たな価値創造を目指すことで、競争優位性を高めることが可能となる。この手法により、従来の買収とは異なる成長の機会を掴めるとされる。",
+    "image": "https://www.pymnts.com/wp-content/uploads/2026/08/AI-rebuilding-1.jpg",
+    "url": "https://www.pymnts.com/news/artificial-intelligence/2026/buy-the-firm-then-rebuild-it-with-ai/",
+    "category": "AI",
+    "date": "2026-08-05T20:21:52.555Z"
+  },
+  {
+    "title": "Nvidia支援のAIスタートアップ、Anthropicとの100億ドル契約を締結",
+    "summary": "Nvidiaの支援を受けるAIスタートアップが、Anthropicとの間で100億ドル規模の取引を成立させました。この契約により、両社は先端AI技術の開発と商業化を加速させ、競争力を強化することを目指しています。Anthropicは安全性と倫理性を重視したAIモデルの提供で知られており、今回の提携は業界に大きな影響を与えると見込まれています。",
+    "image": "https://img.etimg.com/thumb/msid-132872552,width-1200,height-630,imgsize-80952,overlay-economictimes/articleshow.jpg",
+    "url": "https://economictimes.indiatimes.com/news/international/business/anthropic-strikes-10-billion-deal-with-nvidia-backed-volta-infra/articleshow/132872494.cms",
+    "category": "Anthropic",
+    "date": "2026-08-05T20:21:52.555Z"
+  },
+  {
+    "title": "claude-code-tools 1.23.1リリース",
+    "summary": "claude-code-toolsのバージョン1.23.1が公開されました。このアップデートではバグ修正とパフォーマンスの向上が含まれており、より安定した動作が期待できます。開発者は最新バージョンへのアップデートを推奨します。",
+    "image": "null",
+    "url": "https://pypi.org/project/claude-code-tools/1.23.1/",
+    "category": "Anthropic",
+    "date": "2026-08-05T20:21:52.555Z"
+  },
+  {
+    "title": "railmux 0.3.5 発表",
+    "summary": "railmuxのバージョン0.3.5がリリースされました。今回の更新では、バグ修正やパフォーマンスの向上が図られており、より安定した動作が期待できます。具体的な変更点や新機能については公式リリースノートで確認可能です。",
+    "image": "null",
+    "url": "https://pypi.org/project/railmux/0.3.5/",
+    "category": "AI",
+    "date": "2026-08-05T20:21:52.555Z"
+  },
+  {
+    "title": "オープンウェイトAIモデルが最前線に追いつくが、安全性の課題は依然として残る",
+    "summary": "オープンウェイトのAIモデルは技術的に最先端の性能に近づいているものの、安全性の確保には依然として大きな課題が残っています。商業モデルと比べて透明性が高い一方で、悪用のリスクや不適切な出力の制御が十分ではないため、今後の改善が求められています。",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/08/Z.ai-GLM-5.2-chat.png?resize=1200,576",
+    "url": "https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/",
+    "category": "AI",
+    "date": "2026-08-05T20:21:52.555Z"
+  },
+  {
+    "title": "cswap-pin 0.1.33のリリース情報",
+    "summary": "新バージョン0.1.33では、cswap-pinの機能改善やバグ修正が行われました。主にパフォーマンスの向上と安定性を強化し、ユーザー体験が向上しています。詳細な変更点は公式リリースノートをご参照ください。",
+    "image": "null",
+    "url": "https://pypi.org/project/cswap-pin/0.1.33/",
+    "category": "AI",
+    "date": "2026-08-05T20:21:52.554Z"
+  },
+  {
+    "title": "アップル、OpenAIに対し営業秘密侵害で即時差止めを申請",
+    "summary": "アップルはOpenAIに対し、営業秘密の不正使用を理由に即時差止めを求める訴訟を起こしました。アップルは、OpenAIが同社の機密情報に不正アクセスし、AI技術開発に利用したと主張しています。この動きはテクノロジー企業間の競争激化を示唆しています。",
+    "image": "https://static.cryptobriefing.com/wp-content/uploads/2026/08/04161709/openai-logo-spacing-sizing-800x420.png",
+    "url": "https://cryptobriefing.com/apple-injunction-openai-trade-secrets/",
+    "category": "OpenAI",
+    "date": "2026-08-05T20:21:52.554Z"
+  },
+  {
+    "title": "corvus-cli 0.1.24 リリース情報",
+    "summary": "corvus-cliのバージョン0.1.24がリリースされました。このアップデートでは、機能改善やバグ修正が行われ、CLIツールの安定性と使いやすさが向上しています。詳細な変更点は公式リリースノートをご参照ください。",
+    "image": "null",
+    "url": "https://pypi.org/project/corvus-cli/0.1.24/",
+    "category": "AI",
+    "date": "2026-08-05T20:21:52.554Z"
+  },
+  {
+    "title": "エンタープライズエンジニアリング組織向けの6つの主要なAgentic SDLCプラットフォーム",
+    "summary": "この記事では、エンタープライズエンジニアリング組織が効率的かつ効果的にソフトウェア開発ライフサイクル（SDLC）を管理できる、6つの主要なAgentic SDLCプラットフォームを紹介しています。各プラットフォームの特徴や利点、適用シナリオについて解説し、最適な選択のためのポイントも示しています。",
+    "image": "https://www.smartdatacollective.com/wp-content/uploads/2026/08/agentic-software-development-6-leading-sdlc-platforms-featured.jpg",
+    "url": "https://www.smartdatacollective.com/top-agentic-sdlc-platforms-for-enterprise-engineering-organizations/",
+    "category": "AI",
+    "date": "2026-08-05T20:21:52.554Z"
+  },
+  {
+    "title": "AMD、2026年第2四半期の財務結果を発表",
+    "summary": "AMDは2026年第2四半期の財務結果を公表しました。売上高や利益、成長指標などの詳細な業績データが報告されており、同社の市場でのパフォーマンスや将来の展望が示されています。具体的な数字や分析は発表資料をご参照ください。",
+    "image": "https://ml.globenewswire.com/Resource/Download/9782a337-07ac-424b-9c5a-f9cde47d8d55",
+    "url": "https://www.globenewswire.com/news-release/2026/08/04/3338848/0/en/AMD-Reports-Second-Quarter-2026-Financial-Results.html",
+    "category": "AI",
+    "date": "2026-08-05T20:21:52.554Z"
+  },
+  {
+    "title": "Latenzy 0.1.0 リリース",
+    "summary": "Latenzyのバージョン0.1.0がリリースされました。このバージョンではパフォーマンスの向上とバグ修正が含まれており、ユーザー体験の向上が期待されています。詳細な変更点は公式ドキュメントをご参照ください。",
+    "image": "null",
+    "url": "https://pypi.org/project/latenzy/0.1.0/",
+    "category": "AI",
+    "date": "2026-08-05T20:21:52.554Z"
+  },
+  {
+    "title": "AppleとOpenAIの対立が予想外の展開に",
+    "summary": "AppleとOpenAI間の争いが思いがけない方向に進展。両社はAI技術の使用や市場シェアを巡り対立していたが、新たな協議が始まり、協力の可能性も浮上。今後の動向が注目されている。",
+    "image": "https://biztoc.com/cdn/a941bae2c4043478_s.webp",
+    "url": "https://biztoc.com/x/a941bae2c4043478",
+    "category": "OpenAI",
+    "date": "2026-08-05T20:21:52.554Z"
+  },
+  {
+    "title": "ホワイトハウス、AI枠組みを非公開の方針 - Axios",
+    "summary": "ホワイトハウスは人工知能（AI）に関する規制枠組みを公表せず、内部で慎重に管理する方針を決定しました。透明性を求める声もある中、国家安全保障や技術競争の観点から秘密裏に進める考えとされています。今後の詳細発表や影響は注目されています。",
+    "image": "null",
+    "url": "https://slashdot.org/firehose.pl?op=view&amp;id=184856498",
+    "category": "AI",
+    "date": "2026-08-05T20:21:52.554Z"
+  },
+  {
+    "title": "カルバリー・ヘルスケア、2万人のスタッフとボランティア向けにデジタルアシスタントを公開予定",
+    "summary": "カルバリー・ヘルスケアは、約2万人のスタッフとボランティアが利用するデジタルアシスタントを導入予定です。このツールは業務効率化やコミュニケーション支援を目的としており、情報共有や日常の問い合わせ対応をサポートし、現場の負担軽減とサービス向上に寄与する見込みです。",
+    "image": "https://i.nextmedia.com.au/News/Cally.png",
+    "url": "https://www.itnews.com.au/news/calvary-health-care-previews-digital-assistant-for-20000-staff-and-volunteers-627923",
+    "category": "AI",
+    "date": "2026-08-05T20:21:52.554Z"
+  },
+  {
+    "title": "corvus-cliがPyPIに追加されました。",
+    "summary": "corvus-cliはPython Package Index（PyPI）に新たに公開され、Pythonユーザーが簡単にインストールや利用を開始できるようになりました。この公開により、corvus-cliの機能が広く利用可能となり、ツールの普及と開発の促進が期待されています。",
+    "image": "https://pypi.org/static/images/twitter.abaf4b19.webp",
+    "url": "https://pypi.org/project/corvus-cli/",
+    "category": "AI",
+    "date": "2026-08-05T20:21:52.554Z"
+  },
+  {
+    "title": "corvus-cli 0.1.23 リリース",
+    "summary": "corvus-cliの最新バージョン0.1.23がリリースされました。このアップデートではバグ修正やパフォーマンスの改善が行われ、より安定した動作が可能になりました。新機能の追加はありませんが、既存機能の信頼性向上が図られています。ユーザーはアップグレードを推奨されています。",
+    "image": "null",
+    "url": "https://pypi.org/project/corvus-cli/0.1.23/",
+    "category": "AI",
+    "date": "2026-08-05T20:21:52.554Z"
+  },
+  {
+    "title": "熱は軌道データセンターの最大の敵。これらのタイルが熱を発生源で排出する。",
+    "summary": "軌道上のデータセンターにおいて最大の課題は熱の管理です。新しい特殊なタイルが開発され、熱を発生源で効果的に排出することで、過熱問題の解決を目指しています。この技術により、データ処理の効率向上や装置の安全性が期待されます。",
+    "image": "https://singularityhub.com/uploads/2026/08/sophia-space-orbital-data-center-cooling-tiles-1-scaled.jpeg?auto=webp&width=2000&height=1125",
+    "url": "https://singularityhub.com/2026/08/04/heat-is-an-orbital-data-centers-greatest-foe-these-tiles-dump-it-at-the-source/#article",
+    "category": "AI",
+    "date": "2026-08-05T20:21:52.554Z"
+  },
+  {
+    "title": "AIブームの最新勝者：Anthropicと100億ドルの契約を結んだ新興企業",
+    "summary": "新興のAIスタートアップが、Anthropicとの間で100億ドル規模の契約を締結し、注目を集めています。この取引は、AI業界の急速な成長と投資熱を象徴しており、新興企業が大手と肩を並べる存在になりつつあることを示しています。",
+    "image": "https://biztoc.com/cdn/461dedf3cf87ae8a_s.webp",
+    "url": "https://biztoc.com/x/461dedf3cf87ae8a",
+    "category": "Anthropic",
+    "date": "2026-08-05T20:21:52.554Z"
+  },
+  {
+    "title": "AMDのAI搭載収益予測、投資家の期待に届かず",
+    "summary": "AMDはAI技術を活用した収益予測を発表しましたが、市場の期待を下回り、投資家の関心を引くことができませんでした。これにより株価は軟調な動きを見せており、今後の成長戦略に注目が集まっています。",
+    "image": "https://dam.mediacorp.sg/image/upload/s--MFT-rDtL--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2026-08-04T201749Z_1_LYNXMPEM731Q0_RTROPTP_3_AMD-AI.JPG?itok=tIcvkgN5",
+    "url": "https://www.channelnewsasia.com/business/amds-ai-powered-revenue-forecast-fails-wow-investors-6299001",
+    "category": "AI",
+    "date": "2026-08-05T20:21:52.553Z"
+  },
+  {
+    "title": "米スペースX、スターリンク事業の成長で四半期収益が急増",
+    "summary": "スペースXは初の四半期決算で、スターリンク事業の強い成長を背景に収益が大幅に増加したことを報告しました。スターリンクの売上拡大が全体の業績押し上げに寄与し、宇宙関連ビジネスの拡大を示しています。",
+    "image": "https://img.etimg.com/thumb/msid-132872805,width-1200,height-630,imgsize-40040,overlay-etmarkets/articleshow.jpg",
+    "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-spacex-quarterly-revenue-surges-in-debut-results-on-strong-growth-in-its-starlink-business/articleshow/132872768.cms",
+    "category": "AI",
+    "date": "2026-08-05T20:21:52.553Z"
+  },
+  {
     "title": "Unity AI Gatewayが正式リリース",
     "summary": "UnityはAI Gatewayの一般提供を開始しました。これにより、開発者はUnityのプラットフォーム上でAIモデルを容易に統合・活用できるようになり、ゲームやアプリの開発効率と体験向上が期待されます。",
     "image": "https://www.databricks.com/sites/default/files/2026-08/2026-08-Blog-Unity-AI-Gateway-GA-OG-1200x628-navy-2x.png",
@@ -1438,165 +1598,5 @@
     "url": "https://boingboing.net/2026/08/02/china-tech-rattles-silicon-valley.html",
     "category": "AI",
     "date": "2026-08-03T17:18:32.453Z"
-  },
-  {
-    "title": "S&P 500の利益成長、アマゾンが影響を拡大",
-    "summary": "S&P 500企業の利益成長が一層激しくなっており、特にアマゾンがその動向に大きな影響を与えています。アマゾンの業績が市場全体の利益変動を加速させ、株式市場の動向に重要な役割を果たしています。",
-    "image": "https://biztoc.com/cdn/995/og.png",
-    "url": "https://biztoc.com/x/affef13aa3064a39",
-    "category": "AI",
-    "date": "2026-08-03T17:18:32.453Z"
-  },
-  {
-    "title": "「openballastがPyPIに追加されました」",
-    "summary": "オープンソースのPythonパッケージ「openballast」がPythonパッケージインデックス(PyPI)に公開されました。これにより、Python利用者は簡単にopenballastをインストール・利用できるようになります。ツールの詳細やインストール方法もPyPIのページで確認可能です。",
-    "image": "https://pypi.org/static/images/twitter.abaf4b19.webp",
-    "url": "https://pypi.org/project/openballast/",
-    "category": "AI",
-    "date": "2026-08-03T17:18:32.453Z"
-  },
-  {
-    "title": "子供たちが陥るAIの罠―社説",
-    "summary": "AI技術の急速な発展により、子供たちが依存や誤情報に巻き込まれるリスクが高まっています。教育現場ではAIの適切な活用とリテラシー教育が求められ、親や教師が子供たちを適切に導く必要があります。AIと共存する社会を築くためには、早期からの対策が不可欠です。",
-    "image": "https://www.nzherald.co.nz/resizer/v2/QNURAOI7VNGKDGYDWUUZ444UQQ.jpg?auth=e74f83e08e03cc146fa433d0baf3965b2de51799d750df0c11961484d4ff8a61&width=1200&height=675&quality=70&focal=942%2C495&smart=false",
-    "url": "https://www.nzherald.co.nz/nz/the-ai-trap-our-children-are-falling-into-editorial/premium/RYXQHUNMLBBPJBRFGUSLE74J7E/",
-    "category": "AI",
-    "date": "2026-08-03T17:18:32.453Z"
-  },
-  {
-    "title": "Claude-Coordinator 0.4.97 リリース",
-    "summary": "新バージョンClaude-Coordinator 0.4.97が公開され、多数のバグ修正とパフォーマンス改善が行われました。ユーザーインターフェースの操作性が向上し、安定性も強化されています。開発者は最新版への更新を推奨しています。",
-    "image": "null",
-    "url": "https://pypi.org/project/claude-coordinator/0.4.97/",
-    "category": "Anthropic",
-    "date": "2026-08-03T17:18:32.453Z"
-  },
-  {
-    "title": "a2acode 0.6.2リリース",
-    "summary": "a2acodeのバージョン0.6.2がリリースされました。このアップデートではバグ修正とパフォーマンス改善が主に行われ、ユーザーの利便性が向上しています。また、安定性の強化により、より快適な操作環境が提供されるようになりました。詳細な変更点はリリースノートを参照してください。",
-    "image": "null",
-    "url": "https://pypi.org/project/a2acode/0.6.2/",
-    "category": "AI",
-    "date": "2026-08-03T17:18:32.453Z"
-  },
-  {
-    "title": "クラウド収益の急増、マイクロソフト株を買う時か？",
-    "summary": "マイクロソフトのクラウド事業が急成長しており、収益の大幅な増加が報告されています。この成長を背景に、同社の株価は注目を集めており、投資家にとって魅力的な買い時かどうかが議論されています。市場全体の動向や競合状況も考慮する必要があります。",
-    "image": "https://biztoc.com/cdn/3c2010d9fee3a110_s.webp",
-    "url": "https://biztoc.com/x/3c2010d9fee3a110",
-    "category": "AI",
-    "date": "2026-08-03T17:18:32.453Z"
-  },
-  {
-    "title": "AccountingQB 3.11.0リリース概要",
-    "summary": "会計ソフト「AccountingQB」のバージョン3.11.0がリリースされました。今回のアップデートでは機能改善とバグ修正が行われ、操作性の向上や安定性が強化されています。詳細な変更点は公式リリースノートで確認可能です。",
-    "image": "null",
-    "url": "https://pypi.org/project/accountingqb/3.11.0/",
-    "category": "AI",
-    "date": "2026-08-03T17:18:32.453Z"
-  },
-  {
-    "title": "favaiがPyPIに追加される",
-    "summary": "favaiがPythonのパッケージインデックス(PyPI)に新たに登録されました。この追加により、Pythonユーザーは簡単にfavaiをインストールして利用可能になり、開発やプロジェクトでの活用が期待されています。",
-    "image": "https://pypi.org/static/images/twitter.abaf4b19.webp",
-    "url": "https://pypi.org/project/favai/",
-    "category": "AI",
-    "date": "2026-08-03T17:18:32.453Z"
-  },
-  {
-    "title": "タイトル：Show HN: MCP Emails – GmailやIMAP/SMTP受信箱用のMCPサーバー",
-    "summary": "概要：MCP Emailsは、GmailやIMAP/SMTP対応のメール受信箱向けに設計されたMCPサーバーです。これにより、複数のメールアカウントを一元的に管理でき、効率的なメール操作が可能となります。オープンソースプロジェクトとして公開され、メール管理の自動化や拡張性を求めるユーザーに最適です。",
-    "image": "https://opengraph.githubassets.com/e28569c00074b848d8ff97815d4da88f3d732d0bf961c1eef77517b9a33191ef/Albretsen/MCPEmails",
-    "url": "https://github.com/Albretsen/MCPEmails/tree/main/self-host",
-    "category": "AI",
-    "date": "2026-08-03T17:18:32.452Z"
-  },
-  {
-    "title": "railmux 0.4.0.dev1リリース",
-    "summary": "railmuxのバージョン0.4.0.dev1が公開されました。この開発版は、バグ修正やパフォーマンス向上、新機能の試験的導入が含まれており、次期安定版の基盤となる重要なステップです。詳細は公式リリースノートを参照してください。",
-    "image": "null",
-    "url": "https://pypi.org/project/railmux/0.4.0.dev1/",
-    "category": "AI",
-    "date": "2026-08-03T17:18:32.452Z"
-  },
-  {
-    "title": "Security Affairsニュースレター第588号 ピエルルイジ・パガニーニ著 – 国際版",
-    "summary": "最新のサイバーセキュリティ動向や脅威情報をまとめたニュースレターです。ランサムウェア攻撃の増加、政府や企業に対するサイバー攻撃の手口の変化、セキュリティ対策の最新技術などについて解説。さらに、国際情勢がサイバーセキュリティに与える影響も紹介しています。",
-    "image": "https://securityaffairs.com/wp-content/uploads/2015/03/newsletter.png",
-    "url": "https://securityaffairs.com/196466/security/security-affairs-newsletter-round-588-by-pierluigi-paganini-international-edition.html",
-    "category": "AI",
-    "date": "2026-08-03T17:18:32.452Z"
-  },
-  {
-    "title": "gh-claude 0.1.1 リリース情報",
-    "summary": "gh-claudeのバージョン0.1.1がリリースされました。このアップデートではバグ修正と性能改善が行われ、より安定した動作が期待できます。詳細な変更点は公式リリースノートをご確認ください。",
-    "image": "null",
-    "url": "https://pypi.org/project/gh-claude/0.1.1/",
-    "category": "Anthropic",
-    "date": "2026-08-03T13:31:34.176Z"
-  },
-  {
-    "title": "ウェドブッシュ、Nvidiaの疑わしいOpenAIデータセンター支援に関する近隣リスクを警告",
-    "summary": "ウェドブッシュは、NvidiaがOpenAIのデータセンター支援に関与しているとの疑惑により、短期的なリスクが存在すると指摘しました。同社の業績や株価に影響を及ぼす可能性があり、投資家は注意を払う必要があるとしています。",
-    "image": "https://s.yimg.com/lo/mysterio/api/FAF40610375E5517DC4EC35CAADA33601C4F65CCA6D6D772E001BDF93B63A6F3/subgraphmysterio/resizefill_w1200_h800;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fbarchart_com_477%2Ff548caee0d49bb99e9b13aaa246d6071",
-    "url": "https://www.barchart.com/story/news/3602028/wedbush-flags-near-term-risks-from-nvidias-alleged-openai-data-center-support",
-    "category": "OpenAI",
-    "date": "2026-08-03T13:31:34.176Z"
-  },
-  {
-    "title": "ミッドライフにおけるキトンフィッシングの増加",
-    "summary": "中年層で「キトンフィッシング」と呼ばれる、プロフィールや自己紹介に過度に魅力的な情報を載せる詐称行為が増加しています。これは恋愛や仕事の場で自分を良く見せようとする試みですが、真実との乖離が問題視されており、信頼関係の構築に影響を与えています。",
-    "image": "https://cdn2.psychologytoday.com/assets/styles/manual_crop_1_91_1_1528x800/public/field_blog_entry_images/2026-08/pexels-blackstoneray.png.jpg?itok=sq2ak-Kn",
-    "url": "https://www.psychologytoday.com/us/blog/the-right-side-of-40/202607/the-rise-of-kittenfishing-in-midlife",
-    "category": "AI",
-    "date": "2026-08-03T13:31:34.175Z"
-  },
-  {
-    "title": "pyobfus 0.5.7リリースのお知らせ",
-    "summary": "Pythonコードの難読化ツールpyobfusのバージョン0.5.7が公開されました。本バージョンでは、コードの安全性向上とパフォーマンス改善が図られており、特に文字列処理の難読化機能が強化されています。開発者は最新バージョンを導入することで、より高いレベルのコード保護が期待できます。",
-    "image": "null",
-    "url": "https://pypi.org/project/pyobfus/0.5.7/",
-    "category": "AI",
-    "date": "2026-08-03T13:31:34.175Z"
-  },
-  {
-    "title": "gh-claude 0.2.1 リリース情報",
-    "summary": "gh-claude 0.2.1がリリースされました。このバージョンでは、いくつかのバグ修正とパフォーマンスの改善が行われ、ユーザーの利便性が向上しています。詳細な変更点は公式リリースノートをご参照ください。",
-    "image": "null",
-    "url": "https://pypi.org/project/gh-claude/0.2.1/",
-    "category": "Anthropic",
-    "date": "2026-08-03T13:31:34.175Z"
-  },
-  {
-    "title": "Trelix MCP 2.11.1リリース情報",
-    "summary": "Trelix MCPのバージョン2.11.1がリリースされました。このアップデートでは、セキュリティ強化とバグ修正が行われ、システムの安定性とパフォーマンスが向上しています。また、一部の機能改善によりユーザーエクスペリエンスも向上しています。",
-    "image": "null",
-    "url": "https://pypi.org/project/trelix-mcp/2.11.1/",
-    "category": "AI",
-    "date": "2026-08-03T13:31:34.175Z"
-  },
-  {
-    "title": "Clawmetry 0.12.634リリース",
-    "summary": "Clawmetryのバージョン0.12.634がリリースされました。今回のアップデートでは、パフォーマンスの向上とバグ修正が行われ、ユーザー体験が改善されています。新機能の追加や既存機能の最適化により、より安定した動作が期待できます。",
-    "image": "null",
-    "url": "https://pypi.org/project/clawmetry/0.12.634/",
-    "category": "AI",
-    "date": "2026-08-03T13:31:34.175Z"
-  },
-  {
-    "title": "ロボット兵士、米国で次世代戦争に向けて開発進む－警戒感も高まる",
-    "summary": "アメリカで将来の戦争に備え、ロボット兵士の開発が急速に進んでいる。一方で、これに対する安全性や倫理的懸念が広がり、技術の軍事利用に対する警戒感が強まっている。",
-    "image": "https://static.the-independent.com/2026/07/30/0/59/mk1_dramatic_lighting_three_quarter-(2)-(1).jpeg?trim=0,0,0,0&width=1200&height=800&crop=1200:800",
-    "url": "https://www.the-independent.com/tech/foundation-startup-military-robots-trump-b3024226.html",
-    "category": "AI",
-    "date": "2026-08-03T13:31:34.175Z"
-  },
-  {
-    "title": "ベティとフレッドの物語：共に人生を築く – リバティ・サンデーズ、1944年7月下旬",
-    "summary": "1944年7月下旬、リバティ・サンデーズでベティとフレッドは共に新しい人生を築く決意を固めました。第二次世界大戦中の困難な時代にも、二人は支え合いながら未来を見据え、希望と愛情で絆を深めていきました。",
-    "image": "null",
-    "url": "https://www.blogger.com/browser-not-supported/?ref=/comment/fullpage/post/26204193/7337910937698269750",
-    "category": "AI",
-    "date": "2026-08-03T13:31:34.175Z"
   }
 ]

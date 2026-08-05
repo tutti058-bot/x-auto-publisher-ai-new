@@ -1,1 +1,1 @@
-https://www.cnet.com/tech/mobile/samsung-galaxy-watch-ultra-2-review-better-battery-better-galaxy-watch/
+https://pypi.org/project/railmux/0.3.5/

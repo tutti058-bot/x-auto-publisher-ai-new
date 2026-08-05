@@ -1,1 +1,1 @@
-https://s.yimg.com/lo/mysterio/api/C9E60721EFB522BB6167DCD07663169867295D9C7DFF47E40D815402D8AA08B3/subgraphmysterio/resizefill_w1200_h800;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Ffortune_175%2F4be026dd5818f73ffcc03b06882e2e3d
+https://pypi.org/static/images/twitter.abaf4b19.webp

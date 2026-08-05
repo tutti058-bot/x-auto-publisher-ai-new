@@ -1,1 +1,1 @@
-https://finance.yahoo.com/markets/stocks/articles/ray-dalio-ai-bubble-nearing-070000246.html
+https://pypi.org/project/corvus-cli/

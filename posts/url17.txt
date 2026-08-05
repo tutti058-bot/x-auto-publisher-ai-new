@@ -1,1 +1,1 @@
-https://www.cnn.com/2026/08/04/tech/ai-online-scams-protection
+https://pypi.org/project/claude-code-tools/1.23.1/

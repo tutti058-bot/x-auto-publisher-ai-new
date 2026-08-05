@@ -1,1 +1,1 @@
-https://www.infoq.com/presentations/ai-sdlc-maturity-framework-bottlenecks/
+https://pypi.org/project/corvus-cli/0.1.23/
