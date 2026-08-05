@@ -1,1 +1,1 @@
-https://pypi.org/project/atlassian-skills/0.4.3/
+https://pypi.org/project/adaptive-rag-engine/1.0.1/

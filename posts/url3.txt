@@ -1,1 +1,1 @@
-https://pypi.org/project/trakkr-mcp/0.17.0/
+https://pypi.org/project/weight-audit/0.1.0/

@@ -1,1 +1,1 @@
-https://finance.yahoo.com/technology/ai/articles/softbanks-ai-funding-plans-face-061407936.html
+https://pypi.org/project/paca-acp-bridge/0.11.2/

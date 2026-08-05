@@ -1,14 +1,14 @@
 {
-  "id": "chatcmpl-E9PClCujSbKXvkFRrzjoHsSUOzZPG",
+  "id": "chatcmpl-E9SfYHJXE340nfKa5et5n1gSNyAmw",
   "object": "chat.completion",
-  "created": 1785910547,
+  "created": 1785923864,
   "model": "gpt-4.1-mini-2025-04-14",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "アップルは間違っている\n\nアップルは現在の戦略や製品展開に誤りを犯していると指摘されています。消費者のニーズや市場の変化に十分対応できておらず、競合他社に遅れをとる可能性が懸念されています。具体的には製品の革新性や価格設定、ユーザー体験の面で課題があるとされています。",
+        "content": "UPムクヤマントリクリシャクチャトラヴリティ計画：農家の子どもたちを支援\n\nこの計画は、ウッタル・プラデーシュ州の農家の子供たちに教育支援を提供することを目的としています。奨学金を通じて、農家の学生が高等教育を受けやすくし、生活向上と地域の発展を促進します。教育格差の解消に寄与し、持続可能な農村社会の実現を目指しています。",
         "refusal": null,
         "annotations": []
       },
@@ -17,9 +17,9 @@
     }
   ],
   "usage": {
-    "prompt_tokens": 47,
-    "completion_tokens": 99,
-    "total_tokens": 146,
+    "prompt_tokens": 65,
+    "completion_tokens": 132,
+    "total_tokens": 197,
     "prompt_tokens_details": {
       "cached_tokens": 0,
       "audio_tokens": 0
@@ -32,5 +32,5 @@
     }
   },
   "service_tier": "default",
-  "system_fingerprint": "fp_9f2c43fb55"
+  "system_fingerprint": "fp_b7b0999ece"
 }
