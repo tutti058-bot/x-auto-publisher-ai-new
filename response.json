@@ -1,14 +1,14 @@
 {
-  "id": "chatcmpl-E9g1ykDeQl1klnGxFwr3VKi3elpTn",
+  "id": "chatcmpl-E9qi39n634IXp8LNwRstVce7xE4b8",
   "object": "chat.completion",
-  "created": 1785975226,
+  "created": 1786016275,
   "model": "gpt-4.1-mini-2025-04-14",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "イーロン・マスク、スペースXのデータセンターは競合を圧倒すると発言\n\nイーロン・マスクは、スペースXのデータセンターが競合他社を大幅に凌駕すると述べました。彼は、ロケット科学者を擁することで、競合をヤンキースがリトルリーグのチームと対戦するようなものだと例え、圧倒的な技術力と人材の差が勝敗を決めると強調しました。",
+        "content": "Disney+、エミー賞ノミネートの「ワンダーマン」キャンセル直後にTikTokユーザー制作コンテンツを配信予定を発表  \nDisney+は、エミー賞にノミネートされたドラマ「ワンダーマン」のキャンセル発表から数日後に、ユーザーが制作したTikTokコンテンツをプラットフォームで配信する計画を発表しました。この新方針は、短編動画の人気を活かし、若年層視聴者の獲得を狙ったものです。",
         "refusal": null,
         "annotations": []
       },
@@ -17,9 +17,9 @@
     }
   ],
   "usage": {
-    "prompt_tokens": 68,
-    "completion_tokens": 127,
-    "total_tokens": 195,
+    "prompt_tokens": 64,
+    "completion_tokens": 132,
+    "total_tokens": 196,
     "prompt_tokens_details": {
       "cached_tokens": 0,
       "audio_tokens": 0
@@ -32,5 +32,5 @@
     }
   },
   "service_tier": "default",
-  "system_fingerprint": "fp_291e8d6c93"
+  "system_fingerprint": "fp_8d6b6bc837"
 }
