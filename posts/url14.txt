@@ -1,1 +1,1 @@
-https://biztoc.com/x/461dedf3cf87ae8a
+https://pypi.org/project/mailflat-mcp/0.3.1/

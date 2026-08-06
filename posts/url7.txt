@@ -1,1 +1,1 @@
-https://pypi.org/project/latenzy/0.1.0/
+https://major.io/p/opencode-model-presets-direnv/
