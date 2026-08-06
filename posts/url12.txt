@@ -1,1 +1,1 @@
-https://www.cnbc.com/2026/08/05/ken-griffins-citadel-posts-best-month-in-years-after-scooping-up-situational-awareness-stocks.html
+https://pypi.org/project/sciverse/0.11.2/

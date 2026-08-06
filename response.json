@@ -1,14 +1,14 @@
 {
-  "id": "chatcmpl-E9qi39n634IXp8LNwRstVce7xE4b8",
+  "id": "chatcmpl-E9rkWyUSqNxxFV45U9ZRr2s4D8Cku",
   "object": "chat.completion",
-  "created": 1786016275,
+  "created": 1786020272,
   "model": "gpt-4.1-mini-2025-04-14",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "Disney+、エミー賞ノミネートの「ワンダーマン」キャンセル直後にTikTokユーザー制作コンテンツを配信予定を発表  \nDisney+は、エミー賞にノミネートされたドラマ「ワンダーマン」のキャンセル発表から数日後に、ユーザーが制作したTikTokコンテンツをプラットフォームで配信する計画を発表しました。この新方針は、短編動画の人気を活かし、若年層視聴者の獲得を狙ったものです。",
+        "content": "AIに関する公開書簡、警告からビジネス行動の促進へ転換\n\nこれまで警告が多かったAIの公開書簡が、現在では企業に具体的な行動を促す内容へと変化している。AIのリスクを認識しつつも、技術の責任ある活用や規制の必要性を訴え、業界全体での協力やガバナンス強化を求める動きが目立つようになった。",
         "refusal": null,
         "annotations": []
       },
@@ -17,9 +17,9 @@
     }
   ],
   "usage": {
-    "prompt_tokens": 64,
-    "completion_tokens": 132,
-    "total_tokens": 196,
+    "prompt_tokens": 53,
+    "completion_tokens": 118,
+    "total_tokens": 171,
     "prompt_tokens_details": {
       "cached_tokens": 0,
       "audio_tokens": 0
@@ -32,5 +32,5 @@
     }
   },
   "service_tier": "default",
-  "system_fingerprint": "fp_8d6b6bc837"
+  "system_fingerprint": "fp_ef0f5fa156"
 }

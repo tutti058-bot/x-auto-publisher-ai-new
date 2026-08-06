@@ -1,1 +1,1 @@
-https://biztoc.com/x/d12e1ed2889c0ebc
+https://pypi.org/project/llama-index-readers-hexread/
