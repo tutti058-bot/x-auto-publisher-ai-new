@@ -1,1 +1,1 @@
-https://pypi.org/project/specfuse-authoring/0.5.5/
+https://pypi.org/project/klaussy-agents/0.21.0/

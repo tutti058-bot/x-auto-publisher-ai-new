@@ -1,1 +1,1 @@
-https://pypi.org/project/claude-agent-sdk/0.2.131/
+https://pypi.org/project/nyxgpt/

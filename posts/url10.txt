@@ -1,1 +1,1 @@
-https://slashdot.org/firehose.pl?op=view&amp;id=184874402
+https://pypi.org/project/skilllint/1.9.0/
