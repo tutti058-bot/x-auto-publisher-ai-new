@@ -1,14 +1,14 @@
 {
-  "id": "chatcmpl-EA6dgPmQwA8XmIBDFfbNHOlPkeflI",
+  "id": "chatcmpl-EA8mUKUGDGhHDq28vmt0nXIdxN3ds",
   "object": "chat.completion",
-  "created": 1786077508,
+  "created": 1786085742,
   "model": "gpt-4.1-mini-2025-04-14",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "クローガーのAIショッピングアシスタントが広告付きでスタート\n\nクローガーは、新たに導入したAIショッピングアシスタントに広告を組み込み、サービス開始時から収益化を図っています。ユーザーはAIを利用して買い物を効率化可能ですが、広告表示により一部で賛否が分かれています。今後、この広告戦略が顧客体験にどう影響するかが注目されています。",
+        "content": "Googleの元エンジニアら4人がAIベンチャー「Discovery Loop」を設立\n\nGoogleの伝説的エンジニア、ジェフ・ディーン氏を含む4人が独立し、AI領域での技術革新を目指す新会社「Discovery Loop」を創業。最先端のAI研究開発に注力し、業界の課題解決や新技術創出を目指すことで、AI技術の発展を推進していく方針です。",
         "refusal": null,
         "annotations": []
       },
@@ -17,9 +17,9 @@
     }
   ],
   "usage": {
-    "prompt_tokens": 52,
-    "completion_tokens": 111,
-    "total_tokens": 163,
+    "prompt_tokens": 72,
+    "completion_tokens": 122,
+    "total_tokens": 194,
     "prompt_tokens_details": {
       "cached_tokens": 0,
       "audio_tokens": 0
@@ -32,5 +32,5 @@
     }
   },
   "service_tier": "default",
-  "system_fingerprint": "fp_32362a3520"
+  "system_fingerprint": "fp_4d18f3b58a"
 }

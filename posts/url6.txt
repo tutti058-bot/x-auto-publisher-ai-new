@@ -1,1 +1,1 @@
-https://me.pcmag.com/en/processors/37806/anthropic-reportedly-wants-to-make-its-own-ai-chips-for-claude
+https://pypi.org/project/klaussy-agents/0.23.0/

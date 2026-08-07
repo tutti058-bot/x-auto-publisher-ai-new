@@ -1,1 +1,1 @@
-https://pypi.org/project/klaussy-agents/0.21.0/
+https://pypi.org/project/weightclass/0.4.0/

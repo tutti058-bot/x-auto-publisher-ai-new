@@ -1,1 +1,1 @@
-https://www.tweaktown.com/news/113017/microsoft-removes-32gb-of-ram-recommendation-for-windows-11/index.html
+https://pypi.org/project/cswap-pin/0.1.55/
