@@ -1,1 +1,1 @@
-https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing
+https://pypi.org/project/specfuse-authoring/0.5.5/

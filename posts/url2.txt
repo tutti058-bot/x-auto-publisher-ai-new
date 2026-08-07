@@ -1,1 +1,1 @@
-https://financialpost.com/pmn/business-pmn/anthropic-backer-g-squared-raises-2-3-billion-for-seventh-fund
+https://pypi.org/project/llm-rosetta/0.8.0/
